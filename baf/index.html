@@ -1,0 +1,3070 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BWL Advanced FAQ Manager WordPress Plugin Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="BWL Advanced FAQ Manager is a powerful & premium WordPress FAQ plugin, which allows you to create and display the unlimited number of FAQ posts in any WordPress powered site."/>
+    <meta name="author" content="Md Mahbub Alam Khan"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+  </head>
+
+  <body class="body-green">
+    <div
+      class="page-wrapper">
+      <!-- ******Header****** -->
+      <header id="header" class="header">
+        <div class="container">
+          <div class="branding">
+            <h1 class="logo text-center">
+              <a href="index.html">
+                <span class="text-bold">BWL Advanced FAQ Manager
+                  <br/>WordPress Plugin Documentation</span>
+              </a>
+            </h1>
+          </div>
+          <!--//branding-->
+        </div>
+        <!--//container-->
+      </header>
+      <!--//header-->
+
+      <div class="doc-wrapper">
+        <div class="container">
+          <div class="doc-body row">
+            <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+              <div id="doc-nav" class="doc-nav">
+                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin-overview-section">Plugin Overview & Installation</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#requirements">Requirements</a>
+                    <a class="nav-link scrollto" href="#installation_steps">Installation Steps</a>
+                  </nav>
+                  <!--//nav-->
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#advanced_faq_manager_setup">Advanced FAQ Manager Setup</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#add_new_faq_post">Add New FAQ Post</a>
+                    <a class="nav-link scrollto" href="#add_new_faq_category">Add FAQ Categories & Topics</a>
+                    <a class="nav-link scrollto" href="#sort_faq_posts">Sort FAQ Posts</a>
+                    <a class="nav-link scrollto" href="#faq_ratings">FAQ Ratings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#faq_rating_info">Rating Results (Admin View)</a>
+                    <a class="nav-link child-nav-link scrollto" href="#reset_faq_rating">Reset FAQ Ratings</a>
+                  </nav>
+                  <!--//nav-->
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin-template-setup-section">Plugin Template Setup</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#faq_category_template">Custom Category Template</a>
+                    <a class="nav-link scrollto" href="#faq_single_template">Custom Single Template</a>
+                    <a class="nav-link scrollto" href="#faq_custom_widget_area">Custom Widget Area</a>
+                  </nav>
+                  <!--//nav-->
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_shortcodes_section">Plugin Shortcodes</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#sc_category_wise_faq_filtering">Category Wise FAQ Filtering</a>
+                    <a class="nav-link child-nav-link scrollto" href="#get_category_slug">Get Category Slug</a>
+                    <a class="nav-link child-nav-link scrollto" href="#get_topic_slug">Get Topic Slug</a>
+                    <a class="nav-link scrollto" href="#sc_display_faq_posts_in_tab">Display FAQ Posts In Tab</a>
+                    <a class="nav-link scrollto" href="#sc_display_single_faq">Display Single FAQ</a>
+                    <a class="nav-link scrollto" href="#sc_faq_pagination">Faq Pagination</a>
+                    <a class="nav-link scrollto" href="#sc_all_shortcodes">All Shortcodes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#keep_first_row_opened">Keep First Row Opened</a>
+                    <a class="nav-link child-nav-link scrollto" href="#search_form_shortcodes">Search Form Shortcodes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#search_form_themes">Search Form Themes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#faq_form_shortcodes">FAQ Form Shortcodes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#faq_layout_shortcodes">FAQ Layout Shortcodes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#faq_theme_shortcodes">FAQ Theme Shortcodes</a>
+                    <a class="nav-link child-nav-link scrollto" href="#faq_label_navigation_shortcodes">FAQ Label Navigation Shortcodes</a>
+                  </nav>
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Option Panel</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#general_settings">General Settings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#live_search_box_settings">Live Search Box Settings</a>
+
+                    <a class="nav-link scrollto" href="#external_faq_submission_settings">External FAQ Form Settings</a>
+                    <a class="nav-link scrollto" href="#vote_settings">Vote Settings</a>
+                    <a class="nav-link scrollto" href="#faq_font_settings">Font Settings</a>
+
+                    <a class="nav-link scrollto" href="#faq_theme_settings">FAQ Theme Settings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#build_custom_theme">Build Custom Theme</a>
+
+                    <a class="nav-link scrollto" href="#reading_settings">Reading Settings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#enable_exceprt_more_link">Exceprt/Read More Link</a>
+                    <a class="nav-link child-nav-link scrollto" href="#enable_collapsible_accordion">Enable Collapsible Accordion</a>
+                    <a class="nav-link child-nav-link scrollto" href="#expand_collapse_button_settings">Expand/Collapse Button Settings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#disable_single_faq_page">Disable Single FAQ Page Settings</a>
+
+                    <a class="nav-link scrollto" href="#advanced_settings">Advanced Settings</a>
+                    <a class="nav-link child-nav-link scrollto" href="#setup_custom_slug">Setup Custom Slug</a>
+                    <a class="nav-link child-nav-link scrollto" href="#gutenberg_support">Gutenberg Support</a>
+                    <a class="nav-link child-nav-link scrollto" href="#comment_support">Comment Support</a>
+                    <a class="nav-link child-nav-link scrollto" href="#custom_css_settings">Custom CSS settings</a>
+                  </nav>
+                  <!--//nav-->
+
+                  <a class="nav-link scrollto" href="#built_in_widgets_section">Built-in Widgets</a>
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_translation_section">Translate FAQ Plugin</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#plugin_translation">Plugin Translation</a>
+                    <a class="nav-link scrollto" href="#translate_plugin_with_wpml">Translate Plugin With WPML</a>
+                  </nav>
+                  <a class="nav-link scrollto" href="#developer_notes">Developer Notes</a>
+                  <a class="nav-link scrollto" href="#video_tutorials">Support & Video Tutorials</a>
+                  <a class="nav-link scrollto" href="#faq_trouble_shoot">Troubleshooting</a>
+                  <a class="nav-link scrollto" href="#addon_documentation">Addon Documentation</a>
+                  <a class="nav-link scrollto" href="#upgrade_notes">Upgrade Notes</a>
+                  <a class="nav-link scrollto" href="#change_log">Change Log</a>
+                  <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
+
+                  <small>
+                    <i>Doc Last Update:</i>
+                    03/01/2023</small>
+                </nav>
+                <!--//doc-menu-->
+              </div>
+            </div>
+            <!--//doc-sidebar-->
+
+            <div class="doc-content col-md-9 col-12 order-1">
+              <div
+                class="content-inner">
+                <!--  Plugin Overview & Installation -->
+
+                <section id="plugin-overview-section" class="doc-section">
+                  <h2 class="section-title">About BWL Advanced FAQ Manager</h2>
+
+                  <div class="section-block">
+                    <ul>
+                      <li>
+                        <strong>Plugin Version:</strong>
+                        1.8.7</li>
+                      <li>
+                        <strong>Plugin Last Update:</strong>
+                        16/10/2022</li>
+                      <li>
+                        <strong>Plugin Create Date:</strong>
+                        23/06/2013</li>
+                      <li>
+                        <strong>Premium Support:</strong>
+                        <a href="https://codecanyon.net/item/bwl-advanced-faq-manager/5007135/support/contact">Send Message</a>
+                      </li>
+                      <li>
+                        <strong>Web Site:
+                        </strong>
+                        <a href="https://bluewindlab.net/">https://bluewindlab.net</a>
+                      </li>
+                      <li>
+                        <strong>Developed By:</strong>
+                        Md Mahbub Alam Khan</li>
+                      <li>
+                        <strong>Skype:
+                        </strong>
+                        bluewindlab</li>
+                    </ul>
+                    <p>If you like this plugin, please spare a minute to rate it.
+                      <a href="https://codecanyon.net/item/bwl-advanced-faq-manager/5007135" target="_blank">https://codecanyon.net/item/bwl-advanced-faq-manager/5007135</a>
+                    </p>
+
+                    <h3 class="block-title">Plugin Overview</h3>
+                    <p>
+                      <strong>BWL Advanced FAQ Manager</strong>
+                      is a powerful & premium WordPress plugin, which allows you to create and display the unlimited number of FAQ posts in any WordPress powered site. Advanced FAQ Manager plugin comes with
+                      <strong>approximately Zero Configuration</strong>
+                      requirement specialty. So, you do not need to worry about any custom and complicated configuration to use this plugin. Just upload and install the plugin, and you are ready to go!</p>
+
+                    <p>The Plugin has a built-in
+                      <strong>Shortcode Editor</strong>
+                      panel with TinyMCE Editor, and it also works fine within Gutenburg editor. So, you can quickly insert shortcodes and display the FAQ items inside any pages, posts as well as website widget areas.</p>
+
+                    <p>FAQ Plugin comes with an extensive options panel that contains useful features such as customize
+                      <strong>FAQ display settings</strong>,
+                      <strong>Font settings</strong>,
+                      <strong>Theme settings</strong>
+                      and much more. From the back-end of FAQ plugin, you can easily
+                      <strong>Add</strong>,
+                      <strong>Edit</strong>,
+                      <strong>Delete</strong>
+                      and
+                      <strong>Sort</strong>
+                      FAQ items. Additionally,
+                      <strong>Custom FAQ widget</strong>
+                      feature provides the option display FAQs in sidebar areas.</p>
+
+                    <p>Let's take a look of FAQ plugin interface in our WordPress site.</p>
+
+                    <div class="doc-img-box text-left">
+                      <a href="img/overview/1.png" class="venobox">
+                        <img class="img-fluid" src="img/overview/1.png" alt="doc_img"/>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <!--  Installation Section -->
+
+                <section id="installation-section" class="doc-section">
+                  <div id="requirements" class="section-block">
+                    <h3 class="block-title">Installation Requirements</h3>
+                    <p>You need at least WordPress version 4.8+ installed for this plugin to work properly. It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are fixed. Other requirements:</p>
+                    <ul>
+                      <li>PHP version 5.3 or greater.</li>
+                      <li>MySQL version 5.0.15 or greater.</li>
+                    </ul>
+                  </div>
+
+                  <div id="installation_steps" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Installation Steps</h3>
+                        <p>To install a plugin, you must first upload the plugin files and then activate the plugin. The plugin files can be uploaded in two ways:</p>
+                        <ul>
+                          <li>
+                            <strong>FTP Upload:</strong>
+                            Using your FTP client, upload the non-zipped plugin folder into the
+                            <strong>/wp-content/plugins/</strong>
+                            folder on your server.</li>
+                          <li>
+                            <strong>WordPress Upload:</strong>
+                            Navigate to
+                            <strong>Plugins >> Add New >> Upload</strong>. Go to browse, and select the zipped plugin folder. Hit "Install Now" and the plugin will be uploaded and installed.</li>
+                        </ul>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Go to WP admin dashboard and click on
+                          <em>Plugins >> Add New</em>.</p>
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/installation/1.jpg" alt="doc_img"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Click on
+                          <em>
+                            Upload Plugin</em>
+                          and upload
+                          <strong>'bwl-advanced-faq-manager.zip'</strong>
+                          file. Finally, click
+                          <strong>Install Now</strong>
+                          button.</p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/installation/2.jpg" alt="doc_img"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Once plugin successfully uploaded in the server, you will get a message to activate it. Click on
+                          <b>Activate Plugin</b>
+                          Link and plugin will be ready to use . After activating the plugin, you will be redirected in plugins page of the WordPress admin panel, and you will get newly installed
+                          <strong>BWL Advanced FAQ Manager Plugin</strong>
+                          in there.</p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/installation/3.jpg" alt="doc_img"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Now you are ready to use BWL Advanced FAQ Manager Plugin! In left sidebar menu, you will see a new section like the following screenshot.</p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/installation/4.jpg" alt="doc_img"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <!--  Advanced FAQ  Manager Setup Section -->
+
+                <section id="advanced_faq_manager_setup" class="doc-section">
+                  <h2 class="section-title">Advanced FAQ Manager Setup</h2>
+
+                  <div id="add_new_faq_post" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Add New FAQ Post:</h3>
+                        <p>The process of adding a new FAQ item is almost similar to the adding of a WordPress post.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:
+                          </strong>
+                          From the menu, Go to
+                          <em>Advanced FAQ >> Add New FAQ</em>
+                          page.</p>
+
+                        <p>
+                          <strong class="steps">Step 02:
+                          </strong>
+                          Next, Add
+                          <em>the FAQ title</em>,
+                          <em>FAQ description</em>,
+                          <em>Select category</em>,
+                          <em>Select topic</em>.</p>
+
+                        <p>
+                          <strong class="steps">Step 03:
+                          </strong>
+                          Finally, click the
+                          <em>Publish</em>
+                          button to save FAQ post.</p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/add_faq/1.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/add_faq/1.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=CnRnrvCAaug" data-vbtype="video" data-autoplay="true">
+                            <i class="fas fa-play"></i>
+                            Watch Video Tutorial
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="add_new_faq_category" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Add New FAQ Categories & Topics:</h3>
+                        <p>FAQ Category Page allows you to add categories for the FAQ posts. You can show category wise FAQ by using the shortcode.</p>
+
+                        <h4>FAQ Categories:</h4>
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/add_category/1_faq_category.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/add_category/1_faq_category.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <h4>FAQ Topics:</h4>
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/add_category/2_faq_topics.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/add_category/2_faq_topics.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=-_08WmpNw3w" data-vbtype="video" data-autoplay="true">
+                            <i class="fas fa-play"></i>
+                            Watch Video Tutorial
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="alert alert-info section-block" role="alert">
+                    <h3 class="block-title mt-3">What is the main difference between category/topic ?</h3>
+                    <p>Basically, there are no major differences between this two taxonomies (category and topic). From the previous experience we found, some users have used topics taxonomy to filter FAQ posts to serve their own purpose. That means FAQ topics is an optional term.</p>
+                  </div>
+
+                  <div id="sort_faq_posts" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Sort FAQ Posts:</h3>
+
+                        <p>By default, FAQ posts are stored based on their ID. This section allows you to sort the FAQ posts according to your requirements.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:
+                          </strong>
+                          Go to
+                          <em>Advanced FAQ >> FAQ Sorting</em>
+                          page.</p>
+
+                        <p>
+                          <strong class="steps">Step 02:
+                          </strong>
+                          You will get all the FAQ posts added in the database.</p>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          <strong>Drag and Drop</strong>
+                          FAQ posts from that list and sort them in your own required way.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Finally, click
+                          <strong>Save</strong>
+                          button to save the changes.</p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/faq_sort/1.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/faq_sort/1.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=Ms4eDclYeps" data-vbtype="video" data-autoplay="true">
+                            <i class="fas fa-play"></i>
+                            Watch Video Tutorial
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="faq_ratings" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">FAQ Ratings:</h3>
+                        <p>By default, any user can submit ratings on the FAQ posts. FAQ plugin uses the
+                          <b>IP address filtering
+                          </b>method that prevents the users from sending duplicate votes from a single IP address. However, you can
+                          <strong>restrict and allow voting only</strong>
+                          for registered users. Here goes the front end view of the FAQ rating interface.</p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/faq_sort/1.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/faq_sort/1.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <h3 class="block-title" id="faq_rating_info">Rating Results (Admin View):</h3>
+                        <p>FAQ Plugin added a custom column that displays the total number of likes/votes for each FAQ post received. That helps to get a clear idea about which FAQ post was found most helpful to the users. Here goes the admin panel view.</p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/faq_sort/2_admin_view_like.jpg" class="venobox">
+                            <img class="img-fluid" src="img/setup/faq_sort/2_admin_view_like.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <h3 class="block-title" id="reset_faq_rating">Reset FAQ Rating:</h3>
+                        <p>The Plugin allows Administrator users to reset FAQ ratings. If you are performing
+                          <em>rating test</em>
+                          on the FAQ posts then
+                          <strong>reset vote counter</strong>
+                          feature helps you to set the counter value to zero. Please check the following steps to reset FAQ ratings.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress Admin panel.</p>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Navigate to
+                          <strong>Advanced FAQ > All FAQs</strong>. Set the mouse cursor on any post, and you will get the option for
+                          <strong>Quick Edit</strong>. Check the example screenshot.</p>
+                        <div class="doc-img-box">
+                          <a href="img/setup/faq_sort/3_faq_rating_reset_1.png" class="venobox">
+                            <img class="img-fluid" src="img/setup/faq_sort/3_faq_rating_reset_1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Select
+                          <strong>Yes</strong>
+                          from drop down and click
+                          <strong>Update</strong>
+                          button.</p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/setup/faq_sort/3_faq_rating_reset_2.png" class="venobox">
+                            <img class="img-fluid" src="img/setup/faq_sort/3_faq_rating_reset_2.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <h3 class="block-title">Rating Only For Logged In Users:</h3>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress Admin panel.</p>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Go to
+                          <strong>Advanced FAQ > FAQ Settings</strong>. In that page, you will get an option
+                          <strong>Allow Votes Only For Logged Users:</strong>
+                          Check example screenshot-</p>
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/setup/faq_sort/4_rate_logged_in_users.jpg" alt="doc_img"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Select
+                          <strong>Yes</strong>
+                          from drop down to restrict vote submission for logged in users and click
+                          <strong>Save Settings</strong>
+                          button.</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <!--  Plugin Template Setup Section -->
+
+                <section id="plugin-template-setup-section" class="doc-section">
+                  <h3 class="section-title">Plugin Template Setup:</h3>
+
+                  <div id="faq_category_template" class="section-block">
+                    <h3 class="block-title">Custom Category Template</h3>
+                    <p>By default, plugin uses currently activated theme
+                      <em>category.php</em>
+                      or
+                      <em>archive.php</em>
+                      template file to display the FAQ posts. However, you are allowed to create and customize those template files to present FAQ posts according to the site requirement. Please check the following steps.</p>
+
+                    <p>
+                      <strong class="steps">Step 01:</strong>
+                      Go to your currently activated theme folder. For example-
+                      <em>Twenty Twelve</em>.</p>
+                    <p>
+                      <strong class="steps">Step 02:</strong>
+                      Now, make a copy of
+                      <strong>category.php</strong>
+                      or
+                      <strong>archive.php</strong>
+                      file, and rename it to
+                      <em>taxonomy-advanced_faq_category.php</em>.</p>
+                    <p>
+                      <strong class="steps">Step 03:</strong>
+                      Finally, customize that page code according to your requirement.</p>
+                  </div>
+
+                  <div id="faq_single_template" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Custom Single Template</h3>
+                        <p>By default, plugin uses currently activated theme
+                          <em>single.php</em>
+                          template file to display the FAQ post content. However, you are allowed to create and customize the template file to present FAQ post content according to the site requirement. Please check the following steps.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Go to your currently activated theme folder. For example-
+                          <em>Twenty Twelve</em>.</p>
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Now, make a copy of
+                          <strong>single.php</strong>
+                          file and then rename it to
+                          <em>single-bwl_advanced_faq.php</em>.</p>
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Finally, customize that page code according to your requirement.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="faq_custom_widget_area" class="section-block">
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Custom Widget Area</h3>
+                        <p>you are allowed to create and custom widget according to the site requirement. Please check the following steps.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Go to your currently activated theme folder. For example-
+                          <em>Twenty Twelve</em>.</p>
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Next, open the
+                          <strong>functions.php</strong>
+                          file and then add following lines of code to create custom widget area.</p>
+
+                        <pre class="language-markup"><code>
+function baf_custom_widget_init() {
+    register_sidebar(array(
+        'name' => esc_html__('BAF Custom Widget Box ', 'bwl-adv-faq'),
+        'id' => 'baf-custom-widget',
+        'description' => esc_html__('BWL Advanced FAQ Manager plugin custom widget area.', 'bwl-adv-faq'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+    ));
+}
+
+add_action('widgets_init', 'baf_custom_widget_init');
+</code></pre>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Now, Go to WP admin dashboard and click on
+                          <em>Appearance >> Widgets</em>
+                          page. You will get a new widget box like the following screenshot.</p>
+                        <div class="doc-img-box">
+                          <a href="img/template/widget/1_output_widget_box.png" class="venobox">
+                            <img class="img-fluid" src="img/template/widget/1_output_widget_box.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Next, open
+                          <em>single-bwl_advanced_faq.php</em>
+                          and
+                          <em>taxonomy-advanced_faq_category.php</em>. Add following lines of php code in there and save the files.</p>
+
+                        <pre class="language-markup language-php">
+<code>
+    get_sidebar( 'baf-custom-widget );
+</code>
+                                                </pre>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <!--  Plugin Shortcode Section -->
+
+                <section id="plugin_shortcodes_section" class="doc-section">
+                  <h2 class="section-title">Plugin Shortcodes</h2>
+
+                  <!--  Plugin Shortcode Intro -->
+
+                  <div class="section-block">
+                    <p>
+                      Using shortcode, you can easily integrate FAQ accordion in any of the pages of your site. Go to any post/page, and then click on
+                      <img class="img-fluid" src="img/shortcode/baf_sc_icon.png" alt="doc" /> <b>"WHITE QUESTION"</b> icon from the TinyMCE editor toolbar. Next, a pop-up window will appear like the following screenshot. Select options according to your requirement and finally click on the <strong>Insert</strong> Button to insert the shortcode into the text editor. Here goes the <a href="#sc_all_shortcodes" class="venobox" data-vbtype="inline">full shortcode list</a>, and you can just copy and paste the shortcode into the editor to display FAQ accordion.
+                    </p>
+
+                    <div class="doc-img-box">
+                      <a href="img/shortcode/baf_shortcode_editor.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/baf_shortcode_editor.png" alt="doc_img" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  Category Wise FAQ Filtering Block  -->
+
+                  <div class="section-block" id="sc_category_wise_faq_filtering">
+                    <h3 class="block-title">01. Category Wise FAQ Filtering:</h3>
+                    <p>You can also show your FAQ's by category and Topics. If you want to show FAQ by category select "Category" radio button.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/1_bwl_category_shortcode.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/1_bwl_category_shortcode.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p>If you want to show <strong>category description</strong>, select "Show Description" checkbox.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/2_show_cat_description.jpg" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/2_show_cat_description.jpg" alt="doc_img" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  Get Category Slug  -->
+
+                  <div class="section-block" id="get_category_slug">
+                    <h3 class="block-title">01.1 How To Get A Category Slug?</h3>
+                    <p>You can show category wise FAQs using shortcode.</p>
+
+                    <p><strong class="steps">Step 01:</strong> Go to "FAQ Category" section from menu. You will get a list of categories in there. Copy category slug from quick edit section. Have a look -</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/category-slug/faq-category-shortcode.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/category-slug/1_faq_category_shortcode.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 02:</strong> When you click on "Quick Edit" link you will get category slug. Copy that.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/category-slug/2_faq_category_slug.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/category-slug/2_faq_category_slug.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 03:</strong> Now create a new page and add category slug in to category shortcode.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/category-slug/3_faq_category_preview.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/category-slug/3_faq_category_preview.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 04:</strong> You can also show FAQs from multiple category.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/category-slug/4_faq_mulpile_category.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/category-slug/4_faq_mulpile_category.png" alt="doc_img" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  Get Topic Slug  -->
+
+                  <div class="section-block" id="get_topic_slug">
+                    <h3 class="block-title">01.2 Show FAQs By Topics Using Shortcode:</h3>
+
+                    <p><strong class="steps">Step 01:</strong> You can show Topic wise FAQs using shortcode. Go to "FAQ Topics" section from menu. You will get a list of topics in there. Copy topic slug from quick edit section. Have a look -</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/topics-slug/1_faq-topics-shortcode.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/topics-slug/1_faq-topics-shortcode.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 02:</strong> When you click on "Quick Edit" link you will get topic slug. Copy that.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/topics-slug/2_faq-topics-slug.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/topics-slug/2_faq-topics-slug.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 03:</strong> Now create a new page and add topic slug in to topic shortcode.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/topics-slug/3_faq-topics-preview.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/topics-slug/3_faq-topics-preview.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 04:</strong> You can also show FAQs from multiple topics .</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/category/topics-slug/4_faq-mulpile-topics.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/category/topics-slug/4_faq-mulpile-topics.png" alt="doc_img" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  Display FAQ Posts In Tab Block  -->
+
+                  <div class="section-block" id="sc_display_faq_posts_in_tab">
+                    <h3 class="block-title">02. Display FAQ Posts In Tab:</h3>
+                    <p>You can also display Multiple Category/Topic FAQ posts in Tab Format. Please check the following steps.</p>
+
+                    <p><strong class="steps">Step 01:</strong> Select multiple categories from the <em>FAQ Category</em> drop down list.</p>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/tab/1.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/tab/1.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <p><strong class="steps">Step 02:</strong> Now, Click on the <strong>Show In Tab</strong> checkbox and hit the <strong>Insert</strong> button. For the <strong>Vertical Tab</strong> layout, you just need to check the <strong>Show item in Vertical Tab</strong> checkbox.</p>
+
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/tab/2.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/tab/2.png" alt="doc_img" />
+                      </a>
+                    </div>
+                    <p>
+                      <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=3Szf6EQsScQ" data-vbtype="video" data-autoplay="true"> <i class="fas fa-play"></i> Watch Video Tutorial </a>
+                    </p>
+
+                    <h5 class="block-title">Horizontal Tab Output:</h5>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/tab/1_output.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/tab/1_output.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <h5 class="block-title">Vertical Tab Output:</h5>
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/tab/2_vertical_tab_output.jpg" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/tab/2_vertical_tab_output.jpg" alt="doc_img" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  Display Single FAQ  -->
+
+                  <div class="section-block" id="sc_display_single_faq">
+                    <h3 class="block-title">03. Display Single FAQ:</h3>
+                    <p>If you would like to <strong>display a particular FAQ post</strong> in a page, plugin allows you to do that very easily. Please check the following steps.</p>
+
+                    <p><strong class="steps">Step 01:</strong> From the FAQ <em>Shortcode</em> Panel, click <em>Single FAQ</em> radio button.</p>
+
+                    <p><strong class="steps">Step 02:</strong> Now, choose your required FAQ post from the <em>FAQs</em> drop-down list.</p>
+
+                    <p><strong class="steps">Step 03:</strong> Finally, hit the <strong>Insert</strong> button.</p>
+
+                    <div class="doc-img-box text-left">
+                      <a href="img/shortcode/single/1_select_single_faq.png" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/single/1_select_single_faq.png" alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <div class="margin-top-24">
+                      <h4 class="block-title">Example Shortcode:</h4>
+                      <pre class="language-markup"><code>[bwla_faq single="1" fpid="8"/]</code></pre>
+                      </div>
+
+                      <h5 class="block-title">Output:</h5>
+
+                      <div class="doc-img-box text-left">
+                        <a href="img/shortcode/single/1_single_faq_output.png" class="venobox">
+                          <img class="img-fluid" src="img/shortcode/single/1_single_faq_output.png" alt="doc_img"/>
+                        </a>
+                      </div>
+
+                      <h4 class="block-title">03.1 Collapse Single FAQ When Loaded:</h4>
+                      <p>By default, FAQ plugin expand the single post content when it's loaded. However, you can collapse the content by just adding
+                        <em>collapse="1"</em>
+                        parameter in the shortcode. Please check the following example shortcode.</p>
+                      <pre class="language-markup"><code>[bwla_faq single="1" fpid="15" collapse="1" /]</code></pre>
+
+                      <h5 class="block-title margin-top-24">Single FAQ Collapse Output:</h5>
+
+                      <div class="doc-img-box text-left">
+                        <a href="img/shortcode/single/2_single_faq_collapse_output.png" class="venobox">
+                          <img class="img-fluid" src="img/shortcode/single/2_single_faq_collapse_output.png" alt="doc_img"/>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!--  Display FAQ Pagination -->
+
+                    <div class="section-block" id="sc_faq_pagination">
+                      <h3 class="block-title">04. FAQ Pagination:</h3>
+                      <p>If you have long lists of FAQs and need to show in a small area, then without any layout breaking issue, you can present all of them using the
+                        <strong>plugin pagination</strong>
+                        feature.</p>
+
+                      <p>
+                        <strong class="steps">Step 01:</strong>
+                        Firstly, Check
+                        <strong>Pagination</strong>
+                        checkbox.</p>
+
+                      <p>
+                        <strong class="steps">Step 02:</strong>
+                        Then,
+                        <strong>set the number</strong>
+                        of posts you would like to display per page. For example - 5,7 or any numeric value.</p>
+
+                      <p>
+                        <strong class="steps">Step 03:</strong>
+                        Finally, click
+                        <strong>Insert</strong>
+                        button.</p>
+
+                      <div class="doc-img-box text-left">
+                        <a href="img/shortcode/pagination/1_faq_pagination.png" class="venobox">
+                          <img class="img-fluid" src="img/shortcode/pagination/1_faq_pagination.png" alt="doc_img"/>
+                        </a>
+                      </div>
+
+                      <div>
+                        <h4 class="block-title">Example Shortcode:</h4>
+                        <pre class="language-markup"><code>[bwla_faq sbox="1" paginate="1" pag_limit="5" list="0" /]</code></pre>
+                      </div>
+
+                      <h5 class="block-title">Output:</h5>
+
+                      <div class="doc-img-box text-left">
+                        <a href="img/shortcode/pagination/1_faq_pagination_output.png" class="venobox">
+                          <img class="img-fluid" src="img/shortcode/pagination/1_faq_pagination_output.png" alt="doc_img"/>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!--  All Shortcodes -->
+
+                    <div class="section-block" id="sc_all_shortcodes">
+                      <h3 class="block-title">05. All Shortcodes:</h3>
+
+                      <ul class="square-list">
+                        <li>
+                          <p>Show All FAQs:</p>
+                          <pre class="language-markup"><code>[bwla_faq]</code></pre>
+                        </li>
+
+                        <li>
+                          <p>Display Random FAQs:</p>
+                          <pre class="language-markup"><code>[bwla_faq orderby="rand"]</code></pre>
+                        </li>
+                        <li>
+                          <p>Show FAQs By Single Category:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="your-cat-slug"]</code></pre>
+                          <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i>
+                            Please check
+                            <a href="#get_category_slug" class="alert-link scrollto">How To Get Category Slug</a>
+                            for more detail.</div>
+                        </li>
+                        <li>
+                          <p>Show FAQs By Multiple Categories With Single Search Box:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2,cat-slug-3" list="1" sbox="1" /]</code></pre>
+                        </li>
+                        <li>
+                          <p>Display FAQs Categories With Description:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2,cat-slug-3" taxonomy_info="1" list="1" sbox="1" /]</code></pre>
+                        </li>
+                        <li>
+                          <p>Enable Content Search In FAQs Categories Description:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2" taxonomy_info="1" list="1" sbox="1" taxonomy_info_search="1"/]</code></pre>
+                        </li>
+
+                        <li>
+                          <p>FAQs Categories List View With Searhc Box Custom Placeholder:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2,cat-slug-3" placeholder="custom text" list="1" sbox="1"/]</code></pre>
+                        </li>
+                        <li>
+                          <p>Add Search Suggestion Box In Categories List:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2,cat-slug-3" list="1" sbox="1" baf_suggestion_status="1" baf_suggestion_prefix="Popular searches:" baf_suggestion="FAQ, Purchase"/]</code></pre>
+                        </li>
+                        <li>
+                          <p>Custom Search Text Highlight In Categories List:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_category="cat-slug-1,cat-slug-2,cat-slug-3" list="1" sbox="1" highlight_bg="#0073aa" highlight_color="#FFFFFF" /]</code></pre>
+                        </li>
+                        <li>
+                          <p>Show FAQs By Topics:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_topics="your-topic-slug"]</code></pre>
+                        </li>
+                        <li>
+                          <p>Show FAQs By Multiple Topics With Single Search Box:</p>
+                          <pre class="language-markup"><code>[bwla_faq faq_topics="topic-slug-1,topic-slug-2,topic-slug-3" list="1" sbox="1" /]</code></pre>
+                        </li>
+                        <li>
+                          <p>Show 5 FAQs (SET LIMIT):</p>
+                          <pre class="language-markup"><code>[bwla_faq limit="5"]</code></pre>
+                        </li>
+
+                        <li>
+                          <p>Hide FAQ Collapse Button:</p>
+                          <pre class="language-markup"><code>[bwla_faq btn_ctrl="0" /]</code></pre>
+                        </li>
+                        <li>
+                          <p>Display FAQ Author Name:</p>
+                          <pre class="language-markup"><code>[bwla_author /]</code></pre>
+                        </li>
+
+                        <li>
+                          <h4 class="block-title" id="keep_first_row_opened">Keep First FAQ Row Opened:</h4>
+                          <p>Advanced FAQ manager plugin allows you to keep expanded a specific FAQ row when the page loads all the FAQ items. For instance - If you would prefer to display and keep expanded the
+                            <em>First Row</em>
+                            upon user landed on the page, just add
+                            <em>row_open="1"</em>
+                            parameter in the shortcode.</p>
+                          <pre class="language-markup"><code>[bwla_faq sbox="1" row_open="1" /]</code></pre>
+                          <p>If you want to do that for the
+                            <em>Second Row</em>
+                            then set
+                            <em>row_open="2"</em>. Here goes the example shortcode.</p>
+                          <pre class="language-markup"><code>[bwla_faq sbox="1" row_open="2" /]</code></pre>
+                          <p>
+                            <strong>Output:</strong>
+                          </p>
+                          <div class="doc-img-box">
+                            <a href="img/shortcode/rows/1_first_row_opened.png" class="venobox">
+                              <img class="img-fluid" src="img/shortcode/rows/1_first_row_opened.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>
+                            <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=EyI7cB200p8" data-vbtype="video" data-autoplay="true">
+                              <i class="fas fa-play"></i>
+                              Watch Video Tutorial
+                            </a>
+                          </p>
+                        </li>
+                        <li>
+                          <h4 id="search_form_shortcodes" class="margin-top-24 block-title">Search Form Shortcodes:</h4>
+
+                          <ul>
+                            <li>
+                              <p>Search keywords only in question title:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="0" search_only_title="1" /]</code></pre>
+                            </li>
+                            <li>
+                              <p>Add Placeholder Text:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" placeholder="Add custom text"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Add Custom Class:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" cont_ext_class="Add custom class"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Add Custom Search Text Color:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" highlight_color="#000000" highlight_bg="#FDE990"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Display Suggestion Box:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" baf_suggestion_status="1" baf_suggestion_prefix="Popular searches:" baf_suggestion="FAQ, Purchase" list="0"/]</code></pre>
+                            </li>
+                            <li>
+                              <p>Show Search Form in FAQ:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1"/]</code></pre>
+                            </li>
+                            <li>
+                              <p>Hide Search Form in FAQ:</p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="0" /]</code></pre>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <h4 id="search_form_themes" class="margin-top-24 block-title">Search Form Themes:</h4>
+
+                          <ul>
+                            <li>
+                              <p>
+                                <strong>Rounded Search Box:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" sbox_class="rounded"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/search/1_sbox_rounded.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/search/1_sbox_rounded.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Semi Rounded Search Box:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" sbox_class="semi-rounded"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/search/2_sbox_semi_rounded.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/search/2_sbox_semi_rounded.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Custom Shadow With Square Search Box:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" sbox_class="sbox-custom-box-shadow"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/search/3_sbox_square_with_shadow.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/search/3_sbox_square_with_shadow.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Custom Shadow With Rounded Search Box:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" sbox_class="rounded sbox-custom-box-shadow"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/search/4_sbox_rounded_with_shadow.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/search/4_sbox_rounded_with_shadow.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Custom Shadow With Semi Rounded Search Box:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" sbox_class="semi-rounded sbox-custom-box-shadow"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/search/5_sbox_semi_rounded_with_shadow.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/search/5_sbox_semi_rounded_with_shadow.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <h4 id="faq_form_shortcodes" class="margin-top-24 block-title">FAQ Form Shortcodes:</h4>
+
+                          <p>You can easily integrate FAQ Form in you page or post.</p>
+
+                          <p>
+                            <strong class="steps">Step 01:</strong>
+                            Go to any post/page.</p>
+
+                          <p>
+                            <strong class="steps">Step 02:</strong>
+                            Then click on
+                            <img src="img/shortcode/baf_sc_icon.png" alt="doc" style="padding: 0; margin: 0; box-shadow: 0 0 0 #ffffff"/>
+                            <b>"WHITE QUESTION"</b>
+                            icon in TinyMce editor toolbar.</p>
+
+                          <p>
+                            <strong class="steps">Step 03:</strong>
+                            Just checked the
+                            <em>Add External FAQ Form</em>
+                            checkbox and click insert.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/shortcode/faq_form/1_bwl_faq_extranal_form.png" class="venobox">
+                              <img class="img-fluid" src="img/shortcode/faq_form/1_bwl_faq_extranal_form.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">Example Shortcodes:</h4>
+
+                          <ul>
+                            <li>
+                              <p>Display External Form:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Set Form Custom Headline:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" form_heading="Write Your Heading Text In here."]</code></pre>
+                            </li>
+                            <li>
+                              <p>Disable External Form:</p>
+                              <pre class="language-markup"><code>[bwla_form status="0"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Set Minimum Character Length of FAQ Question:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" title_min_length="3"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Set Maximum Character Length of FAQ Question:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" title_max_length="300"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Set A Category Selected:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" sel_cat="set-category-id"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Hide Category Field:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" hide_cat_field="1"]</code></pre>
+                            </li>
+                            <li>
+                              <p>Set Extra Class:</p>
+                              <pre class="language-markup"><code>[bwla_form status="1" cont_ext_class="set-your-extra-class"]</code></pre>
+                            </li>
+                          </ul>
+
+                          <h5 class="block-title">Output of FAQ Form:</h5>
+                          <div class="doc-img-box text-left">
+                            <a href="img/shortcode/faq_form/2_front-end-faq-add-form.jpg" class="venobox">
+                              <img class="img-fluid" src="img/shortcode/faq_form/2_front-end-faq-add-form.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h5 class="block-title">FAQ Form Validation:</h5>
+                          <div class="doc-img-box text-left">
+                            <a href="img/shortcode/faq_form/3_font-end-faq-from-validation.jpg" class="venobox">
+                              <img class="img-fluid" src="img/shortcode/faq_form/3_font-end-faq-from-validation.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </li>
+
+                        <li>
+                          <h4 id="faq_layout_shortcodes" class="margin-top-24 block-title">FAQ Layout Shortcodes:</h4>
+                          <ul>
+                            <li>
+                              <p>
+                                <strong>Flat Layout:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" list="0" custom_layout="baf_layout_flat" /]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/layouts/1_baf_flat_layout.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/layouts/1_baf_flat_layout.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Semi Rounded Layout:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" list="0" custom_layout="baf_layout_semi_round" /]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/layouts/2_baf_semi_rounded_layout.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/layouts/2_baf_semi_rounded_layout.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Rounded Layout:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" list="0" custom_layout="baf_layout_round" /]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/layouts/3_baf_rounded_layout.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/layouts/3_baf_rounded_layout.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <h4 id="faq_theme_shortcodes" class="margin-top-24 block-title">FAQ Theme Shortcodes:</h4>
+                          <ul>
+                            <li>
+                              <p>
+                                <strong>Light Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="light"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/1_sc_light_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/1_sc_light_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Red Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="red"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/2_sc_red_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/2_sc_red_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Green Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="green"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/3_sc_green_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/3_sc_green_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Blue Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="blue"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/4_sc_blue_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/4_sc_blue_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Pink Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="pink"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/5_sc_pink_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/5_sc_pink_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <p>
+                                <strong>Orange Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" theme_id="orange"/]</code></pre>
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/6_sc_orange_theme.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/6_sc_orange_theme.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+
+                            <li>
+                              <p>
+                                <strong>Custom Theme:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" first_color="#FB4322" second_color="#FB4322" label_text_color="#FFFFFF"/]</code></pre>
+                              <p>
+                                <strong>NOTE:</strong>
+                                <em>first_color</em>
+                                will be added 50% top of the accordion and
+                                <em>second_color</em>
+                                will be added 50% bottom in accordion
+                                <strong>Label</strong>.</p>
+
+                              <div class="doc-img-box text-left">
+                                <a href="img/shortcode/themes/7_acc_custom_theme_setup.jpg" class="venobox">
+                                  <img class="img-fluid" src="img/shortcode/themes/7_acc_custom_theme_setup.jpg" alt="doc_img"/>
+                                </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li>
+                          <h4 id="faq_label_navigation_shortcodes" class="margin-top-24 block-title">FAQ Label Navigation Shortcodes:</h4>
+                          <ul>
+                            <li>
+                              <p>
+                                <strong>Custom Navigation Arrow:</strong>
+                              </p>
+                              <pre class="language-markup"><code>[bwla_faq sbox="1" accordion_arrow="f101"/]</code></pre>
+                              <p>
+                                <strong>Available Arrow Codes:
+                                </strong>
+                              </p>
+                              <ul>
+                                <li>Arrow Up : f062</li>
+                                <li>Angle Up : f106</li>
+                                <li>Double Angle Up : f102</li>
+                                <li>Circle Arrow Up : f0aa</li>
+                                <li>Caret Arrow Up : f0d8</li>
+                                <li>Chevron Arrow Up : f077</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                  <!--//doc-section-->
+
+                  <!--  Plugin Option Panel Section -->
+
+                  <section id="setup_page_content_section" class="doc-section">
+                    <h2 class="section-title">Plugin Option Panel</h2>
+
+                    <!-- General Settings -->
+
+                    <div id="general_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">General Settings:</h3>
+                          <p>From
+                            <em>General Settings</em>
+                            section, you can show/hide the search box and meta information for FAQ content.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/general/1.png" class="venobox">
+                              <img class="img-fluid" src="img/options/general/1.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Live Search Box Settings  -->
+
+                    <div id="live_search_box_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Live Search Box Settings:</h3>
+
+                          <p>"BWL Advance FAQ manager" has live FAQ search feature. So user can easily find out their required FAQ from long lists. This is an optional feature. If you want you can hide all search box from FAQ section. You can also able to hide search box using shortcode. Admin Panel view -</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/general/2_faq_search_settings.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/general/2_faq_search_settings.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>Front End view -</p>
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/general/2_faq_search_output.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/general/2_faq_search_output.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- External FAQ Form Settings  -->
+
+                    <div id="external_faq_submission_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">External FAQ Form Settings:</h3>
+                          <p>Users can
+                            <strong>submit a new question</strong>
+                            using external FAQ submission form. Plugin will
+                            <strong>send a notification email</strong>
+                            to the site admin after submission of the question. You can disable notification sending feature from settings section. But, we recommend you to active this option. Because when user/visitor submit a FAQ, then our system will not show in front section immediately until it's approved by the admin user.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/faq_form/faq-settings-email-login.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/faq_form/faq-settings-email-login.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">User Submitted Question Status:</h4>
+                          <p>The Plugin automatically mark the question status
+                            <em>Pending</em>.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/faq_form/faq-status-pending.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/faq_form/faq-status-pending.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">Login Required Status:</h4>
+                          <p>To
+                            <strong>restrict spamming and security reason</strong>
+                            the plugin also provides an option to check the user logged-in status before submit the question. We recommend you to always keep active of this option.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/faq_form/faq-post-login-required.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/faq_form/faq-post-login-required.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">Captcha Validation Required Setting:</h4>
+                          <p>This feature has been introduced in version 1.4.3 for better user experience. You can easily restrict submission of unwanted FAQ from spam bots. A simple but powerful math captcha validation included with FAQ submission form.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/faq_form/faq-captcha-settings.png" class="venobox">
+                              <img class="img-fluid" src="img/options/faq_form/faq-captcha-settings.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>Captcha Validation required front end view -</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/faq_form/faq-captcha-preview.png" class="venobox">
+                              <img class="img-fluid" src="img/options/faq_form/faq-captcha-preview.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Vote Settings -->
+
+                    <div id="vote_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Vote Settings:</h3>
+                          <p>From
+                            <em>Vote Settings</em>
+                            section, you can
+                            <em>Allow Votes Only For Users</em>,
+                            <em>Show/hide Like Button</em>,
+                            <em>Repeat Vote Interval</em>,
+                            <em>Like Icon</em>,
+                            <em>Customize Like Icon Theme</em>.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/vote/1.png" class="venobox">
+                              <img class="img-fluid" src="img/options/vote/1.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Font Settings  -->
+
+                    <div id="faq_font_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Font Settings:</h3>
+                          <p>Font settings introduced in version 1.4.5. It is an optional feature. By default, the plugin uses theme Font sizes and settings. But you can adjust the font size according to your choice. You can also select custom arrow for FAQ label. You can also disable the loading of
+                            <strong>Font-Awesome</strong>
+                            in this section.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/font/1.png" class="venobox">
+                              <img class="img-fluid" src="img/options/font/1.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--  FAQ Theme Settings -->
+
+                    <div id="faq_theme_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">FAQ Theme Settings:</h3>
+                          <p>BWL Advanced FAQ manager comes with
+                            <strong>7 different themes</strong>. So, you can change theme according to your choice. Just select your suitable color scheme and click save. Admin Panel view -</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/theme/1_faq_theme_setup.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/theme/1_faq_theme_setup.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>FAQ's Front End View-</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/theme/2_faq_orange_theme.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/theme/2_faq_orange_theme.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title" id="build_custom_theme">Build Custom Theme:</h4>
+
+                          <p>The plugin provides another handy option to
+                            <strong>create custom theme</strong>
+                            that suit best with your website color scheme. You can easily select your required color with
+                            <em>the colorpicker tool</em>. Here go the admin panel screenshot.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/theme/3_faq_custom_theme_setup.jpg" class="venobox">
+                              <img class="img-fluid" src="img/options/theme/3_faq_custom_theme_setup.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Reading Settings-->
+
+                    <div id="reading_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Reading Settings:</h3>
+                          <p>BWL Advanced FAQ manager provides a useful option to create Excerpt of FAQ content. Please note that this is an optional feature. However, If your FAQ contents are big enough, you can limit no of words for content and set
+                            <strong>Read More</strong>
+                            link just beside of your content. By clicking on
+                            <strong>Read More</strong>
+                            link user will see the details of FAQ content in a single page.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Exceprt/Read More Link -->
+
+                    <div id="enable_exceprt_more_link" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Exceprt/Read More Link:</h3>
+                          <p>BWL Advanced FAQ manager provides a useful option to create Excerpt of FAQ content. Please note that this is an optional feature. However, If your FAQ contents are big enough, you can limit no of words for content and set
+                            <strong>Read More</strong>
+                            link just beside of your content. By clicking on
+                            <strong>Read More</strong>
+                            link user will see the details of FAQ content in a single page.</p>
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/1_faq_excerpt_settings.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/1_faq_excerpt_settings.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">FAQ's Front End View:</h4>
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/1_faq_excerpt_settings_output.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/1_faq_excerpt_settings_output.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Enable Collapsible Accordion  -->
+
+                    <div id="enable_collapsible_accordion" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Enable Collapsible Accordion:</h3>
+                          <p>Collapsible Accordion introduced in version 1.4.4. It is an optional feature. You can activate/deactivate this from the plugin options panel. By default, collapsible accordion status is disabled. In version 1.4.9, we introduced a new option to display all FAQ question opened.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/2_collapsable_accordion.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/2_collapsable_accordion.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Expand/Collapse Button Settings  -->
+
+                    <div id="expand_collapse_button_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Expand/Collapse Button Settings:</h3>
+                          <p>A detailed
+                            <strong>Expand All/Collapse All button</strong>
+                            feature has been added in version 1.5.6. This an optional feature. That means you can easily show/hide this Expand All/Collapse All button from the plugin options panel. By default, that button status value set is 'hide'.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/3_expand_collapse_btn.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/3_expand_collapse_btn.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Disable Single FAQ Page Settings  -->
+
+                    <div id="disable_single_faq_page" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Disable Single FAQ Page:</h3>
+
+                          <p>
+                            <strong>Disable Single FAQ Page</strong>
+                            option added in version 1.8.2. By default the plugin generates single post link for the FAQ contents. However, you can easily disable this option form the options panel.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/4_disable_single_faq_page.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/4_disable_single_faq_page.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>Here goes the output screenshots of before and after effect of the filter.</p>
+
+                          <p>
+                            <strong>Before Applied Option:</strong>
+                          </p>
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/4_disable_single_faq_page_output.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/4_disable_single_faq_page_output.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>
+                            <strong>After Applied Option:</strong>
+                          </p>
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/reading/4_disable_single_faq_page_output_after.png" class="venobox">
+                              <img class="img-fluid" src="img/options/reading/4_disable_single_faq_page_output_after.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--  Setup Custom Slug  -->
+
+                    <div id="setup_custom_slug" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Setup Custom Slug:</h3>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/custom_slug/1_faq_custom_post_slug_url.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/custom_slug/1_faq_custom_post_slug_url.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>Output of custom slug for single FAQ page-</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/custom_slug/1_faq_custom_post_slug_url_output.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/custom_slug/1_faq_custom_post_slug_url_output.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <h4 class="block-title">Custom Permalink 404 Issue & Solution:</h4>
+
+                          <ul>
+                            <li>Set your custom permalink structure (such as %postname%).</li>
+                            <li>Click Save button.</li>
+                            <li>See if your single custom post pages return 404 error pages.</li>
+                            <li>If they do, go back and change permalinks back to default and save.</li>
+                            <li>Now try setting the custom permalink again and save.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Enable Gutenberg Support Settings  -->
+
+                    <div id="gutenberg_support" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Enable Gutenberg Support:</h3>
+
+                          <p>
+                            <strong>Gutenberg Support</strong>
+                            option added in version 1.8.1. By default the plugin uses the WordPress classic editor to add/edit FAQ contents. To edit the FAQ post using
+                            <em>Gutenberg Editor</em>, simply check the
+                            <em>Enable Gutenberg Support</em>
+                            checkbox and you are ready to go.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/gutenberg_support/1.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/gutenberg_support/1.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Enable Comment Support Settings  -->
+
+                    <div id="comment_support" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Enable Comment Support:</h3>
+
+                          <p>
+                            <strong>Comment Support</strong>
+                            option added in version 1.8.2. By default the plugin uses the theme comment template. Please check the following steps-</p>
+
+                          <p>
+                            <strong class="steps">Step 01:
+                            </strong>
+                            Go to FAQ settings>>Advanced Settings section.</p>
+
+                          <p>
+                            <strong class="steps">Step 02:
+                            </strong>
+                            check the
+                            <em>Enable Comment Support?</em>
+                            checkbox and click on the
+                            <em>Save Settings</em>
+                            button.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/comment_support/1_comment_support.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/comment_support/1_comment_support.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>
+                            <strong class="steps">Step 03:
+                            </strong>
+                            Next, go to any All FAQs from the left menu. Click on
+                            <em>Quick Edit</em>
+                            link of any FAQ post. Next, check the
+                            <em>Allow Comments</em>
+                            checkbox and finally click on the
+                            <em>Update</em>
+                            button.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/comment_support/2_enable_comment_using_quick_edit.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/comment_support/2_enable_comment_using_quick_edit.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Custom CSS Settings  -->
+
+                    <div id="custom_css_settings" class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title">Custom CSS Settings:</h3>
+
+                          <p>
+                            <strong>Custom CSS Editor</strong>
+                            feature launched in version 1.5.3. This is an optional feature. Now, you can easily add custom CSS code to override default FAQ style without editing any style-sheet file. All custom
+                            <strong>code stored into the database</strong>
+                            and you will never loose any modification during the plugin update.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/options/advanced/custom_css/1_custom_css_code.png" class="venobox">
+                              <img class="img-fluid" src="img/options/advanced/custom_css/1_custom_css_code.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!--//doc-section-->
+
+                  <!--  Built-in Widgets Section -->
+
+                  <section id="built_in_widgets_section" class="doc-section">
+                    <h2 class="section-title">Built-in Widgets:</h2>
+
+                    <div class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <p>You can easily show faqs in the sidebar by using Widget option. Go to
+                            <em>Appearance >> Widgets</em>. You will notice a widget box titled by
+                            <strong>BWL Advanced Faq Manager Widget</strong>. Just Drag and drop it in your right side widget container. Remember, your theme must have widget support feature to display FAQ content in sidebar. Moreover, you can use available
+                            <a href="#sc_all_shortcodes">shortcodes</a>
+                            in that widget.</p>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/widgets/1_baf_widget_box.jpg" alt="doc_img"/>
+                          </div>
+
+                          <h3 class="block-title">FAQ Widget:</h3>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/widgets/2_faq_widget_options.jpg" alt="doc_img"/>
+                          </div>
+
+                          <h3 class="block-title">FAQ Widget Output:</h3>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/widgets/2_faq_widget_output.jpg" alt="doc_img"/>
+                          </div>
+
+                          <p>From version 1.5.7, we have included two new widgets to display FAQ categories and FAQ Topics.</p>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/widgets/3_faq_widgets_for_cat_topics.png" alt="doc_img"/>
+                          </div>
+
+                          <h3 class="block-title">FAQ Category & Topics Widget Output:</h3>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/widgets/3_faq_widgets_for_cat_topics_output.jpg" alt="doc_img"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!--//doc-section-->
+
+                  <!--  Translate Plugin Section -->
+
+                  <section id="plugin_translation_section" class="doc-section">
+                    <h2 class="section-title">Translate FAQ Plugin</h2>
+
+                    <p>
+                      <strong>BWL Advanced FAQ Manager</strong>
+                      WordPress Plugin offers amazing translation feature. Besides the English, you can easily translate the plugin text into other languages. We will translate the texts of the BWL Advanced FAQ Manager plugin from
+                      <strong>English</strong>
+                      to
+                      <strong>Bangla</strong>. Check following steps-</p>
+                    <!-- Plugin Translation Block  -->
+                    <div class="alert alert-info">
+                      <i class="fas fa-info-circle"></i>
+                      Before starting the translation process, please make sure that you set the site language correctly.</div>
+
+                    <div id="plugin_translation" class="section-block">
+                      <h3 class="block-title">Plugin Translation Steps</h3>
+
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <p>
+                            <strong class="steps">Step 01:</strong>
+                            Go to the "<em>wp-content/plugins/bwl-advanced-faq-manager/lang/</em>" and open "<em>bwl-adv-faq.pot</em>" file. To open this file, you need to download and install the
+                            <a href="https://poedit.net/" target="_blank" rel="noopener">poedit software</a>.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/translation/poedit/pot_file.jpg" class="venobox">
+                              <img class="img-fluid" src="img/translation/poedit/pot_file.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>
+                            <strong class="steps">Step 02:</strong>
+                            Next, click on the "<em>Create new translation</em>" button to generate a translation file for your language. From the "<strong>Translation language</strong>" dropdown list, select your language and click the
+                            <strong>OK</strong>
+                            button. We are translating our plugin into the
+                            <em>Bengali</em>
+                            language so that the file name will be
+                            <em>bn_BD.po</em>
+                          </p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/translation/poedit/create_new_translation.jpg" class="venobox">
+                              <img class="img-fluid" src="img/translation/poedit/create_new_translation.jpg" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>
+                            <strong class="steps">Step 03:</strong>
+                            Now, save the translation file and add the plugin text-domain while saving it. For example, our plugin text-domain is "<em>bwl-adv-faq</em>", and the file name must be "<em>bwl-adv-faq-bn_BD.po</em>".</p>
+
+                          <p>
+                            <strong class="steps">Step 04:</strong>
+                            Finally, save the file into the "<em>wp-content/languages/plugins</em>" folder.</p>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/translation/poedit/save_file.jpg" alt="doc_img"/>
+                          </div>
+
+                          <p>
+                            <strong class="steps">Step 05:</strong>
+                            Next, go to the "<em>wp-content/languages/plugins/</em>" and open "<em>bwl-adv-faq-bn_BD.po</em>" file. Add appropriate translation text into it and save the file.</p>
+
+                          <div class="doc-img-box">
+                            <img class="img-fluid" src="img/translation/poedit/translation_files.jpg" alt="doc_img"/>
+                          </div>
+                          <p>
+                            <strong class="steps">Step 06:
+                            </strong>Now, refresh the site and you will see the results.</p>
+
+                          <p>
+                            <a class="btn btn-cta btn-primary venobox" href="https://youtu.be/ITqRZCjP_pA" data-vbtype="video" data-autoplay="true">
+                              <i class="fas fa-play"></i>
+                              Watch Video Tutorial
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Translate Plugin With WPML Block  -->
+
+                    <div id="translate_plugin_with_wpml" class="section-block">
+                      <h3 class="block-title">Translate Plugin With WPML</h3>
+
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <p>"BWL Advanced FAQ Manager" also offers translation feature with WPML plugin. To get started, you will need
+                            <a href="http://wpml.org/purchase/">WPML and add-on Plugins</a>
+                            i.e. the core WPML Multilingual CMS which is always required and the String translations add-on.</p>
+
+                          <p>Guide for installing &amp; activating WPML is available on the
+                            <a href="http://wpml.org/documentation/getting-started-guide/">WPML getting started guide</a>.</p>
+
+                          <p>A demo of
+                            <strong>BWL Advanced FAQ Manager</strong>
+                            running under WPML.</p>
+
+                          <ul>
+                            <li>Default english :&nbsp;<a href="http://theme-testing.wpml.org/plugin-bwl/bwl-advanced-faq-manager/">http://theme-testing.wpml.org/plugin-bwl/bwl-advanced-faq-manager/</a>
+                            </li>
+                            <li>Spanish :&nbsp;<a href="http://theme-testing.wpml.org/plugin-bwl/es/bwl-advanced-faq-manager/">http://theme-testing.wpml.org/plugin-bwl/es/bwl-advanced-faq-manager/</a>
+                            </li>
+                          </ul>
+
+                          <p>After having installed WPML, if the projects in
+                            <strong>BWL Advanced FAQ Manager</strong>
+                            were created before installing WPML, the dynamic strings aren't registered.</p>
+
+                          <p>The first thing to do is load the page holding your
+                            <strong>Advanced FAQ Page</strong>
+                            in the front-end. This allows any dynamic strings not registered to be registered automatically.</p>
+
+                          <p>Next go in WPML "Theme and plugins localization" page and You will find your "Advanced FAQ" plugins listed there.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/translation/wpml/1.png" class="venobox">
+                              <img class="img-fluid" src="img/translation/wpml/1.png" alt="doc_img"/>
+                            </a>
+                          </div>
+
+                          <p>Check
+                            <strong>BWL Advanced FAQ Manage</strong>
+                            and click
+                            <strong>Scan the selected plugins for strings</strong>
+                            WPML will look for all static translatable strings and add them to WPML for translation.</p>
+
+                          <h4 class="block-title">You are now ready for translations:</h4>
+
+                          <p>Load the "String Translations" page. You will have this once you install the String Translations add-on for WPML. Select either the dynamic list of strings it found in
+                            <strong>BWL Advanced FAQ Manage</strong>
+                            during the scan or the static ones.</p>
+
+                          <p>The differences are denoted by "Name" field. Dynamic strings have a name field while the static ones don’t.</p>
+
+                          <div class="doc-img-box text-left">
+                            <a href="img/translation/wpml/2.png" class="venobox">
+                              <img class="img-fluid" src="img/translation/wpml/2.png" alt="doc_img"/>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!--//doc-section-->
+
+                  <!--  Developer Notes Section -->
+
+                  <section
+                    id="developer_notes" class="doc-section">
+                    <!--  Developer Notes Block  -->
+                    <h2 class="section-title">Developer Notes:</h2>
+
+                    <div class="section-block">
+                      <p>Plugin provides the WordPress theme/plugin developer to customize FAQ layout and filter texts. Following sections describes detail about that.</p>
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h3 class="block-title" id="plugin_classes">Plugin Classes:</h3>
+                          <p>Following class reference will help you to customize the FAQ layout, search box and other sections. You can use those classes and add your custom css code in plugin option panel.</p>
+                          <ul class="square-list">
+                            <li>Accordion Container:
+                              <em>.baf-faq-container{}</em>
+                            </li>
+                            <li>Accordion Label:
+                              <em>.baf-faq-container label{}</em>
+                            </li>
+                            <li>Accordion Content:
+                              <em>.baf-faq-container .baf_content{}</em>
+                            </li>
+                            <li>Accordion Search Box:
+                              <em>.bwl-faq-search-panel{}</em>
+                            </li>
+                            <li>Accordion External Form:
+                              <em>.bwl-faq-search-panel{}</em>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--  Plugin Filters -->
+
+                    <div id="plugin_filters" class="section-block">
+                      <h2 class="block-title">Plugin Filters:</h2>
+                      <p>From the version 1.7.5, plugin introduced filter feature. It allows you to add/change plugin deafult texts and apply your own content. Moreover, you will not loose your modified text upon update the plugin files.</p>
+
+                      <h4 class="block-title">How to Use Filter:</h4>
+                      <p>To apply filter on the plugin texts, please follow the steps described in below properly.</p>
+
+                      <p>
+                        <strong class="steps">Step 01:</strong>
+                        Using FTP, go to the currently activated theme folder, and open
+                        <em>functions.php</em>
+                        file.</p>
+
+                      <p>
+                        <strong class="steps">Step 02:</strong>
+                        Now, we want to modify the default text, if
+                        <strong>no result found</strong>
+                        by the search function. So, we are going to use
+                        <strong>baf_search_nothing_found_text</strong>
+                        filter that will change the default text
+                        <em>Nothing Found!</em>.</p>
+
+                      <p>
+                        <strong class="steps">Step 03:</strong>
+                        Next, add the following lines of code in
+                        <em>functions.php</em>
+                        file and save the file.</p>
+
+                      <pre class="language-markup">
+<code>
+add_filter('baf_search_nothing_found_text', 'cb_baf_search_nothing_found_text');
+
+function cb_baf_search_nothing_found_text( $content ) {
+    
+    return __('Sorry, no result found.', 'bwl-adv-faq');
+    
+}
+</code>
+                                        </pre>
+
+                      <p>
+                        <strong class="steps">Step 04:</strong>
+                        Here goes the output screenshots of before and after effect of the filter.</p>
+
+                      <p>
+                        <strong>Before Applied Filter:</strong>
+                      </p>
+                      <div class="doc-img-box text-left">
+                        <a href="img/developers/filter/01_filter_example_before.png" class="venobox">
+                          <img class="img-fluid" src="img/developers/filter/01_filter_example_before.png" alt="doc_img"/>
+                        </a>
+                      </div>
+
+                      <p>
+                        <strong>After Applied Filter:</strong>
+                      </p>
+                      <div class="doc-img-box text-left">
+                        <a href="img/developers/filter/02_filter_example_after.png" class="venobox">
+                          <img class="img-fluid" src="img/developers/filter/02_filter_example_after.png" alt="doc_img"/>
+                        </a>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <h4 class="block-title">Plugin All Filters:</h4>
+                          <ul class="square-list">
+                            <li>
+                              <strong>baf_search_nothing_found_text</strong>
+                              <p>applied to the search result message, if no item found.
+                                <em>Default:</em>
+                                Nothing Found!</p>
+                            </li>
+                            <li>
+                              <strong>baf_search_singular_faq_text</strong>
+                              <p>applied to the search result message, if single item found.
+                                <em>Default:</em>
+                                FAQ !</p>
+                            </li>
+                            <li>
+                              <strong>baf_search_plural_faq_text</strong>
+                              <p>applied to the search result message, if more than one item found.
+                                <em>Default:</em>
+                                FAQs !</p>
+                            </li>
+                            <li>
+                              <strong>baf_search_found_text</strong>
+                              <p>applied to the search result found text.
+                                <em>Default:</em>
+                                Found</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!--//doc-section-->
+
+                  <!-- Video Tutorial Section  -->
+
+                  <section id="video_tutorials" class="doc-section">
+                    <h2 class="section-title">Support</h2>
+                    <p>Advanced FAQ Manager WordPress Plugin offers
+                      <strong>Six (06) months premium support</strong>
+                      directly from the developer. We are committed to assisting our buyers, and most of the time it takes
+                      <strong>less than 24 hours</strong>
+                      to reply to the support message. If you face any particular issue regarding the FAQ plugin, then use
+                      <a href="https://codecanyon.net/item/bwl-advanced-faq-manager/5007135/support/contact" target="_blank">the support link</a>
+                      to get premium support. Our the developer will assist you to fix the problem.</p>
+
+                    <div class="section-block">
+                      <h2 class="block-title">Video Tutorials</h2>
+
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <ul class="square-list">
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=tU7iOR5rRkc" class="venobox" data-vbtype="video" data-autoplay="true">How To Install Advanced FAQ Plugin</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=CnRnrvCAaug" class="venobox" data-vbtype="video" data-autoplay="true">How To Add A New FAQ</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=-_08WmpNw3w" class="venobox" data-vbtype="video" data-autoplay="true">How To Add New FAQ Categories & Topics</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=hc-lZvgr9pI" class="venobox" data-vbtype="video" data-autoplay="true">How To Use FAQ Shortcode</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=Ms4eDclYeps" class="venobox" data-vbtype="video" data-autoplay="true">How To Sort FAQ Items</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=2Mf3dlN6TCg" class="venobox" data-vbtype="video" data-autoplay="true">Overview of FAQ Settings Panel</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=3Szf6EQsScQ" class="venobox" data-vbtype="video" data-autoplay="true">Display FAQ In Vertical Tab</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=2CnXKbOBSjw" class="venobox" data-vbtype="video" data-autoplay="true">How To Solve 404 Issues For Single FAQ</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=L1nXi5AQnwg" class="venobox" data-vbtype="video" data-autoplay="true">How To Use External FAQ Submission Form?</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=ZV6BdPRdOEw" class="venobox" data-vbtype="video" data-autoplay="true">Export/Import FAQs.</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=lhfHUyIkO3A" class="venobox" data-vbtype="video" data-autoplay="true">Set Character Limit in FAQ External Form</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=LghO43jMw1I" class="venobox" data-vbtype="video" data-autoplay="true">Set Default Category In FAQ External Form</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=2qe8QUFxVt8" class="venobox" data-vbtype="video" data-autoplay="true">Setup External Faq Form</a>
+                            </li>
+                            <li>
+                              <a href="https://www.youtube.com/watch?v=EyI7cB200p8" class="venobox" data-vbtype="video" data-autoplay="true">Keep First FAQ Row Opened</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Troubleshooting Section  -->
+
+                  <section id="faq_trouble_shoot" class="doc-section">
+                    <h2 class="section-title">Troubleshooting</h2>
+
+                    <!--  FAQ/Troubleshoot Block  -->
+
+                    <div
+                      class="section-block">
+                      <!--  Start FAQ Section -->
+
+                      <div
+                        class="accordion" id="faq_accordion">
+                        <!--  FAQ#1 -->
+
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_1">
+                              <i class="fas fa-question-circle"></i>
+                              Can plugin be used with WooCommerce?
+                            </a>
+                          </div>
+
+                          <div id="faq_1" class="collapse" aria-labelledby="headingOne" data-parent="#faq_accordion">
+                            <div class="card-body">
+                              <p>Yes, plugin is compatible with WooCommerce latest version. You just need to purchase "
+                                <a href="http://codecanyon.net/item/faq-tab-for-woocommerce-advanced-faq-addon/12509686?ref=xenioushk" target="_blank">FAQ Tab For WooCommerce
+                                </a>
+                                " addon to use FAQ plugin with WooCommerce. You can use your existing FAQs as WooCommerce product FAQ. So, you don't need to create FAQ again for your product. It's super easy to use and very efficient.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--  FAQ#2 -->
+
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_2">
+                              <i class="fas fa-question-circle"></i>
+                              Can I display category/topics description below the category?
+                            </a>
+                          </div>
+
+                          <div id="faq_2" class="collapse" aria-labelledby="headingTwo" data-parent="#faq_accordion">
+                            <div class="card-body">Yes, You can. Check
+                              <a href="#display_cat_description">more details.</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--  FAQ#3 -->
+
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_3">
+                              <i class="fas fa-question-circle"></i>
+                              How to display category/topics in vertical Tab ?
+                            </a>
+                          </div>
+
+                          <div id="faq_3" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                            <div class="card-body">
+                              <p>Check for
+                                <a href="#vertical_tab">more details.</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--  FAQ#4 -->
+
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_4">
+                              <i class="fas fa-question-circle"></i>
+                              Is it possible for FAQ toggle to close automatically if user opens another one?
+                            </a>
+                          </div>
+
+                          <div id="faq_4" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                            <div class="card-body">
+                              Yes, it’s possible.
+                              <ul>
+                                <li>Go to FAQ Settings>Reading Settings section.</li>
+                                <li>From ‘Collapsible Accordion: ’ drop down list, please select ‘Show All FAQ Answer Closed’ option and save your new settings.</li>
+                              </ul>
+                              <div>
+                                Check following image-
+                                <br/>
+                                <a href="http://prntscr.com/6yksi1" target="_blank">http://prntscr.com/6yksi1</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--  FAQ#5 -->
+
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_5">
+                              <i class="fas fa-question-circle"></i>
+                              Does search box work in mobile device?
+                            </a>
+                          </div>
+
+                          <div id="faq_5" class="collapse" aria-labelledby="headingOne" data-parent="#faq_accordion">
+                            <div class="card-body">
+                              <p>Yes, plugin search box support and work pretty well in mobile devices. Search box has clear ( X ) button, so you can easily clear search field text with out pressing back button of your phone.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--  End FAQ section  -->
+                    </div>
+                    <!--//doc-section-->
+                  </section>
+
+                  <!--  Addon Documentation  -->
+
+                  <section id="addon_documentation" class="doc-section">
+                    <h2 class="section-title">Addon Documentation</h2>
+
+                    <div class="section-block">
+                      <ul class="square-list">
+                        <li>Check online documentation of
+                          <a href="https://projects.bluewindlab.net/wpplugin/baf/doc/addon/atfc/" target="_blank">Ajaxified FAQ Search Addon</a>.</li>
+                        <li>Check online documentation of
+                          <a href="https://projects.bluewindlab.net/wpplugin/baf/doc/addon/ftfwc/" target="_blank">FAQ TAB For WooCommerce Addon</a>.</li>
+                      </ul>
+                    </div>
+                  </section>
+
+                  <!-- Upgrade Notes Block  -->
+
+                  <section id="upgrade_notes" class="doc-section">
+                    <h2 class="section-title">Upgrade Notes</h2>
+
+                    <div class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div class="callout-block callout-info">
+                            <div class="icon-holder">
+                              <i class="fas fa-info-circle text-light"></i>
+                            </div>
+                            <!--//icon-holder-->
+                            <div class="content">
+                              <h4 class="callout-title text-light">Important Note:</h4>
+                              <p>If you modified any files of plugin, please take a backup before update all files and folder. We highly recommend to take backup of language files.</p>
+                            </div>
+                            <!--//content-->
+                          </div>
+                          <!--//callout-block-->
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <p>
+                            <b>Upgrading from 1.8.6 to 1.8.7</b>
+                          </p>
+                          <ul>
+                            <li>Replace all files and directories in your
+                              <strong>plugins/bwl-advanced-faq-manager</strong>
+                              folder.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!--//doc-section-->
+                  </section>
+
+                  <!-- Change Log Block  -->
+
+                  <section id="change_log" class="doc-section">
+                    <h2 class="section-title">Change Log</h2>
+
+                    <div class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div>
+                            <b>2023, January, 03 - v 1.8.7</b>
+                            <ul class="square-list">
+                              <li>
+                                <b>- Fixed:</b>
+                                Plugin shortcode issue.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin styles and javascripts.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin language/translation file.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin documentation.</li>
+                            </ul>
+                          </div>
+
+                          <div>
+                            <b>2022, April, 09 - v 1.8.6</b>
+                            <ul class="square-list">
+                              <li>
+                                <b>- Fixed:</b>
+                                Plugin shortcode issue.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin language/translation file.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin documentation.</li>
+                            </ul>
+                          </div>
+
+                          <div>
+                            <b>2022, April, 08 - v 1.8.5</b>
+                            <ul class="square-list">
+                              <li>
+                                <b>- Added:</b>
+                                FAQ Schema & Rich Snippets.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin for WordPress 5.9.1</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin language/translation file.</li>
+                              <li>
+                                <b>- Updated:</b>
+                                Plugin documentation.</li>
+                            </ul>
+                          </div>
+                          <p>
+                            <b>2021, June, 09 - v 1.8.4</b>
+                            <br/><b>- Improved:</b>
+                            FAQ Pagination System.
+                            <br/><b>- Updated:</b>
+                            Plugin for WordPress 5.7.2
+                            <br/><b>- Updated:</b>
+                            Ajaxified FAQ Search Addon
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2020, October, 17 - v 1.8.3</b>
+                            <br/><b>- Updated:</b>
+                            Plugin for WordPress 5.5.1
+                            <br/><b>- Updated:</b>
+                            FAQ Tab For WooCommerce Addon (1.0.7)
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2020, April, 17 - v 1.8.2</b>
+                            <br/><b>- Added:</b>
+                            Comment option for faq post.
+                            <br/><b>- Added:</b>
+                            Option to disable single FAQ post link.
+                            <br/><b>- Updated:</b>
+                            Front End FAQ Submission Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2020, April, 05 - v 1.8.1</b>
+                            <br/><b>- Added:</b>
+                            Gutenberg support to edit faq post.
+                            <br/><b>- Added:</b>
+                            10 like vote icon with color customization feature.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2020, March, 11 - v 1.8.0</b>
+                            <br/><b>- Added:</b>
+                            FadeIn animation for FAQ accordion.
+                            <br/><b>- Updated:</b>
+                            Ajaxified FAQ Search (1.0.6) Addon.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2019, September, 15 - v 1.7.9</b>
+                            <br/><b>- Fixed:</b>
+                            Shortcode Editor Error Notice.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2019, September, 09 - v 1.7.8</b>
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2019, September, 06 - v 1.7.7</b>
+                            <br/><b>- Added:</b>
+                            Two Premium Addon.
+                            <br/><b>- Fixed:</b>
+                            Shortcode Issue for Widget .
+                            <br/><b>- Fixed:</b>
+                            Shortcode Issue for Gutenberg Editor.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2019, April, 06 - v 1.7.6</b>
+                            <br/><b>- Added:</b>
+                            Excpert option in Widget.
+                            <br/><b>- Updated:</b>
+                            Plugin Filter.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2019, January, 18 - v 1.7.5</b>
+                            <br/><b>- Added:</b>
+                            Option To Keep Open First FAQ Item.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, November, 30 - v 1.7.4</b>
+                            <br/><b>- Fixed:</b>
+                            Placeholder Text Display Issue.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, October, 07 - v 1.7.3</b>
+                            <br/><b>- Added:</b>
+                            Option to restrict vote for logged in users.
+                            <br/><b>- Added:</b>
+                            Automatic RTL support.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, August, 25 - v 1.7.2</b>
+                            <br/><b>- Fixed:</b>
+                            Quick and bulk edit issue for reset vote count.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, July, 27 - v 1.7.1</b>
+                            <br/><b>- Added:</b>
+                            Search only FAQ question text feature..
+                            <br/><b>- Added:</b>
+                            3 More Search Box Layout.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, May, 20 - v 1.7.0</b>
+                            <br/><b>- Added:</b>
+                            Search Text Suggestion Box.
+                            <br/><b>- Added:</b>
+                            Option To Set Custom Color For Search Result.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, May, 19 - v 1.6.9</b>
+                            <br/><b>- Added:</b>
+                            Search Text Highlight Feature.
+                            <br/><b>- Updated:</b>
+                            FAQ Accordion Toogle Feature.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, March, 28 - v 1.6.8</b>
+                            <br/><b>- Fixed:</b>
+                            Custom Theme Display Issue For Category/Topics List .
+                            <br/><b>- Fixed:</b>
+                            Topics Description Hide Issue For FAQ Search.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, March, 24 - v 1.6.7</b>
+                            <br/><b>- Added:</b>
+                            Option to display category/topic description below the title.
+                            <br/><b>- Added:</b>
+                            (Flat/Semi Rounded/Rounded) FAQ Layout.
+                            <br/><b>- Added:</b>
+                            Custom Theme Setup option Using Shortcode.
+                            <br/><b>- Added:</b>
+                            Custom Navigation Icon Setup option Using Shortcode.
+                            <br/><b>- Fixed:</b>
+                            FAQ search issue. Now, it's search in title as well in description.
+                            <br/><b>- Fixed:</b>
+                            External FAQ form title character limit error.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2018, March, 06 - v 1.6.6</b>
+                            <br/><b>- Added:</b>
+                            Default and hide category in form selection.
+                            <br/><b>- Fixed:</b>
+                            External from submission category selection Issue.
+                            <br/><b>- Updated:</b>
+                            Plugin Code.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2017, July, 31 - v 1.6.5</b>
+                            <br/><b>- Added:</b>
+                            Fadein / Fadeout effect in faq contents.
+                            <br/><b>- Fixed:</b>
+                            SAVE button position issue in admin panel for custom post sorting.
+                            <br/><b>- Fixed:</b>
+                            Certical tab layout issue in responsive mode.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2016, October, 02 - v 1.6.4</b>
+                            <br/><b>- Fixed:</b>
+                            Single page 404 issue.
+                            <br/><b>- Updated:</b>
+                            plugin performance. Load JS and CSS files where plugin actually required.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2016, January, 17 - v 1.6.3</b>
+                            <br/><b>- Added:</b>
+                            Vertical tab.
+                            <br/><b>- Updated:</b>
+                            Shortcode editor.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, December, 21 - v 1.6.2</b>
+                            <br/><b>- Fixed:</b>
+                            External FAQ Submission Form Issue.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, November, 02 - v 1.6.1</b>
+                            <br/><b>- Updated:</b>
+                            Live search section.
+                            <br/><b>- Added:</b>
+                            Custom sorting options for categories and topics.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, August, 30 - v 1.6.0</b>
+                            <br/><b>- Updated:</b>
+                            Addon Page.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, August, 05 - v 1.5.9</b>
+                            <br/><b>- Added:</b>
+                            wp-login.php pagel link for external FAQ submission notification message.
+                            <br/><b>- Added:</b>
+                            Option to show/hide category title.
+                            <br/><b>- Added:</b>
+                            Option to set custom email address for getting FAQ submission notification.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, July, 31 - v 1.5.8</b>
+                            <br/><b>- Added:</b>
+                            White background for FAQ content.
+                            <br/><b>- Added:</b>
+                            New Page For BWL Advanced FAQ Manager Addon.
+                            <br/><b>- Updated:</b>
+                            Search Section.
+                            <br/><b>- Updated:</b>
+                            Plugin Widgets.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, March, 10 - v 1.5.7</b>
+                            <br/><b>- Added:</b>
+                            'X' [cross] button to clear search box easily for mobile device.
+                            <br/><b>- Added:</b>
+                            FAQ category and FAQ Topic Widgets.
+                            <br/><b>- Updated:</b>
+                            RTL stylesheet.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, February, 13 - v 1.5.6</b>
+                            <br/><b>- Added:</b>
+                            Expand All/Collapse All Button.
+                            <br/><b>- Updated:</b>
+                            Live FAQ Search.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, January, 29 - v 1.5.5</b>
+                            <br/><b>- Added:</b>
+                            Frontend FAQ Pagination.
+                            <br/><b>- Updated:</b>
+                            Live FAQ Search With Pagination feature.
+                            <br/><b>- Updated:</b>
+                            FAQ Shortcode panel.
+                            <br/><b>- Updated:</b>
+                            Plugin Speed.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2015, January, 19 - v 1.5.4</b>
+                            <br/><b>- Fixed:</b>
+                            External Form Submission Issue.
+                            <br/><b>- Updated:</b>
+                            Plugin Performance.
+                            <br/><b>- Updated:</b>
+                            FAQ Shortcode panel.
+                            <br/><b>- Fixed:</b>
+                            Plugin Update Notification Issue.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, November, 12 - v 1.5.3</b>
+                            <br/><b>- Added:</b>
+                            RTL support.
+                            <br/><b>- Added:</b>
+                            FAQ author shortcode.
+                            <br/><b>- Added:</b>
+                            Font-awesome up/down arrow for FAQ collapse navigation.
+                            <br/><b>- Fixed:</b>
+                            Categories and Topics Filters issues.
+                            <br/><b>- Fixed:</b>
+                            Random FAQ display issue.
+                            <br/><b>- Updated:</b>
+                            Responsive style.
+                            <br/><b>- Updated:</b>
+                            FAQ settings Page.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, October, 22 - v 1.5.2</b>
+                            <br/><b>- Fixed:</b>
+                            Hide search box issue.
+                            <br/><b>- Fixed:</b>
+                            Shortcode Show Single FAQ lists issue
+                            <br/><b>- Updated:</b>
+                            FAQ settings Page.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, May, 25 - v 1.5.1</b>
+                            <br/><b>- Added:</b>
+                            Auto update notification feature.
+                            <br/><b>- Fixed:</b>
+                            Shortcode Tab Issue.
+                            <br/><b>- Updated:</b>
+                            FAQ settings Page.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, May, 19 - v 1.5.0</b>
+                            <br/><b>- Added:</b>
+                            WPML Translation Feature.
+                            <br/><b>- Updated:</b>
+                            FAQ options panel.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, April, 06 - v 1.4.9</b>
+                            <br/><b>- Added:</b>
+                            Single Display FAQ option.
+                            <br/><b>- Added:</b>
+                            Display All FAQ answer opened option.
+                            <br/><b>- Added:</b>
+                            Font Awesome.
+                            <br/><b>- Added:</b>
+                            Display Author name, FAQ post date and edit option below FAQ Answer.
+                            <br/><b>- Fixed:</b>
+                            Rating System Issue.
+                            <br/><b>- Updated:</b>
+                            FAQ settings Page.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, February, 15 - v 1.4.8</b>
+                            <br/><b>- Fixed:</b>
+                            Email content issue.
+                            <br/><b>- Added:</b>
+                            FAQ filtering by categories and topics.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2014, February, 06 - v 1.4.7</b>
+                            <br/><b>- Fixed:</b>
+                            Tabbed Accordion layout bug.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, December, 25 - v 1.4.6</b>
+                            <br/><b>- Added:</b>
+                            Single search box with multiple category.
+                            <br/><b>- Updated:</b>
+                            Tabbed Accordion.
+                            <br/><b>- Updated:</b>
+                            Collapsable accordion.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, December, 17 - v 1.4.5</b>
+                            <br/><b>- Added:</b>
+                            Tabbed Accordion.
+                            <br/><b>- Added:</b>
+                            Custom Shortcode Editor.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, October, 26 - v 1.4.4</b>
+                            <br/><b>- Added:</b>
+                            Collapsible Accordion.
+                            <br/><b>- Added:</b>
+                            FAQ theme with 7 predefined theme.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, Augest, 01 - v 1.4.3</b>
+                            <br/><b>- Added:</b>
+                            Captcha Validation For FAQ Submission.
+                            <br/><b>- Added:</b>
+                            Custom Slug For Single FAQ Section.
+                            <br/><b>- Added:</b>
+                            FAQ Rating Reset Feature.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, Augest, 01 - v 1.4.2</b>
+                            <br/><b>- Updated:</b>
+                            FAQ excerpt display option.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, July, 25 - v 1.4.1</b>
+                            <br/><b>- Updated:</b>
+                            FAQ preview limit option.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, July, 09 - v 1.4.0</b>
+                            <br/><b>- Added:</b>
+                            Excerpt settings for long FAQ answers.
+                            <br/><b>- Updated:</b>
+                            Live Search feature and can search in both title & content.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, July, 04 - v 1.3</b>
+                            <br/><b>- Added:</b>
+                            7 different themes .
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, July, 01 - v 1.2</b>
+                            <br/><b>- Added:</b>
+                            Front-end "FAQ question add FORM" using Shortcode.
+                            <br/><b>- Added:</b>
+                            Email & log In Settings feature in admin panel.
+                            <br/><b>- Added:</b>
+                            Shortcode for show/hide search form.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, June, 24 - v 1.1</b>
+                            <br/><b>- Added:</b>
+                            Live Search Feature.
+                            <br/><b>- Added:</b>
+                            Settings section in admin panel.
+                            <br/><b>- Added:</b>
+                            Enable/Disable features for live search.
+                            <br/><b>- Updated:</b>
+                            Plugin language/translation file.
+                            <br/><b>- Updated:</b>
+                            Plugin documentation.
+                          </p>
+
+                          <p>
+                            <b>2013, June, 22 - v 1.0
+                            </b>
+                            <br/><i>- Initial release</i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--//doc-section-->
+                  </section>
+
+                  <!-- Source & Credit Block  -->
+
+                  <section id="source_credit" class="doc-section">
+                    <h2 class="section-title">Source & Credit Notes</h2>
+
+                    <div class="section-block">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <ol>
+                            <li>
+                              <a href="http://www.jquery.com/">jQuery Plugin</a><br/></li>
+                            <li>
+                              <a href="fontawesome.io/">Font Awesome</a><br/></li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <!--//content-inner-->
+              </div>
+              <!--//doc-content-->
+            </div>
+            <!--//doc-body-->
+          </div>
+          <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+      </div>
+      <!--//page-wrapper-->
+
+      <footer id="footer" class="footer text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 text-left">
+              <span>Copyright &copy; 2021 -
+                <a href="https://bluewindlab.net" target="_blank" class="text-info">BlueWindLab</a>. All Rights Reserved.</span>
+            </div>
+            <div
+              class="col-6 text-right">
+              <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+              <span>Designed by
+                <a href="https://themes.3rdwavemedia.com/" target="_blank" class="text-info">Xiaoying Riley</a>.</span>
+            </div>
+          </div>
+        </div>
+        <!--//container-->
+      </footer>
+      <!--//footer-->
+
+      <a id="backTop">Back To Top</a>
+
+      <!-- Main Javascript -->
+      <script type="text/javascript" src="assets/js/all.min.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+  </body>
+</html>

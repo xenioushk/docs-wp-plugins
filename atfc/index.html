@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Attachment Tab For WooCommerce Plugin Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Attachment Tab For WooCommerce Plugin Documentation" />
+    <meta name="author" content="Md Mahbub Alam Khan" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo text-center">
+                        <a href="index.html">
+                            <span class="text-bold">Attachment Tab For WooCommerce <br />WordPress Plugin Documentation</span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+
+        <div class="doc-wrapper">
+            <div class="container">
+                <div class="doc-body row">
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto sub-menu-sign" href="#plugin-overview-section">Plugin Overview & Installation</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#requirements">Requirements</a>
+                                    <a class="nav-link scrollto" href="#installation_steps">Installation Steps</a>
+                                </nav>
+                                <!--//nav-->
+                                <!--                                    <a class="nav-link child-nav-link scrollto" href="#">Add A Global FAQ</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#">Auto FAQ Integration</a>-->
+                                <a class="nav-link scrollto sub-menu-sign" href="#operate_the_plugin">Operate The Plugin</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#add_attachment_to_product">Add Attachment To A Product</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#global_attachment_to_all_product">Global Attachment To All Product</a>
+                                    <a class="nav-link scrollto" href="#disable_attachment_tab">Disable/Hide Attachment Tab</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#quick_edit_disable_tab">Quick Edit Method</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#meta_box_disable_tab">Custom Meta Box Method</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#bulk_edit_disable_tab">Using Bulk Edit Method</a>
+                                    <a class="nav-link scrollto" href="#display_custom_file_name">Display Custom File Name</a>
+                                    <a class="nav-link scrollto" href="#force_disable_download_files">Force Disable Download Files</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto" href="#download_report">Download Report</a>
+
+                                <a class="nav-link scrollto" href="#plugin_shortcodes">Plugin Shortcodes</a>
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Option Panel</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#general_options">General Options</a>
+                                    <a class="nav-link scrollto" href="#tab_settings">Attachment Tab Settings</a>
+                                    <a class="nav-link scrollto" href="#theme_settings">Theme Settings</a>
+                                    <a class="nav-link scrollto" href="#advance_settings">Advance Settings</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto" href="#plugin_translation">Plugin Translation</a>
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#support_miscellaneous_section">Support & Miscellaneous</a>
+
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#video_tutorials">Video Tutorials</a>
+                                    <a class="nav-link scrollto" href="#faq_trouble_shoot">FAQ & Troubleshooting</a>
+                                </nav>
+
+                                <a class="nav-link scrollto" href="#upgrade_notes">Upgrade Notes</a>
+                                <a class="nav-link scrollto" href="#change_log">Change Log</a>
+                                <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
+
+                                <small><i>Doc Last Update:</i> 11/04/2022</small>
+                            </nav>
+                            <!--//doc-menu-->
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <!--  Plugin Overview & Installation -->
+
+                            <section id="plugin-overview-section" class="doc-section">
+                                <h2 class="section-title">About Attachment Tab For WooCommerce</h2>
+
+                                <div class="section-block">
+                                    <ul>
+                                        <li><strong>Plugin Version:</strong> 1.1.8</li>
+                                        <li><strong>Plugin Last Update:</strong> 11/04/2022</li>
+                                        <li><strong>Plugin Create Date:</strong> 16/05/2016</li>
+                                        <li><strong>Premium Support:</strong> <a href="https://codecanyon.net/item/attachment-tab-for-woocommerce/16192483/support/contact">Send Message</a></li>
+                                        <li><strong>Web Site: </strong><a href="https://bluewindlab.net/">https://bluewindlab.net</a></li>
+                                        <li><strong>Developed By:</strong> bluewindlab</li>
+                                        <li><strong>Skype: </strong> bluewindlab</li>
+                                    </ul>
+                                    <p>If you like this plugin, please spare a minute to <a href="https://1.envato.market/atfc-wp" target="_blank"> rate it</a>.</p>
+
+                                    <h3 class="block-title">Plugin Overview</h3>
+                                    <p>Attachment Tab For WooCommerce plugin provides a great way to <strong>attach any kind of files</strong> in product description page. Plugin automatically create a custom & dedicated <strong>tab for attachments </strong>which
+                                        contain all attachments related with products.</p>
+
+                                    <p>Plugin allows you to upload <strong>unlimited number</strong> of file attachment features from admin panel. If you need to attach large number of files like - 100 files in product attachment tab, then plugin <strong>automatically paginate</strong>                                        those large attachment lists. So, all attachments can fit in to small amount of place. You can define the number of display items per page from <strong>option panel</strong>.</p>
+
+                                    <p>Once you completed uploading attachment files, users/visitors can <strong>easily download</strong> their required files from dedicated attachment tab. Plugin count each attachment downloads and generate <strong>statistics report</strong>                                        on daily downloads. From option panel, you can easily disable/enable download feature.</p>
+
+                                    <p>Plugin display attachments in <strong>List and Boxed Layout</strong> which are responsive and contain nice font-awesome powered icon for each file type. You can also <strong>Restrict Download</strong> option only for
+                                        Registered & logged in users. Checkout our plugin outlook in WordPress site-</p>
+
+                                    <div class="doc-img-box text-left">
+                                        <a href="img/overview/01_atfc_demo.png" class="venobox">
+                                            <img class="img-fluid" src="img/overview/01_atfc_demo.png" alt="screenshot" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Installation Section -->
+
+                            <section id="installation-section" class="doc-section">
+                                <div id="requirements" class="section-block">
+                                    <h3 class="block-title">Installation Requirements</h3>
+                                    <p>You need at least WordPress version 4.8+ installed for this plugin to work properly. It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues
+                                        are fixed. Other requirements:</p>
+                                    <ul>
+                                        <li><a href="https://www.woothemes.com/woocommerce/" target="_blank">WooCommerce Plugin</a></li>
+                                        <li>PHP version 5.3 or greater.</li>
+                                        <li>MySQL version 5.0.15 or greater.</li>
+                                    </ul>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="installation_steps" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Installation Steps</h3>
+                                            <p>To install a plugin, you must first upload the plugin files and then activate the plugin. The plugin files can be uploaded in two ways:</p>
+                                            <ul>
+                                                <li><strong>FTP Upload:</strong> Using your FTP client, upload the non-zipped plugin folder into the <strong>/wp-content/plugins/</strong> folder on your server.</li>
+                                                <li><strong>WordPress Upload:</strong> Navigate to <strong>Plugins >> Add New >> Upload</strong>. Go to browse, and select the zipped plugin folder. Hit "Install Now" and the plugin will be uploaded and installed.</li>
+                                            </ul>
+
+                                            <p><strong class="steps">Step 01:</strong> Go to WP admin dashboard and click on <em>Plugins >> Add New</em>.</p>
+                                            <div class="doc-img-box text-left">
+                                                <img class="img-fluid" src="img/installation/1.jpg" alt="screenshot" />
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Click on <em> Upload Plugin</em> and upload 'attachment-tab-for-woocommerce.zip' file. Finally, click <strong>Install Now</strong> button.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <img class="img-fluid" src="img/installation/2.jpg" alt="screenshot" />
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Once plugin successfully uploaded in the server, you will get a message to activate it. Click on <b>Activate Plugin</b> Link and plugin will be ready to use . After activating
+                                                the plugin, you will be redirected in plugins page of the WordPress admin panel, and you will get newly installed <strong>Attachment Tab For WooCommerce Plugin</strong> in there.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <img class="img-fluid" src="img/installation/3.jpg" alt="screenshot" />
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Now you are ready to use Attachment Tab For WooCommerce Plugin! In left sidebar menu, you will see a new section like the following screenshot.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <img class="img-fluid" src="img/installation/4.jpg" alt="screenshot" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Operate The Plugin Section -->
+
+                            <section id="operate_the_plugin" class="doc-section">
+                                <h2 class="section-title">Operate The Plugin</h2>
+
+                                <!-- Add Attachment To A Product  -->
+
+                                <div id="add_attachment_to_product" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Add Attachment To A Product:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Go to any WooCommerce Product page(Add/Edit mode). Now, bottom of that page you will get <em>Product Attachment Settings</em> panel like the following screenshot.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/operate/add_attachment/1.png" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/add_attachment/1.png" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Now, click <strong>Add New File</strong> button and a modal window will Pop up. Just click on the file you need to attach and click "select" button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/add_attachment/2.png" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/add_attachment/2.png" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Using <strong>Drag & Drop</strong> feature sort the files according to your requirement.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/add_attachment/3.png" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/add_attachment/3.png" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Finally, Click <strong>Publish/Update</strong> button in the product page and you will see output like below-</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/overview/01_atfc_demo.png" class="venobox">
+                                                    <img class="img-fluid" src="img/overview/01_atfc_demo.png" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!-- Global Attachment To All Product -->
+
+                                <div id="global_attachment_to_all_product" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Global Attachment To All Product:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Go to <em>Media >> Library</em>. You will get all the files uploaded in your site and a new column name <em>Global Attachment</em>. This column shows the attachment status
+                                                of that file.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/operate/global_attachment/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Next, if you take the mouse pointer on a row, you will get the <strong>Edit</strong> option. Click on that <em>Edit</em> link.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/global_attachment/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Now, check the <em>Mark As Global Attachment?</em> box and hit <em>Update</em> button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/global_attachment/3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/3.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Again, Go to <em>Media >> Library</em>. You will find the <em>Global Attachment</em> status has been changed to <em>yes</em> of that file.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/global_attachment/4.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/4.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 05:</strong> Now, Go to <em>Woo Attachment >> Option Panel >> Advanced Options</em> page. Next, turn <strong>ON</strong> the option <em>Enable Global Attachment?</em> and click <em>Save Changes</em>                                                button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/global_attachment/5.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/5.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 06:</strong> Finally, go to any WooCommerce product page, and you will get the output like the following screenshot.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/global_attachment/6.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/global_attachment/6.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!--  Disable/Hide Product Attachment Tab -->
+
+                                <div id="disable_attachment_tab" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Disable/Hide Product Attachment Tab:</h3>
+
+                                            <p>There are <strong>three ways</strong> you can disable the attachment tab for a product. Additionally, you can enable <strong>Automatic Attachment Tab hide option</strong> if there is no file available associated
+                                                with the product. Find more detail in <a href="#automatic_hide_tab" class="scrollto highlight">here</a>.</p>
+
+                                            <h3 class="block-title" id="quick_edit_disable_tab">Using Quick Edit Method:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Login to WordPress Admin panel.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Navigate to <strong>Products > All Products</strong>.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> On mouse hover to any product title you’ll get option for <strong>Quick Edit</strong>.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/hide_attachment_tab/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/hide_attachment_tab/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Click on Quick Edit link and you’ll get option for <strong>Hide Attachment Tab?</strong> From drop down choose <strong>Yes</strong> to hide/disable attachment tab for
+                                                a product. Finally, click <strong>update</strong> button to save your settings.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/hide_attachment_tab/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/hide_attachment_tab/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 05:</strong> After the successful update, you’ll see the updated status in Hide Attachment Tab column.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/hide_attachment_tab/3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/hide_attachment_tab/3.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <!--  Using Custom Meta Box Method -->
+
+                                            <h3 class="block-title" id="meta_box_disable_tab">Using Custom Meta Box Method:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Login to WordPress Admin panel.</p>
+                                            <p><strong class="steps">Step 02:</strong> Navigate to <strong>Products > All Products</strong>.</p>
+                                            <p><strong class="steps">Step 03:</strong> On mouse hover to any product title you’ll get option for <strong>Edit</strong>. Click Edit link.</p>
+                                            <p><strong class="steps">Step 04:</strong> Next, you’ll get a custom meta box with title <strong>Attachment Tab Display Settings</strong>.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/hide_attachment_tab/4_cmb_edit.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/hide_attachment_tab/4_cmb_edit.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 05:</strong> From <strong>Hide Attachment Tab?</strong> drop down select Yes.</p>
+                                            <p><strong class="steps">Step 06:</strong> Finally, click <strong>Update</strong> button to save your settings.</p>
+
+                                            <!--  Using Bulk Edit Method -->
+
+                                            <h3 class="block-title" id="bulk_edit_disable_tab">Using Bulk Edit Method:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Login to WordPress Admin panel.</p>
+                                            <p><strong class="steps">Step 02:</strong> Navigate to <strong>Products > All Products</strong>.</p>
+                                            <p><strong class="steps">Step 03:</strong> Now, check multiple products checkbox from product list. Then from <strong>Bulk Edit</strong>drop down list select <strong>Edit</strong> and Click Apply button.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/hide_attachment_tab/5_bulk_hide_atfc_tab.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/hide_attachment_tab/5_bulk_hide_atfc_tab.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 04:</strong> A New box will appear. From <strong>Hide Attachment Tab?</strong> drop down select Yes.</p>
+                                            <p><strong class="steps">Step 05:</strong> Finally, click <strong>Update</strong> button to save your settings.</p>
+
+                                            <p>
+                                                <a class="btn btn-cta btn-primary venobox vbox-item" href="https://www.youtube.com/watch?v=Io2yE4L0vOA" data-vbtype="video" data-autoplay="true"> <i class="fas fa-play"></i> Watch Video Tutorial </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!--  Display Custom File Name -->
+
+                                <div id="display_custom_file_name" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Display Custom File Name:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Login to WordPress Admin panel.</p>
+                                            <p><strong class="steps">Step 02:</strong> Navigate to <strong>Woo Attachment > Option Panel > Advanced Settings</strong>.</p>
+                                            <p><strong class="steps">Step 03:</strong> Now, turn ON <strong>Enable Display Custom File Title</strong>. Then Click <strong>Save Changes</strong> button.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/custom_file_name/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/custom_file_name/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 04:</strong> Next, Navigate to <strong>Media > Library</strong> and you will get a new column <strong>Custom Title</strong>.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/custom_file_name/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/custom_file_name/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 05:</strong> On mouse hover to any file title you will get option for <strong>Edit</strong>. Click Edit link. Add your own title in <strong>Custom Title</strong> input box.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/custom_file_name/3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/custom_file_name/3.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 06:</strong> Finally, click <strong>Update</strong> button to save your settings.</p>
+
+                                            <p>
+                                                <a class="btn btn-cta btn-primary venobox vbox-item" href="https://www.youtube.com/watch?v=gUJp4fpBDCc" data-vbtype="video" data-autoplay="true"> <i class="fas fa-play"></i> Watch Video Tutorial </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!-- Force Disable Download Files  -->
+
+                                <div id="force_disable_download_files" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Force Disable Download Files:</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> Login to WP Admin Panel.</p>
+                                            <p><strong class="steps">Step 02:</strong> Navigate to <strong>Woo Attachment >> Option Panel >> Attachment Tab Settings</strong> Section.</p>
+                                            <p><strong class="steps">Step 03:</strong> Bottom of the page you'll get option to disable "Force Download". Turn it ON.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/operate/force_disable_download/1.png" class="venobox">
+                                                    <img class="img-fluid" src="img/operate/force_disable_download/1.png" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong class="steps">Step 04:</strong> Save settings and check product page.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Download Report Section -->
+
+                            <section id="download_report" class="doc-section">
+                                <div class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Download Report</h3>
+                                            <p><strong class="steps">Step 01:</strong> Navigate to <strong>Woo Attachment >> Download Report</strong> Section. Next, select the product from <em>Products</em> drop down list. You will get all files downloaded
+                                                information in report table.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/report/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/report/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Next, select a file from <em>Files</em> drop down and You can get detail information of that particular file.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/report/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/report/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Click <em>Download Report</em> button to get the full report in <strong>CSV</strong> format.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Plugin Shortcode Section -->
+
+                            <section id="plugin_shortcodes" class="doc-section">
+                                <!--  Plugin Shortcode Intro -->
+
+                                <div class="section-block">
+                                    <h2 class="section-title">Plugin Shortcodes</h2>
+
+                                    <p>Using the following shortcode, you can easily display <strong>Attachments</strong> for a product any place of your website.</p>
+
+                                    <p><strong>Available shortcodes listed in below -</strong></p>
+
+                                    <ul class="square-list">
+                                        <li>
+                                            <p>Display Product Attachments:</p>
+                                            <pre class="language-markup"><code>[bwl_atfc product_id="96"/]</code></pre>
+                                            <p><strong>Note:</strong> Here, <em>96</em> is a product ID.</p>
+                                        </li>
+                                        <li>
+                                            <p>Display Attachments In List View:</p>
+                                            <pre class="language-markup"><code>[bwl_atfc product_id="96" atfc_view_type="list_view"/]</code></pre>
+                                            <p><strong>Note:</strong> Default is <em>box_view</em>.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Plugin Option Panel Section -->
+
+                            <section id="setup_page_content_section" class="doc-section">
+                                <h2 class="section-title">Plugin Option Panel</h2>
+
+                                <!--  General Options -->
+
+                                <div id="general_options" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">General Options:</h3>
+                                            <ul class="square-list">
+                                                <li><strong>Load Font Awesome:</strong> Plugin uses Font Awesome icons to display navigation icon. So, If the theme already loaded the icons, turn this option <em>OFF</em>.</li>
+                                                <li><strong>Login Required:</strong> Restrict and allow attachment downloads only for the logged in users.</li>
+                                                <li><strong>Enable Pagination:</strong> Turn this option <em>ON</em>, if you would like to display <strong>a bulk amount of attachment files</strong>. That will save space and keep the site layout clean. Additionally,
+                                                    you can set the number of attachment plugin show per page.</li>
+                                            </ul>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/options/general/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/options/general/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!-- Attachment Tab Settings  -->
+
+                                <div id="tab_settings" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Attachment Tab Settings:</h3>
+                                            <p>Plugin provides all the required options to customize the <strong>Attachment tab</strong> according to your requirements. Here goes the detail of all options.</p>
+
+                                            <ul class="square-list">
+                                                <li id="attachment_tab_title"><strong>Attachment Tab Title:</strong> You can add <strong>custom title</strong> of Attachment Tab. Default: <em>Attachment</em></li>
+                                                <li id="attachment_tab_position"><strong>Attachment Tab Position:</strong> Plugin allows you to set the attachment tab in a convenient position. For example, use a small number (1,2 or 3) to set tab at the First position and set big number(100,
+                                                    200, 300) to display attachment tab at the last position.</li>
+                                                <li id="automatic_hide_tab"><strong>Hide Tab Automatically:</strong> Turn this option <em>ON</em> and plugin will hide the <strong>Attachment Tab</strong> automatically, if there is no file available to download for any product.</li>
+                                                <li><strong>Display Attachment Counter:</strong> Total number of attachment will display beside the Tab title.</li>
+                                                <li><strong>Hide File Size:</strong> Turn it ON to hide <strong>the size</strong> of attachment.</li>
+                                                <li><strong>Hide File Type:</strong> Turn it ON to hide <strong>the type</strong> of attachment.</li>
+                                                <li><strong>Hide Download Counter:</strong> Turn it ON to hide <strong>total downloaded amount</strong> of attachment.</li>
+                                                <li><strong>Deactivate Force Download:</strong> Turn it ON to display attachment in <strong>new window</strong>.</li>
+                                                <li><strong>Hide File Type Icon:</strong> Turn it ON to <strong>hide attachment type</strong> icon.</li>
+                                            </ul>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/options/tab/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/options/tab/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!-- Theme Settings  -->
+
+                                <div id="theme_settings" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Theme Settings:</h3>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/options/theme/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/options/theme/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <ul class="square-list">
+                                                <li>
+                                                    <h3 class="block-title" id="attachment_view_type">Attachment View (Layout) Type:</h3>
+                                                    <p>There are two layouts boxed and list style available for the attachment view in tab. The following screenshots demonstrate the output of attachment view.</p>
+                                                    <p><strong>01: Boxed Style Output:</strong></p>
+                                                    <div class="doc-img-box text-left">
+                                                        <a href="img/overview/01_atfc_demo.png" class="venobox">
+                                                            <img class="img-fluid" src="img/overview/01_atfc_demo.png" alt="doc_img" />
+                                                        </a>
+                                                    </div>
+                                                    <p><strong>02: List Style Output:</strong></p>
+                                                    <div class="doc-img-box text-left">
+                                                        <a href="img/overview/02_atfc_list_style.jpg" class="venobox">
+                                                            <img class="img-fluid" src="img/overview/02_atfc_list_style.jpg" alt="doc_img" />
+                                                        </a>
+                                                    </div>
+                                                </li>
+
+                                                <li><strong>Attachment Box Theme Settings:</strong> You can customize the color for attachment background , box border and icon.</li>
+                                                <li><strong>Pagination Theme Settings:</strong> You can customize the color for pagination background , box border and icon.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!-- Advance Settings  -->
+
+                                <div id="advance_settings" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Advance Settings:</h3>
+                                            <ul class="square-list">
+                                                <li><strong>Enable Display Custom File Title:</strong> You can display custom file name of attachment.</li>
+                                                <li><strong>Enable Global Attachment:</strong> Allow common download able files to display all the WooCommerce product attachment tab.</li>
+                                                <li><strong>Custom CSS:</strong> You can add custom CSS code to adjust plugin layout.</li>
+                                            </ul>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/options/advance/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/options/advance/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <section id="plugin_translation" class="doc-section">
+                                <!-- Plugin Translation Block  -->
+
+                                <div class="section-block">
+                                    <h2 class="block-title">Plugin Translation</h2>
+
+                                    <p><strong>Attachment Tab For WooCommerce</strong> WordPress Plugin offers cool translation feature. So, beside the English language, you can easily translate the plugin texts for other languages too. Check following steps
+                                        to translate <strong>Attachment Tab For WooCommerce</strong> WordPress plugin.</p>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p>
+                                                <strong class="steps">Step 01: </strong> To translate the plugin texts, please download and install Poedit software in your computer. Here goes the download link-
+                                                <a href="https://poedit.net/download" target="_blank">https://poedit.net/download</a>
+                                            </p>
+
+                                            <p><strong class="steps">Step 02: </strong> Next, navigate to <strong>/wp-content/plugins/attachment-tab-for-woocommerce/lang/</strong>. You will get a file named <strong>default.po</strong>.</p>
+
+                                            <p><strong class="steps">Step 03: </strong> Our Plugin text-domain is 'bwl-atfc'. Now, we want to translate our theme text in to <strong>Dutch</strong> language. So, copy <strong>default.po</strong> file and rename
+                                                it as <strong>bwl-atfc-de_DE.po</strong></p>
+
+                                            <p><strong class="steps">Step 04: </strong> Now, open that newly created 'bwl-atfc-de_DE.po' file using <strong>Poedit</strong> software. You will get all the plugin texts in there and you just need to add appropriate
+                                                translated text in <strong>Translation</strong> box.</p>
+
+                                            <p><strong class="steps">Step 05: </strong> Finally, save the file and you will get 'bwl-atfc-de_DE.mo' file inside <strong>languages</strong> folder.</p>
+
+                                            <div class="callout-block callout-info">
+                                                <div class="icon-holder">
+                                                    <i class="fas fa-info-circle text-light"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content text-light">
+                                                    <h4 class="callout-title">Note:</h4>
+                                                    <p>Not sure about country and language code? Get your <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Country-Codes.html#Country-Codes" target="_blank">Country Code </a> and
+                                                        <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Usual-Language-Codes.html#Usual-Language-Codes" target="_blank">Language code</a>.</p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!--  Support & Miscellaneous Section -->
+
+                            <section id="support_miscellaneous_section" class="doc-section">
+                                <h2 class="section-title">Support & Miscellaneous</h2>
+                                <p>Attachment Tab For WooCommerce Plugin comes with <strong>Six (06) months premium support</strong> directly from the developer. We are committed to assisting our buyers and most of the time it takes <strong>less than 24 hours</strong>                                    to reply to the support message. If you face any particular issue regarding the plugin, then the developer will assist you to fix the issue.</p>
+
+                                <!-- Video Tutorial Block  -->
+
+                                <div id="video_tutorials" class="section-block">
+                                    <h2 class="block-title">Video Tutorials</h2>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <ul class="square-list">
+                                                <li><a href="https://www.youtube.com/watch?v=lVBRRyLdZAk" class="venobox" data-vbtype="video" data-autoplay="true">Attachment Tab For WooCommerce Plugin Full Video Review</a></li>
+                                                <li><a href="https://youtu.be/Io2yE4L0vOA" class="venobox" data-vbtype="video" data-autoplay="true">Disable/Hide Multiple Product Attachment Tab</a></li>
+                                                <li><a href="https://youtu.be/gUJp4fpBDCc" class="venobox" data-vbtype="video" data-autoplay="true">Display Custom File Name</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  FAQ/Troubleshoot Block  -->
+
+                                <div id="faq_trouble_shoot" class="section-block">
+                                    <h2 class="block-title">FAQ & Troubleshooting</h2>
+
+                                    <!--  Start FAQ Section -->
+
+                                    <div class="accordion" id="faq_accordion">
+                                        <!--  FAQ#1 -->
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#f1"> <i class="fas fa-question-circle"></i> Does this plugin support latest WooCommerce Version? </a>
+                                            </div>
+
+                                            <div id="f1" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Yes, it does.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#2 -->
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#f2"> <i class="fas fa-question-circle"></i> How many layouts available for the attachment tab? </a>
+                                            </div>
+
+                                            <div id="f2" class="collapse">
+                                                <div class="card-body">There are two layouts available. Boxed and List Layout. Check the detail from <a href="#attachment_view_type" class="scrollto highlight">here</a>.</div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#3 -->
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#f3"> <i class="fas fa-question-circle"></i> Can I Change/Customize Attachment Tab Title? </a>
+                                            </div>
+
+                                            <div id="f3" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Yes. Go to <em>Woo Attachment >> Option panel >> Tab Settings</em> section. You will get <strong>Attachment Tab Title</strong> text field. Add the title according to your preference. Please note that,
+                                                        this is a <em>Global Settings</em> and it will apply on all the attachment tab. Fine more detail in <a href="#attachment_tab_title" class="scrollto highlight">here</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#4 -->
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#f4"> <i class="fas fa-question-circle"></i> Can I Change/Customize The Position of Attachment Tab? </a>
+                                            </div>
+
+                                            <div id="f4" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Yes. Find more detail in <a href="#attachment_tab_position" class="scrollto highlight">here</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#5 -->
+
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#f4"> <i class="fas fa-question-circle"></i> Can I Show Custom File Name Instead of Default? </a>
+                                            </div>
+
+                                            <div id="f5" class="collapse">
+                                                <div class="card-body">
+                                                    <p>Yes. Find more detail in <a href="#display_custom_file_name" class="scrollto highlight">here</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--  End FAQ section  -->
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Upgrade Notes Block  -->
+
+                                <div id="upgrade_notes" class="section-block">
+                                    <h2 class="block-title">Upgrade Notes</h2>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <div class="callout-block callout-warning">
+                                                <div class="icon-holder">
+                                                    <i class="fas fa-info-circle"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content">
+                                                    <h4 class="callout-title">Important Note:</h4>
+                                                    <p><strong>If you modified any files of plugin, please take a backup before update all files and folder. We highly recommend to take backup of language files.</strong></p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p>
+                                                <b>Upgrading from 1.1.7 to 1.1.8</b>
+                                            </p>
+                                            <ul>
+                                                <li>Replace all files and directories in your <strong>plugins/attachment-tab-for-woocommerce</strong> folder.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Change Log Block  -->
+
+                                <div id="change_log" class="section-block">
+                                    <h2 class="block-title">Change Log</h2>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p><b> 2022, April, 11 - v 1.1.8</b></p>
+                                            <ul class="simple-list">
+                                                <li><b>- Updated:</b> Plugin for WordPress 5.9.3</li>
+                                                <li><b>- Updated:</b> Plugin for WooCommerce 6.3.1</li>
+                                                <li><b>- Updated:</b> Plugin language/translation file.</li>
+                                                <li><b>- Updated:</b> Plugin documentation.</li>
+                                            </ul>
+
+                                            <p><b> 2021, December, 30 - v 1.1.7</b></p>
+                                            <ul class="simple-list">
+                                                <li><b>- Updated:</b> Plugin for WordPress 5.8.2</li>
+                                                <li><b>- Updated:</b> Plugin for WooCommerce 6.0.0</li>
+                                                <li><b>- Updated:</b> Plugin language/translation file.</li>
+                                                <li><b>- Updated:</b> Plugin documentation.</li>
+                                            </ul>
+
+                                            <p>
+                                                <b> 2021, June, 13 - v 1.1.6</b>
+                                                <br /><b>- Updated:</b> Plugin for WordPress 5.7.2 <br /><b>- Updated:</b> Plugin for WooCommerce 5.4.1 <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2021, March, 17 - v 1.1.5</b>
+                                                <br /><b>- Updated:</b> Plugin for WordPress 5.7.0 <br /><b>- Updated:</b> Plugin for WooCommerce 5.1.0 <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2020, October, 04 - v 1.1.4</b>
+                                                <br /><b>- Updated:</b> Plugin for WordPress 5.5.1 <br /><b>- Updated:</b> Plugin for WooCommerce 4.5.2 <br /><b>- Updated:</b> Plugin code. <br /><b>- Updated:</b> Plugin language/translation file. <br
+                                                /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2020, August, 27 - v 1.1.3</b>
+                                                <br /><b>- Updated:</b> Plugin for WordPress 5.5.X. <br /><b>- Updated:</b> Plugin for WooCommerce 4.4.X. <br /><b>- Updated:</b> Plugin code. <br /><b>- Updated:</b> Plugin language/translation file. <br
+                                                /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2020, July, 18 - v 1.1.2</b>
+                                                <br /><b>- Updated:</b> Plugin for WooCommerce 4.3.X. <br /><b>- Updated:</b> Plugin code. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2020, March, 18 - v 1.1.1</b>
+                                                <br /><b>- Updated:</b> Plugin For WooCommerce 4.0.X. <br /><b>- Updated:</b> Plugin Code. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2019, September, 27 - v 1.1.0</b>
+                                                <br /><b>- Fixed:</b> Conflict With Elementor Page Builder. <br /><b>- Updated:</b> Plugin For WooCommerce 3.7.X. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin
+                                                documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2019, March, 20 - v 1.0.9</b>
+                                                <br /><b>- Added:</b> Global Attachment To All Product Feature. <br /><b>- Added:</b> Auto RTL Switching Feature. <br /><b>- Updated:</b> Plugin For WooCommerce 3.5.X. <br /><b>- Updated:</b> Plugin language/translation
+                                                file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2018, August, 02 - v 1.0.8</b>
+                                                <br /><b>- Fixed:</b> Attachment file size display issue. <br /><b>- Updated:</b> Plugin For WooCommerce 3.4.4 <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2018, June, 28 - v 1.0.7</b>
+                                                <br /><b>- Added:</b> Option to disable download option. <br /><b>- Fixed:</b> Quick/bulk edit issue. <br /><b>- Updated:</b> Plugin For WooCommerce Latest Version. <br /><b>- Updated:</b> Plugin language/translation
+                                                file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b> 2018, March, 26 - v 1.0.6</b>
+                                                <br /><b>- Updated:</b> Plugin For WooCommerce 3.3.4 <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2018, March, 06 - v 1.0.5</b>
+                                                <br /><b>- Added:</b> Option to choose List View & Boxed View. <br /><b>- Added:</b> Option to include customized tab title for individual product. <br /><b>- Added:</b> Option to hide file type Icon. <br
+                                                /><b>- Added:</b> Option to hide download counts string. <br /><b>- Added:</b> Option to hide file size string. <br /><b>- Added:</b> Option to display custom file title. <br /><b>- Added:</b> Option to
+                                                attach external file download links. <br /><b>- Updated:</b> Plugin For WooCommerce 3.3.X. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2018, January, 10 - v 1.0.4</b>
+                                                <br /><b>- Updated:</b> Plugin For WooCommerce 3.2.X. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2017, May, 10 - v 1.0.3</b>
+                                                <br /><b>- Fixed:</b> WooCommerce 3.0 compatibility notice. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2017, March, 01 - v 1.0.2</b>
+                                                <br /><b>- Fixed:</b> Login form issue. <br /><b>- Fixed:</b> Attachment removal issue. <br /><b>- Fixed:</b> Total attachment counter display issue in product column. <br /><b>- Fixed:</b> Multi-site compatibility
+                                                warning message displaying issue. <br /><b>- Updated:</b> Plugin language/translation file. <br /><b>- Updated:</b> Plugin documentation. <br /><b>- Checked:</b> Compatibility with WooCommerce latest version.
+                                            </p>
+
+                                            <p>
+                                                <b>2016, May, 17 - v 1.0.1</b>
+                                                <br /><b>- Added:</b> Theme Settings option for attachment box. <br /><b>- Fixed:</b> Login box display issue. <br /><b>- Fixed:</b> File icon display issue in RTL mode. <br /><b>- Updated:</b> Plugin language/translation
+                                                file. <br /><b>- Updated:</b> Plugin documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2016, May, 16 - v 1.0.0</b>
+                                                <br /><b>- Initial release</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Source & Credit Block  -->
+
+                                <div id="source_credit" class="section-block">
+                                    <h2 class="block-title">Source & Credit Notes</h2>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <ol>
+                                                <li>WooCommerce Plugin By <a href="https://www.woothemes.com/woocommerce/" target="_blank">WooCommerce</a></li>
+                                                <li><a href="https://www.jquery.com/">jQuery Plugin</a><br /></li>
+                                                <li><a href="https://fontawesome.io/">Font Awesome</a><br /></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <span>Copyright &copy; 2021 - <a href="https://bluewindlab.net" target="_blank" class="text-info">BlueWindLab</a>. All Rights Reserved.</span>
+                </div>
+                <div class="col-6 text-right">
+                    <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                    <span>Designed by <a href="https://themes.3rdwavemedia.com/" target="_blank" class="text-info">Xiaoying Riley</a>.</span>
+                </div>
+            </div>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+    <a id="backTop">Back To Top</a>
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
