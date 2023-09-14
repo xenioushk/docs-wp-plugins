@@ -134,7 +134,8 @@
                     <a class="nav-link scrollto" href="#html5_templates">HTML5 Templates</a>
                   </nav>
 
-                  <small><i>Doc Last Update:</i> 01/09/2023</small>
+                  <!-- <small><i>Doc Last Update:</i> 01/09/2023</small> -->
+                  <small><i>Doc Last Update:</i><span class="update">-</span></small>
                 </nav>
                 <!--//doc-menu-->
               </div>
@@ -151,9 +152,9 @@
 
                   <div class="section-block">
                     <ul>
-                      <li><strong>Plugin Version:</strong> 1.4.8</li>
-                      <li><strong>Plugin Last Update:</strong> 01/09/2023</li>
-                      <li><strong>Plugin Create Date:</strong> 14/06/2014</li>
+                      <li><strong>Version:</strong><span class="ver">-</span></li>
+                      <li><strong>Recent Update:</strong> <span class="update">-</span></li>
+                      <li><strong>Release Date:</strong> 14/06/2014</li>
                       <li><strong>Premium Support:</strong> <a href="http://codecanyon.net/item/bwl-knowledge-base-manager/7972812/support/contact">Send Message</a></li>
                       <li><strong>Web Site:</strong> <a href="https://bluewindlab.net/">https://bluewindlab.net</a></li>
                       <li><strong>Developed By:</strong> Mahbub Alam Khan</li>
@@ -2721,6 +2722,19 @@ function cb_bkb_user_email_field_hints( $content ) {
 
                   <div id="upgrade_notes" class="section-block">
                     <h2 class="block-title">Upgrade Notes</h2>
+                    
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <p>
+                          <b>Upgrading to version <span class="ver">-</span></b>
+                        </p>
+                        <ul>
+                          <li>Replace all files and directories in your
+                            <strong>plugins/bwl-kb-manager</strong>
+                            folder.</li>
+                        </ul>
+                      </div>
+                    </div>
 
                     <div class="row">
                       <div class="col-md-12 col-12">
@@ -2741,18 +2755,6 @@ function cb_bkb_user_email_field_hints( $content ) {
                       </div>
                     </div>
 
-                    <div class="row">
-                      <div class="col-md-12 col-12">
-                        <p>
-                          <b>Upgrading from 1.4.7 to 1.4.8</b>
-                        </p>
-                        <ul>
-                          <li>Replace all files and directories in your
-                            <strong>plugins/bwl-kb-manager</strong>
-                            folder.</li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                   <!--//doc-section-->
 
@@ -2763,6 +2765,8 @@ function cb_bkb_user_email_field_hints( $content ) {
 
                     <div class="row">
                       <div class="col-md-12 col-12">
+
+                        <div id="dynamic_log"></div>
 
                         <div>
                           <b>2023, September 01 - v 1.4.8</b>
@@ -3552,4 +3556,6 @@ function cb_bkb_user_email_field_hints( $content ) {
 <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/all.min.js"></script>
 <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/main.js"></script>
 <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/products.js"></script>
+<script type="text/javascript" src="assets/js/changelog.js"></script>
+
 </body></html>
