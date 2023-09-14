@@ -56,14 +56,14 @@ $(function () {
       alert(".update is missing. Example: srcare doc")
     }
   }
-
-  var metaData = ["1.3.6", "09/09/2023"] // Change only the version and date
+  // Change only the version and date
+  var metaData = ["1.2.1", "11/09/2023"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2023, September, 09 - v 1.3.6", ["Fixed: Plugin code issues.", "Fixed: Plugin translation issues.", "Updated: WooCommerce product voting addon to 1.1.1", "Updated: User Vote Tracker addon 1.0.7"]],
+    ["2023, September, 11 - v 1.2.1", ["Fixed: Plugin code issues.", "Updated: Plugin for WordPress 6.3.1"]],
   ]
   generateDynamicLog(changeLogData)
 })
