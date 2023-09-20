@@ -4,9 +4,10 @@ $(function () {
     let Obj = {
       "Updated:": "<b>Updated:</b>",
       "Fixed:": "<b>Fixed:</b>",
+      "Added:": "<b>Added:</b>",
     }
 
-    return string.replace(/Updated:|Fixed:/gi, function (matched) {
+    return string.replace(/Updated:|Fixed:|Added:/gi, function (matched) {
       return Obj[matched]
     })
   }
@@ -57,12 +58,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.2.1", "03/08/2023"]
+  var metaData = ["1.2.2", "20/09/2023"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2023, September, 20 - v 1.2.2", ["Fixed: Plugin Translation issues.", "Updated: Plugin Translation .POT file"]],
     ["2023, August, 03 - v 1.2.1", ["Updated: Plugin license notice and activation page."]],
     ["2023, July, 29 - v 1.2.0", ["Fixed: Plugin code issues."]],
   ]
