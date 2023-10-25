@@ -58,12 +58,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.8", "05/0/2023"]
+  var metaData = ["1.3.9", "25/10/2023"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2023, October, 25 - v 1.3.9", ["Update: Plugin voting report page.", "Updated: plugin license page."]],
     ["2023, October, 05 - v 1.3.8", ["Fixed: Plugin text translation issues.", "Updated: Plugin .POT file."]],
     ["2023, September, 14 - v 1.3.7", ["Fixed: Plugin text translation issues.", "Updated: Plugin .POT file."]],
     ["2023, September, 09 - v 1.3.6", ["Fixed: Plugin code issues.", "Fixed: Plugin translation issues.", "Updated: WooCommerce product voting addon to 1.1.1", "Updated: User Vote Tracker addon 1.0.7"]],
