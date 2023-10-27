@@ -57,12 +57,13 @@ $(function () {
     }
   }
 
-  var metaData = ["1.2.5", "15/09/2023"] // Change only the version and date
+  var metaData = ["1.2.6", "27/10/2023"] // Change only the version and date
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2023, October 27 - v 1.2.6", ["Fixed: Admin panel notice.", "Updated: Plugin for WooCommerce 8.2.1"]],
     ["2023, September 15 - v 1.2.5", ["Fixed: Meta link issue for the options panel.", "Updated: Plugin translation file", "Updated: Plugin styles and javascripts."]],
     ["2023, September 03 - v 1.2.4", ["Fixed: Plugin code issues.", "Updated: Plugin for WooCommerce 8.3.0", "Updated: Plugin styles and javascripts."]],
   ]
