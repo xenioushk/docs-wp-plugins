@@ -1,1264 +1,1718 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>BWL Post To Breaking News Manager Plugin Documentation</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="BWL Post To Breaking News Manager Plugin Documentation">
-    <meta name="author" content="Md Mahbub Alam Khan">
+    <meta name="author" content="Mahbub Alam Khan">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://xenioushk.github.io/bwl-static-assets/doc-assets/css/all.min.css"/>
     <link rel="stylesheet" href="https://xenioushk.github.io/bwl-static-assets/doc-assets/css/styles.css"/>
-    
-</head> 
 
-<body class="body-green">
-    
-    <div class="page-wrapper">
-        
-        <!-- ******Header****** -->
-        <header id="header" class="header">
-            <div class="container">
-                <div class="branding">
-                    <h1 class="logo text-center">
-                        <a href="index.html">
-                            <span class="text-bold">BWL Post To Breaking News Manager<br>WordPress Plugin Documentation</span>
-                        </a>
-                    </h1>
-                </div><!--//branding-->
-            </div><!--//container-->
-        </header><!--//header-->
-        
-        <div class="doc-wrapper">
-            <div class="container">
+  </head>
 
-                <div class="doc-body row">
+  <body class="body-green">
 
-                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
-                        <div id="doc-nav" class="doc-nav">
+    <div
+      class="page-wrapper">
 
-                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link scrollto sub-menu-sign" href="#plugin-overview-section">Plugin Overview & Installation</a>
-                                <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#requirements">Requirements</a>
-                                    <a class="nav-link scrollto" href="#installation_steps">Installation Steps</a>
-                                </nav><!--//nav-->
-
-                                <a class="nav-link scrollto sub-menu-sign" href="#operate_the_plugin">Operate The Plugin</a>
-                                <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#using_quick_edit">Using Quick Edit</a>
-                                    <a class="nav-link scrollto" href="#using_custom_meta_box">Using Custom Meta Box</a>
-                                    <a class="nav-link scrollto" href="#assign_breaking_news_location">Assign Breaking News Location</a>
-                                </nav><!--//nav-->
-
-                                
-                                <a class="nav-link scrollto sub-menu-sign" href="#plugin_shortcodes_section">Plugin Shortcodes</a>
-                                <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#sc_all_shortcodes">All Shortcodes</a>
-                                </nav>
-
-                                <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Option Panel</a>
-                                <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#header_ticker_settings">Header Ticker Settings</a>
-                                    <a class="nav-link scrollto" href="#footer_ticker_settings">Footer Ticker Settings</a>
-                                    <a class="nav-link scrollto" href="#twitter_ticker_settings">Twitter Ticker Settings</a>
-                                    <a class="nav-link scrollto" href="#theme_builder_settings">Theme Builder Settings</a>
-                                    <a class="nav-link scrollto" href="#advanced_option_settings">Advanced Option Settings</a>
-                                </nav><!--//nav-->
-                                
-                                <a class="nav-link scrollto" href="#built_in_widgets_section">Built-in Widgets</a>
-                                <a class="nav-link scrollto" href="#plugin_translation">Plugin Translation</a>
-                                <a class="nav-link scrollto" href="#plugin_addons">Plugin Addon</a>
-                                <a class="nav-link scrollto sub-menu-sign" href="#support_miscellaneous_section">Support & Miscellaneous</a>
-                                
-                                <nav class="doc-sub-menu nav flex-column">
-                                    
-                                    <a class="nav-link scrollto" href="#video_tutorials">Video Tutorials</a>
-                                    <a class="nav-link scrollto" href="#faq_trouble_shoot">Troubleshooting</a>
-                                </nav>
-
-                                <a class="nav-link scrollto" href="#upgrade_notes">Upgrade Notes</a>
-                                <a class="nav-link scrollto" href="#change_log">Change Log</a>
-                                <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
-
-                                <a class="nav-link scrollto sub-menu-sign" href="#theme_template_section">More Template & Themes</a>
-                                <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#wordpress_themes">WordPress Themes</a>
-                                    <a class="nav-link scrollto" href="#wordpress_plugins">WordPress Plugins</a>
-                                    <a class="nav-link scrollto" href="#html5_templates">HTML5 Templates</a>
-                                </nav>
-                                
-                                <!-- <small><i>Doc Last Update:</i> 11/09/2023</small> -->
-                                <small><i>Doc Last Update:</i><span class="update">-</span></small>
-                                
-                            </nav><!--//doc-menu-->
-
-                        </div>
-                    </div><!--//doc-sidebar-->
-
-                    <div class="doc-content col-md-9 col-12 order-1">
-
-                        <div class="content-inner">
-                            
-                            <!--  Plugin Overview & Installation -->
-
-                            <section id="plugin-overview-section" class="doc-section">
-                                
-                              
-                                <h2 class="section-title">About BWL Post To Breaking News Manager</h2>
-                                
-                                <div class="section-block">
-                                    <ul class="square-list">
-                                        <li><strong>Version:</strong><span class="ver">-</span></li>
-                                        <li><strong>Recent Update:</strong> <span class="update">-</span></li>
-                                        <li><strong>Release Date:</strong> 06/12/2013</li>
-                                        <li><strong>Premium Support:</strong> <a href="https://codecanyon.net/item/bwl-post-to-breaking-news-manager/6335199/support/contact">Send Message</a></li>
-                                        <li><strong>Web Site: </strong><a href="https://bluewindlab.net/">https://bluewindlab.net</a></li>
-                                        <li><strong>Developed By:</strong> Mahbub Alam Khan </li>
-                                        <li><strong>Skype: </strong> bluewindlab</li>
-                                    </ul>
-                                    
-                                    <p>
-                                        If you like this plugin, please spare a minute to <a href="https://1.envato.market/bnm-wp" target="_blank">rate <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></a> it.
-                                    </p>
-                                
-                                
-                                <h3 class="block-title">Plugin Overview</h3>
-                                <p>
-                                    <b>BWL Post To Breaking News Manager</b> is a premium WordPress plugin that allows you to display unlimited number of posts as breaking news in 
-                                    your WordPress powered site. By using it, you can able to display breaking news ticker in any page header section, footer section and in sidebars. 
-                                </p>
-
-                                <p>
-                                    This plugin comes with an extensive option panel with useful features that allows you to customize ticker text color, ticker background color and other settings.                                     
-                                    Built-in Widget option allow you to show <strong>Breaking News items</strong> in sidebar of your website. 
-                                    It's very simple but much more efficient.  Checkout Plugin outlook in WordPress site-
-                                </p>
-                                
-                                
-                                <div class="doc-img-box text-left">
-                                    <a href="img/overview/1_demo.png"  class="venobox">
-                                        <img class="img-fluid" src="img/overview/1_demo.png" alt="doc_img" />
-                                    </a>
-                                </div>
-                                
-                                </div>
-                                
-                            </section><!--//doc-section-->
-
-                            <!--  Installation Section -->
-
-                            <section id="installation-section" class="doc-section">
-
-                                <div id="requirements"  class="section-block">
-                                    <h3 class="block-title">Installation Requirements</h3>
-                                    <p>
-                                        You need at least <strong>WordPress version 6.0+</strong> installed for this plugin to work properly. It is strongly recommended that you always use the latest stable version of WordPress to ensure 
-                                        all known bugs and security issues are fixed. Other requirements:
-                                    </p>
-                                    <ul class="square-list">
-                                        <li>PHP version 7.3 or greater.</li>
-                                        <li>MySQL version 5.0.15 or greater.</li>
-                                    </ul>
-
-                                </div><!--//section-block-->
-
-                                <div id="installation_steps"  class="section-block">
-
-                                    <div class="row">
-                                        
-                                        <div class="col-md-12 col-12">
-
-                                            <h3 class="block-title">Installation Steps</h3>
-                                            <p>To install a plugin, you must first upload the plugin files and then activate the plugin. The plugin files can be uploaded in two ways:</p>
-                                            <ul>
-                                                <li><strong>FTP Upload:</strong> Using your FTP client, upload the non-zipped plugin folder into the <strong>/wp-content/plugins/</strong> folder on your server.</li>
-                                                <li><strong>WordPress Upload:</strong> Navigate to <strong>Plugins >> Add New >> Upload</strong>. Go to browse, and select the zipped plugin folder. 
-                                                    Hit "Install Now" and the plugin will be uploaded and installed.</li>
-                                            </ul>
-
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> 
-                                                Go to WP admin dashboard and click on <em>Plugins >> Add New</em>.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/installation/1.jpg"  class="venobox">
-                                                    <img class="img-fluid" src="img/installation/1.jpg" alt="doc_img" />
-                                                </a>
-                                            </div>
-
-                                            <p>
-                                                <strong class="steps">Step 02:</strong>
-                                                Click on <em> Upload Plugin</em> and upload 'bwl-breaking-news-manager.zip' file. Finally, click <strong>Install Now</strong> button.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/installation/2.jpg"  class="venobox">
-                                                    <img class="img-fluid" src="img/installation/2.jpg" alt="doc_img" />
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 03:</strong>
-                                                Once plugin successfully uploaded in the server, you will get a message to activate it. Click on <b>Activate Plugin</b> Link and plugin will be ready to use .
-                                                After activating the plugin, you will be redirected in plugins page of the WordPress admin panel, and you will get newly installed <strong>BWL Post To Breaking News Manager Plugin</strong> in there.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/installation/3.jpg"  class="venobox">
-                                                    <img class="img-fluid" src="img/installation/3.jpg" alt="doc_img" />
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 04:</strong> 
-                                                Now you are ready to use BWL Post To Breaking News Manager Plugin! In left sidebar menu, you will see a new section like the following screenshot.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/installation/4.jpg"  class="venobox">
-                                                    <img class="img-fluid" src="img/installation/4.jpg" alt="doc_img" />
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                        
-                                    </div>
-
-                                </div><!--//section-block-->
-
-                            </section><!--//doc-section-->
-
-                            <!--  Operate The Plugin Section -->
-
-                            <section id="operate_the_plugin" class="doc-section">
-
-                                <h2 class="section-title">Operate The Plugin</h2>
-                                <p>Breaking news manager plugin provides easy way to assign a post as breaking news. There are two ways to select posts as breaking news content. Here goes the details.</p>
-
-                                <div id="using_quick_edit"  class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title"><i>01:</i> Quick Edit Method</h3>
-                                            <p>
-                                                <strong>Quick Edit</strong> method allows you to mark any post easily as a breaking news. Please check the following steps of <strong>Quick Edit</strong> method.
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> Login to WordPress admin panel and Navigate to <em>Posts</em> link from the left menu. 
-                                            </p>
-                                            <p>
-                                                <strong class="steps">Step 02:</strong> You will get all the posts and two new additional columns <strong>Breaking</strong> and <strong>Location</strong> in there. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 03:</strong> <strong>Breaking</strong> column contain two different icons to specify the post breaking news status. Please check the following screenshot.
-                                                Additionally, <strong>Location</strong> column provides the information of that particular post filter area.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/quick_edit/1.jpg"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/quick_edit/1.jpg" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 04:</strong> Next, set your mouse cursor on any of the post row, and a <strong>link panel</strong> will appear bellow the post title. 
-                                                Now, click on the <em>Quick Edit</em> link. Please check the following screenshot.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/quick_edit/2.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/quick_edit/2.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 05:</strong> Once you click on the <em>Quick Edit</em> link, a new section will appear like the following screenshot.
-                                                From the <em>Breaking News</em> drop down select <em>Yes</em>, and hit <em>Update</em> button. 
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/quick_edit/3.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/quick_edit/3.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 06:</strong> <em>Well done !</em> That post now marked and will display as breaking news, and <em>Cross</em> icon will
-                                                be changed to <em>Tick</em> icon. You can check the full process in the following video tutorial.
-                                            </p>
-                                            
-                                            
-                                            <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=YOZOKzFMai8"  data-vbtype="video" data-autoplay="true">
-                                                <i class="fas fa-play"></i> Watch Video Tutorial
-                                            </a>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-                                
-                                <div id="using_custom_meta_box"  class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title"><i>02:</i> Custom Meta Box Method</h3>
-                                            <p><strong>Custom Meta Box</strong> method allows you to assign a post as breaking news post, while you are adding or editing the post. Check the following step by step process in detail.</p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> Login to WordPress admin panel and Navigate to <em>Posts</em> link from the left menu. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 02:</strong> You will get all the posts and two new additional columns <strong>Breaking</strong> and <strong>Location</strong> in there. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 03:</strong> Next, set your mouse cursor on any of the post row, and a <strong>link panel</strong> will appear bellow the post title. 
-                                                Now, click on the <em>Edit</em> link. Please check the following screenshot.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/custom_meta_box/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/custom_meta_box/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 04:</strong> Below the post editor, you will get a custom meta box with the title <strong>BWL Breaking News Settings</strong>". From 
-                                                <em>Add As Breaking News</em> drop down select <em>Yes</em> and <strong>Update/Publish</strong>
-                                                the post.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/custom_meta_box/2.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/custom_meta_box/2.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 06:</strong> <em>Great !</em> That post now marked and will display as breaking news. You can check the full process in the following video tutorial.
-                                            </p>
-
-                                            <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=YOZOKzFMai8"  data-vbtype="video" data-autoplay="true">
-                                                <i class="fas fa-play"></i> Watch Video Tutorial
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-                                    
-                                </div><!--//section-block-->
-                                
-                                <div class="alert alert-info d-none" role="alert">
-                                    <h4 class="alert-heading">What is the main difference between category/topic ?</h4>
-                                    <hr />
-                                    <p>
-                                        Basically, there are no major differences between this two taxonomies (category and topic). 
-                                        From the previous experience we found, some users have used topics taxonomy to filter FAQ posts to serve their own purpose. 
-                                        That means FAQ topics is an optional term.
-                                    </p>
-                                </div>
-
-                                <div id="assign_breaking_news_location"  class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Assign Breaking News Location:</h3>
-
-                                            <p>There are 3 locations ( <em>Header/Footer/Widget Area</em> ) available to assign and display breaking news ticker. However, using shortcode you can display breaking news ticker inside the content. We will discuss 
-                                                that in <em>Plugin Shortcode</em> section. Now, we will describe step by step process to assign breaking news location.</p>
-
-                                            <h4 class="block-title"><i>01.</i> Quick Edit Method:</h4>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> Login to WordPress admin panel and Navigate to <em>Posts</em> link from the left menu. 
-                                            </p>
-                                            <p>
-                                                <strong class="steps">Step 02:</strong> You will get all the posts listed in there. 
-                                            </p>
-                                            
-                                             <p>
-                                                <strong class="steps">Step 03:</strong> Next, set your mouse cursor on any of the post row, and a <strong>link panel</strong> will appear bellow the post title. 
-                                                Now, click on the <em>Quick Edit</em> link. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 04:</strong> You will get a drop down for <em>New Display Location</em>. If you would like to display the post <em>only in header ticker</em> then 
-                                                select <em>Only Header Ticker</em> from the drop-down. 
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/assign_location/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/assign_location/1.png" alt="doc_img" />
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 05:</strong> Finally, click the <em>Update</em> button. Now, your post will only show in the <em>Header Ticker</em>.
-                                            </p>
-                                            
-                                            
-                                            <h4 class="block-title"><i>02:</i> Bulk Edit Method:</h4>
-                                            <p>
-                                                Now, Using this feature you can easily set multiple post as a breaking new with just a single click. This feature 
-                                                introduced in version 1.0.1.  Let's see how to user Bulk Edit option.                    
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> Login to WordPress admin panel and Navigate to <em>Posts</em> link from the left menu. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 02:</strong> You will get all the posts listed in there. 
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 03:</strong> Next, Click on the check box beside each post, and from the <em>Bulk Action</em> drop down select <strong>Edit</strong>. 
-                                                Finally, click on the <strong>Apply</strong> button.
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/assign_location/2.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/assign_location/2.png" alt="doc_img" />
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 04:</strong> Now, you will get options like the following screenshot. Choose your option from the <em>New Display Location</em> drop down and hit the <em>Update</em> button.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/operate/assign_location/3.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/operate/assign_location/3.png" alt="doc_img" />
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-
-                            </section><!--//doc-section-->
-                            
-                            <!--  Plugin Shortcode Section -->
-
-                            <section id="plugin_shortcodes_section" class="doc-section">
-                                
-                                <!--  Plugin Shortcode Intro -->
-
-                                <div class="section-block">
-                                    <h2 class="section-title">Plugin Shortcodes</h2>
-                                    
-                                    <p>
-                                        "BWL Post To Breaking News Manager" provide shortcode feature that integrated with TinyMce Editor.
-                                        So, you can easily integrate Breaking New in you page or post. Go to any post/page and then click on <img src="img/shortcodes/bnm-shortcode-btn.png" alt="doc" style="padding: 0; margin: 0; box-shadow: 0 0 0 #FFFFFF;"/> icon in TinyMce editor toolbar.                                     
-                                        Click on that button will popup a shortcode editor like following image.
-                                    </p>
-
-                                    <div class="doc-img-box">
-                                        <a href="img/shortcodes/bnm-shortcode-editor.jpg"  class="venobox">
-                                            <img class="img-fluid" src="img/shortcodes/bnm-shortcode-editor.jpg" alt="BWL Post To Breaking News Manager shortcode editor"/>
-                                        </a>
-                                    </div>
-
-                                    
-                                </div>
-                                
-                                <!--  All Shortcodes -->
-                                
-                                <div class="section-block" id="sc_all_shortcodes">
-
-                                    <h4 class="block-title">All Shortcodes:</h4>
-
-                                    <ul class="square-list">
-                                        
-                                        <li>
-                                            <p>Display Inline Ticker: </p>
-                                            <pre class="language-markup"><code>[bwl_bnm inline=1]</code></pre>
-                                        </li>
-                                        <li>
-                                            <p>Display Inline Ticker RTL Mode: </p>
-                                            <pre class="language-markup"><code>[bwl_bnm rtl=1 inline=1]</code></pre>
-                                        </li>
-                                        <li>
-                                            <p>Display Tweets in to Post: </p>
-                                            <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='tweets']</code></pre>
-                                        </li>
-                                        <li>
-                                            <p>Display Header Breaking News In To Posts: </p>
-                                            <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='header']</code></pre>
-                                        </li>
-                                        <li>
-                                            <p>Display Footer Breaking News In To Posts: </p>
-                                            <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='footer']</code></pre>
-                                        </li>
-                                    </ul>
-                                    
-                                </div>
-
-                            </section><!--//doc-section-->
-
-                            <!--  Plugin Option Panel Section -->
-
-                            <section id="setup_page_content_section" class="doc-section">
-
-                                <h2 class="section-title">Plugin Option Panel</h2>
-                                
-                                <p>
-                                    <strong>BWL Post To Breaking News Manager</strong> comes with custom sticky header and footer breaking news bar. You can 
-                                    active/de-active header and footer bar. Available settings described in below -
-                                </p> 
-
-                                <ul>
-                                    <li>Customize Ticker Height </li>
-                                    <li>Edit ticker bar background color</li>
-                                    <li>Edit ticker bar border color</li>
-                                    <li>Show/Hide ticker bar border</li>
-                                    <li>Add Custom Title (Default: Breaking News)</li>                                    
-                                    <li>Edit title color and font size</li>
-                                    <li>Edit breaking news color and font size</li>
-                                    <li>Show/Hide post date</li>                                    
-                                    <li>2 types of animation ( Fade/Slide )</li>
-                                    <li>3 types of animation speed( Slow/Medium(Default)/Fast )</li>
-
-                                </ul>
-                                
-                                <!--  Header Ticker Settings -->
-
-                                <div id="header_ticker_settings" class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Header Ticker Settings:</h3>
-                                            <p class="d-none">
-                                                BWL Post To Breaking News Manager comes with 7 different themes. So, you can change theme according to your choice. Just select your suitable color scheme and click save. Admin Panel view -
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/options/header/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/options/header/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-                                
-                                <!--  Footer Ticker Settings -->
-
-                                <div id="footer_ticker_settings" class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Footer Ticker Settings:</h3>
-                                            <p class="d-none">
-                                                BWL Post To Breaking News Manager comes with 7 different themes. So, you can change theme according to your choice. Just select your suitable color scheme and click save. Admin Panel view -
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/options/footer/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/options/footer/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-                                
-                                <!--  Twitter Ticker Settings -->
-
-                                <div id="twitter_ticker_settings" class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Twitter Ticker Settings:</h3>
-                                            <p>
-                                                You need to create Twitter API key. Go to this link <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a> and there you will get detail instructions
-                                                about how to get API key. 
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/options/twitter/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/options/twitter/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-                                
-                                <!--  Theme Builder Settings -->
-
-                                <div id="theme_builder_settings" class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Theme Builder Settings:</h3>
-                                            <p class="d-none">
-                                                You need to create Twitter API key. Go to this link <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a> and there you will get detail instructions
-                                                about how to get API key. 
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/options/theme_builder/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/options/theme_builder/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-                                
-                                <!--  Advanced Option Settings -->
-
-                                <div id="advanced_option_settings" class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <h3 class="block-title">Advanced Option Settings:</h3>
-                                            <p class="d-none">
-                                                You need to create Twitter API key. Go to this link <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a> and there you will get detail instructions
-                                                about how to get API key. 
-                                            </p>
-                                            
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/options/advance/1.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/options/advance/1.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div><!--//section-block-->
-
-                            </section><!--//doc-section-->
-
-                            <!--  Built-in Widgets Section -->
-
-                            <section id="built_in_widgets_section" class="doc-section">
-
-                                <h2 class="section-title">Built-in Widgets:</h2>
-
-                                <div class="section-block">
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-
-                                            <p>
-                                                You can easily show breaking news in sidebar by using Widget option. Please check the following steps.
-                                            </p>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 01:</strong> Navigate to <strong>Appearance >> Widgets</strong>, and you
-                                                will get a widget box like the following screenshot. 
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/widget/1_widget_box.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/widget/1_widget_box.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-                                            
-                                            <p>
-                                                <strong class="steps">Step 02:</strong> Next, <em>Drag and Drop</em> it to the widget container. 
-                                                <strong>Please note that</strong>, your site currently activated theme must support widget feature. If everything is fine, you will get all the option in widget container.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/widget/1_widget_box_settings.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/widget/1_widget_box_settings.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                            <p>
-                                                <strong class="steps">Step 03:</strong> Set all the options according to your site requirement. Finally, you will get a new <strong>Breaking News Box</strong> in the front end of your site like the following screenshot.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <a href="img/widget/1_output.png"  class="venobox">
-                                                    <img class="img-fluid" src="img/widget/1_output.png" alt="doc_img"/>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </section><!--//doc-section-->
-                            
-                            <section id="plugin_translation" class="doc-section">
-                                
-                                <!-- Plugin Translation Block  -->
-
-                                <div class="section-block">
-                                    <h2 class="block-title">Plugin Translation</h2>
-
-                                    <p>
-                                        <strong>BWL Post To Breaking News Manager</strong> WordPress Plugin comes comes with a text translation feature and you can easily translate the plugin texts to any language. 
-                                        Check the following plugin translation steps.
-                                    </p> 
-
-                                    <div class="row">
-
-                                        <div class="col-md-12 col-12">
-
-                                            <p>
-                                                <strong class="steps">Step 01: </strong> Download and install <a href="https://poedit.net/download" target="_blank">Poedit</a> software. 
-    
-                                            </p>
-
-                                            <p>
-                                                <strong class="steps">Step 02: </strong> Next, navigate to <strong>/wp-content/plugins/bwl-breaking-news-manager/lang/</strong>. 
-                                                <br>You will get the <strong>bwl-breaking-news-manager.pot</strong> file.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/01_translation_pot_file_and_location.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-                                            <p>
-                                                <strong class="steps">Step 03: </strong> Next, navigate to <strong>/wp-content/plugins/bwl-breaking-news-manager/lang/</strong>. 
-                                                <br>You will get the <strong>bwl-breaking-news-manager.pot</strong> file.
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                <img class="img-fluid" src="img/translation/01_translation_pot_file_and_location.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-
-                                            <p>
-                                                <strong class="steps">Step 03: </strong> Open the <strong>bwl-breaking-news-manager.pot</strong> file using <strong>Poedit</strong> software. 
-                                                You will get all the plugin texts in there and you just need to add appropriate translated text in <strong>Translation</strong> box.
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/02_translation_file_opened_with_poedit.jpg" alt="translation_file_opened_with_poedit"/>                                               
-                                            </div>
-
-                                            <p>
-                                                <strong class="steps">Step 04: </strong> The Plugin text-domain is <strong>bwl-breaking-news</strong>. Now, we would like to translate the plugin text to <strong>German</strong> language. 
-                                                So, translation file name must be <strong>bwl-breaking-news-de_DE.po</strong>
-                                            </p>
-
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/03_create_new_translation_file.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-                                            
-                                            <div class="callout-block callout-info">
-                                                <div class="icon-holder">
-                                                    <i class="fas fa-info-circle text-light"></i>
-                                                </div><!--//icon-holder-->
-                                                <div class="content">
-                                                    <h4 class="callout-title text-light">Note:</h4>
-                                                    <p class="text-light">
-                                                        Not sure about country and language code? Get your <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Country-Codes.html#Country-Codes" target="_blank">Country Code </a> and 
-                                                        <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Usual-Language-Codes.html#Usual-Language-Codes" target="_blank">Language code</a>.
-                                                    </p>
-                                                </div><!--//content-->
-                                            </div><!--//callout-block-->
-
-                                            <p>
-                                                <strong class="steps">Step 05: </strong> From the <strong>File</strong> menu, click <strong>Save as</strong> and provide the file name 'bwl-breaking-news-de_DE.po'. 
-                                                The translation file will be generated inside the <strong>lang</strong> folder. 
-                                            </p>                                            
-                                            
-
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/04_save_the_translation_file.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/05_provide_the_correct_translation_file_name.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-                                            <p>
-                                                <strong class="steps">Step 06:</strong> Now the file is ready for the translation. 
-                                            </p>
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/06_translation_file_ready_to_use.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-                                            <div class="doc-img-box text-left">
-                                                    <img class="img-fluid" src="img/translation/07_add_translated_text.jpg" alt="translation_pot_file_and_location"/>                                               
-                                            </div>
-
-                                            
-
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                                
-                            </section>
-                            
-                            
-                            
-                            <section class="doc-section" id="plugin_addons">                                
-                                
-                                <!--  Plugin Addons Block  -->
-
-                                <div  class="section-block">
-                                    <h2 class="block-title">Plugin Addon:</h2>
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            
-                                            
-                                            <h4>01. Breaking News Addon For WP Bakery Page Builder </h4>
-                                            <p>Easy way to insert breaking news ticker in to a page. </p>
-                                            <p><a href="https://xenioushk.github.io/docs-plugins-addon/bnm-addon/index.html" target="_blank">Breaking News Addon For WP Bakery Page Builder</a></p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </section>
-                            
-                            <!--  Support & Miscellaneous Section -->
-                            
-                            <section id="support_miscellaneous_section" class="doc-section">
-
-                                <h2 class="section-title">Support & Miscellaneous</h2>
-                                <p>BWL Post To Breaking News Manager Plugin comes with <strong>Six (06) months premium support</strong> directly from the developer. 
-                                    We are committed to assisting our buyers and most of the time it takes <strong>less than 24 hours</strong> to reply to the support message. 
-                                    If you face any particular issue regarding the plugin, then the developer will assist you to fix the issue. 
-                                </p>
-                                
-                                <!-- Video Tutorial Block  -->
-
-                                <div id="video_tutorials" class="section-block">
-                                    <h2 class="block-title">Video Tutorials</h2>
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-
-                                            <ul>
-                                                <li>
-                                                    <a href="https://www.youtube.com/watch?v=gg_ijAYw4h8" class="venobox" data-vbtype="video" data-autoplay="true">Plugin Feature Reviews</a>
-                                                </li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!--  FAQ/Troubleshoot Block  -->
-
-                                <div id="faq_trouble_shoot" class="section-block">
-
-                                    <h2 class="block-title">Troubleshooting</h2>
-
-                                    <!--  Start FAQ Section -->
-
-                                    <div class="accordion" id="faq_accordion">
-
-                                        <!--  FAQ#1 -->
-
-                                        <div class="card">
-
-                                            <div class="card-header" id="headingOne">
-                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_1">
-                                                    <i class="fas fa-question-circle"></i> Does plugin work with any theme?
-                                                </a>
-                                            </div>
-
-                                            <div id="faq_1" class="collapse" aria-labelledby="headingOne" data-parent="#faq_accordion">
-                                                <div class="card-body">
-                                                    <p>
-                                                        Yes, plugin is compatible with any WordPress theme.
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <!--  FAQ#2 -->
-
-                                        <div class="card">
-
-                                            <div class="card-header" id="headingTwo">
-                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_2">
-                                                    <i class="fas fa-question-circle"></i> Can I use the plugin in RTL site?
-                                                </a>
-                                            </div>
-
-                                            <div id="faq_2" class="collapse" aria-labelledby="headingTwo" data-parent="#faq_accordion">
-                                                <div class="card-body">
-                                                    Yes, You can.
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <!--  FAQ#3 -->
-
-                                        <div class="card">
-
-                                            <div class="card-header" id="headingThree">
-                                                <a class="btn-link collapsed" href="#"  data-toggle="collapse" data-target="#faq_3">
-                                                    <i class="fas fa-question-circle"></i> I want to display news ticker inside a post. Is that possible?
-                                                </a>
-                                            </div>
-
-                                            <div id="faq_3" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
-                                                <div class="card-body">
-                                                    <p>
-                                                        Yes, you can use the shortcode to display ticker with your post. Here goes the shrotcode.
-                                                    </p>
-                                                    <pre class="language-markup"><code>[bwl_bnm inline=1]</code></pre>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                    <!--  End FAQ section  -->
-
-                                </div><!--//doc-section-->
-
-                                <!-- Upgrade Notes Block  -->
-
-                                <div id="upgrade_notes" class="section-block">
-                                    <h2 class="block-title">Upgrade Notes</h2>
-
-                                    <div class="row">
-
-                                        <div class="col-md-12 col-12">
-                                            
-                                            <p>
-                                                <b>Upgrading to version <span class="ver">-</span></b>
-                                            </p>
-                                            <ul>
-                                                <li>Replace all files and directories in your <strong>plugins/bwl-breaking-news-manager</strong> folder.</li>
-                                            </ul>                                            
-                                            
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-
-                                            <div class="callout-block callout-warning">
-                                                <div class="icon-holder">
-                                                    <i class="fas fa-info-circle text-light"></i>
-                                                </div><!--//icon-holder-->
-                                                <div class="content">
-                                                    <h4 class="callout-title text-light">Important Note:</h4>
-                                                    <p class="text-light">If you modify any plugin files, please take a backup before updating all files and folders. We highly recommend taking a backup of language files.</p>
-                                                </div><!--//content-->
-                                            </div><!--//callout-block-->
-
-
-                                        </div>
-                                    </div>
-
-                                </div><!--//doc-section-->
-
-                                <!-- Change Log Block  -->
-
-                                <div id="change_log" class="section-block">
-                                    <h2 class="block-title">Change Log</h2>
-
-                                    <div class="row">
-
-                                        <div class="col-md-12 col-12">
-
-                                            <div id="dynamic_log"></div>
-                                            
-                                            <div>
-                                                <b>2023, August 01 - v 1.2.0</b> 
-                                                <ul class="square-list">
-                                                  <li><b>Fixed:</b> Plugin code issues.</li>
-                                                  <li><b>Updated:</b> Plugin for WordPress 6.2.2</li>
-                                                  <li><b>Updated:</b> Plugin language/translation file.</li></li>
-                                                  <li><b>Updated:</b> Plugin documentation.</li></li>
-                                                </ul>
-                                            </div>
-
-
-                                            <div>
-                                                <b>2023, June 05 - v 1.1.9</b>  
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin for WordPress 6.2.2</li>   
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-
-                                            <div>
-                                                <b>2023, June 05 - v 1.1.8</b>  
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin for WordPress 6.2.2</li>         
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-                                            
-                                            <div>
-                                                <b>04, October 2020 - v 1.1.6</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin code for latest version of WordPress.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-                                            
-                                            <div>
-                                                <b>27, March 2020 - v 1.1.5</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Shortcode Editor.</li>
-                                                    <li><b>Updated:</b> plugin code for latest version of WordPress.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-                                            
-                                            <div>
-                                                <b>29, September 2019 - v 1.1.4</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Added:</b> Breaking News Addon For WP Bakery Page Builder.</li>
-                                                    <li><b>Updated:</b> plugin code.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-                                            
-                                            <div>
-                                                <b>16, April 2019 - v 1.1.3</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> plugin code.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </div>
-
-                                            <p>
-                                                <b>22, February 2019 - v 1.1.2</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin Code For WP 5.1.0.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-                                            
-                                            <p>
-                                                <b>07, March 2018 - v 1.1.1</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin Code.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>12, March 2016 - v 1.1.0</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> shortcode editor.</li>
-                                                    <li><b>Updated:</b> navigation color issue.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>05, March 2016 - v 1.0.9</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Added:</b> feature to display category/tag wise breaking news in header/footer/inline location.</li>
-                                                    <li><b>Updated:</b> shortcode editor.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>02, January 2016 - v 1.0.8</b> 
-                                                <ul class="square-list">
-                                                <li><b>Added:</b> Tweets Display As Breaking News option.</li>
-                                                <li><b>Added:</b> individual page wise ticker Enable/Disable option.</li>
-                                                <li><b>Updated:</b> RTL issue for inline Ticker.</li>
-                                                <li><b>Updated:</b> Header & Footer Ticker.</li>
-                                                <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>24, October 2015 - v 1.0.7</b> 
-                                                <ul class="square-list">
-                                                <li><b>Added:</b> Separator option between date and title.</li>
-                                                <li><b>Added:</b> Breaking News Post Order/Order By/Limit option. .</li>
-                                                <li><b>Updated:</b> Plugin Shortcode Panel.</li>
-                                                <li><b>Updated:</b> Plugin Option Panel.</li>
-                                                <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>03, September 2015 - v 1.0.6</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Added:</b> Animated Next/Previous Button.</li>
-                                                    <li><b>Added:</b> 5 Custom Icons For Next/Previous Ticker Button .</li>
-                                                    <li><b>Added:</b> Feature to Stop Ticker on Mouse Hover.</li>
-                                                    <li><b>Added:</b> 5 Custom Icons For Show/Hide Ticker Toggle Button .</li>
-                                                    <li><b>Added:</b> 10 Built-in Ticker Themes.</li>
-                                                    <li><b>Updated:</b> Ticker Widget. </li>
-                                                    <li><b>Updated:</b> Inline Ticker. </li>
-                                                    <li><b>Updated:</b> Option Panel. </li>
-                                                    <li><b>Updated:</b> JavaScript Code. </li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>21, November 2014 - v 1.0.5</b> 
-                                                <ul class="square-list">
-                                                <li><b>Added:</b> Custom CSS Code Editor.</li>
-                                                <li><b>Updated:</b> Footer Show/Hide Button Issue.</li>
-                                                <li><b>Updated:</b> Custom CSS codes.</li>
-                                                <li><b>Updated:</b> Options Panel. </li>
-                                                <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>11, June 2014 - v 1.0.4</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Added:</b> Show/Hide Button with breaking News Ticker.</li>
-                                                    <li><b>Added:</b> RTL(Right To Left) Support. </li>
-                                                    <li><b>Updated:</b> Notification Feature added. </li>
-                                                    <li><b>Updated:</b> Options Panel. </li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>20, March 2014 - v 1.0.3</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Updated:</b> Plugin enable/disable issue.</li>
-                                                    <li><b>Updated:</b> Ticker Stylesheet.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>31, December 2013 - v 1.0.2</b> 
-                                                <ul class="square-list">
-                                                    <li><b>Added:</b> Theme Panel.</li>
-                                                    <li><b>Added:</b> Live Display while create new theme.</li>
-                                                    <li><b>Updated:</b> Ticker Stylesheet.</li>
-                                                    <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                    <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>15, December 2013 - v 1.0.1</b> 
-                                                <ul class="square-list">
-                                                <li><b>Added:</b> Bulk Edit Option.</li>
-                                                <li><b>Added:</b> News Filter.</li>
-                                                <li><b>Added:</b> 14 New animations.</li>
-                                                <li><b>Added:</b> Shortcode Editor.</li>
-                                                <li><b>Updated:</b> Widget Section.</li>
-                                                <li><b>Updated:</b> Plugin language/translation file.</li>
-                                                <li><b>Updated:</b> Plugin documentation.</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                <b>06, December 2013 - v 1.0 </b> 
-                                                <ul class="square-list">
-                                                <li><b>Initial release</b> </li>
-                                                </ul>
-                                            </p>
-
-                                        </div>
-                                        
-                                    </div>
-
-                                </div><!--//doc-section-->
-
-                                <!-- Source & Credit Block  -->
-
-                                <div id="source_credit" class="section-block">
-                                    <h2 class="block-title">Source & Credit Notes</h2>
-
-                                    <div class="row">
-                                        <div class="col-md-12 col-12">
-                                            <ol>
-                                                <li><a href="http://www.jquery.com/">jQuery Plugin</a><br></li>
-                                                <li><a href="fontawesome.io/">Font Awesome</a><br></li>
-                                            </ol>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </section><!--//doc-section-->
-
-                            <!-- Our Template & Themes Section  -->
-
-                            <section id="theme_template_section" class="doc-section">
-                                <h2 class="section-title">Our Themes & Templates</h2>
-
-                                <div id="wordpress_themes" class="section-block">
-                                <div class="row">
-                                    <div class="col-md-12 col-12">
-                                    <h3 class="block-title">WordPress Themes</h3>
-                                    <ol class="our-products list" id="bwl_wp_themes"></ol>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div id="wordpress_plugins" class="section-block">
-                                <div class="row">
-                                    <div class="col-md-12 col-12">
-                                    <h3 class="block-title">WordPress Plugins</h3>
-                                    <ol class="our-products list" id="bwl_wp_plugins"></ol>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div id="html5_templates" class="section-block">
-                                <div class="row">
-                                    <div class="col-md-12 col-12">
-                                    <h3 class="block-title">HTML5 Themes</h3>
-                                    <ol class="our-products list" id="bwl_html_templates"></ol>
-                                    </div>
-                                </div>
-                                </div>
-                            </section>
-
-
-                        </div><!--//content-inner-->
-                    </div><!--//doc-content-->
-
-                </div><!--//doc-body-->              
-            </div><!--//container-->
-        </div><!--//doc-wrapper-->
-        
-        
-    </div><!--//page-wrapper-->
-    
-    <footer id="footer" class="footer text-center">
+      <!-- ******Header****** -->
+      <header id="header" class="header">
         <div class="container">
-            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
-            
-        </div><!--//container-->
-    </footer><!--//footer-->
-    
-    <a id="backTop">Back To Top</a>
+          <div class="branding">
+            <h1 class="logo text-center">
+              <a href="index.html">
+                <span class="text-bold">BWL Post To Breaking News Manager<br>WordPress Plugin Documentation</span>
+              </a>
+            </h1>
+          </div>
+          <!-- branding-->
+        </div>
+        <!-- container-->
+      </header>
+      <!-- header-->
 
-    <!-- Main Javascript -->
-    <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/all.min.js"></script>
-    <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/main.js"></script>
-    <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/products.js"></script>
-    <script type="text/javascript" src="assets/js/changelog.js"></script>    
-    
-</body>
-</html> 
+      <div class="doc-wrapper">
+        <div class="container">
+
+          <div class="doc-body row">
+
+            <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+              <div id="doc-nav" class="doc-nav">
+
+                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin-overview-section">Plugin Overview & Installation</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#requirements">Requirements</a>
+                    <a class="nav-link scrollto" href="#installation_steps">Installation Steps</a>
+                  </nav>
+                  <!-- nav-->
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#operate_the_plugin">Operate The Plugin</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#using_quick_edit">Using Quick Edit</a>
+                    <a class="nav-link scrollto" href="#using_custom_meta_box">Using Custom Meta Box</a>
+                    <a class="nav-link scrollto" href="#assign_breaking_news_location">Assign Breaking News Location</a>
+                  </nav>
+                  <!-- nav-->
+
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_shortcodes_section">Plugin Shortcodes</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#sc_all_shortcodes">All Shortcodes</a>
+                  </nav>
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Option Panel</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#header_ticker_settings">Header Ticker Settings</a>
+                    <a class="nav-link scrollto" href="#footer_ticker_settings">Footer Ticker Settings</a>
+                    <a class="nav-link scrollto" href="#twitter_ticker_settings">Twitter Ticker Settings</a>
+                    <a class="nav-link scrollto" href="#theme_builder_settings">Theme Builder Settings</a>
+                    <a class="nav-link scrollto" href="#advanced_option_settings">Advanced Option Settings</a>
+                  </nav>
+                  <!-- nav-->
+
+                  <a class="nav-link scrollto" href="#built_in_widgets_section">Built-in Widgets</a>
+                  <a class="nav-link scrollto" href="#plugin_translation">Plugin Translation</a>
+                  <a class="nav-link scrollto" href="#plugin_addons">Plugin Addon</a>
+                  <a class="nav-link scrollto sub-menu-sign" href="#support_miscellaneous_section">Support & Miscellaneous</a>
+
+                  <nav class="doc-sub-menu nav flex-column">
+
+                    <a class="nav-link scrollto" href="#video_tutorials">Video Tutorials</a>
+                    <a class="nav-link scrollto" href="#faq_trouble_shoot">Troubleshooting</a>
+                  </nav>
+
+                  <a class="nav-link scrollto" href="#upgrade_notes">Upgrade Notes</a>
+                  <a class="nav-link scrollto" href="#change_log">Change Log</a>
+                  <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
+
+                  <a class="nav-link scrollto sub-menu-sign" href="#theme_template_section">More Template & Themes</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#wordpress_themes">WordPress Themes</a>
+                    <a class="nav-link scrollto" href="#wordpress_plugins">WordPress Plugins</a>
+                    <a class="nav-link scrollto" href="#html5_templates">HTML5 Templates</a>
+                  </nav>
+
+                  <!-- <small><i>Doc Last Update:</i> 11/09/2023</small> -->
+                  <small>
+                    <i>Doc Last Update:</i>
+                    <span class="update">-</span>
+                  </small>
+
+                </nav>
+                <!-- doc-menu-->
+
+              </div>
+            </div>
+            <!-- doc-sidebar-->
+
+            <div class="doc-content col-md-9 col-12 order-1">
+
+              <div
+                class="content-inner">
+
+                <!--  Plugin Overview & Installation -->
+
+                <section id="plugin-overview-section" class="doc-section">
+
+
+                  <h2 class="section-title">About BWL Post To Breaking News Manager</h2>
+
+                  <div class="section-block">
+                    <ul class="square-list">
+                      <li>
+                        <strong>Version:</strong>
+                        <span class="ver">-</span>
+                      </li>
+                      <li>
+                        <strong>Recent Update:</strong>
+                        <span class="update">-</span>
+                      </li>
+                      <li>
+                        <strong>Release Date:</strong>
+                        06/12/2013</li>
+                      <li>
+                        <strong>Premium Support:</strong>
+                        <a href="https://codecanyon.net/item/bwl-post-to-breaking-news-manager/6335199/support/contact">Send Message</a>
+                      </li>
+                      <li>
+                        <strong>Web Site:
+                        </strong>
+                        <a href="https://bluewindlab.net/">https://bluewindlab.net</a>
+                      </li>
+                      <li>
+                        <strong>Developed By:</strong>
+                        Mahbub Alam Khan
+                      </li>
+                      <li>
+                        <strong>Skype:
+                        </strong>
+                        bluewindlab</li>
+                    </ul>
+
+                    <p>
+                      If you like this plugin, please spare a minute to
+                      <a href="https://1.envato.market/bnm-wp" target="_blank">rate
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </a>
+                      it.
+                    </p>
+
+
+                    <h3 class="block-title">Plugin Overview</h3>
+                    <p>
+                      <b>BWL Post To Breaking News Manager</b>
+                      is a premium WordPress plugin that allows you to display unlimited number of posts as breaking news in 
+                                                                                                                            your WordPress powered site. By using it, you can able to display breaking news ticker in any page header section, footer section and in sidebars.
+                    </p>
+
+                    <p>
+                      This plugin comes with an extensive option panel with useful features that allows you to customize ticker text color, ticker background color and other settings.                                     
+                                                                                                                            Built-in Widget option allow you to show
+                      <strong>Breaking News items</strong>
+                      in sidebar of your website. 
+                                                                                                                            It's very simple but much more efficient.  Checkout Plugin outlook in WordPress site-
+                    </p>
+
+
+                    <div class="doc-img-box text-left">
+                      <a href="img/overview/1_demo.png" class="venobox">
+                        <img class="img-fluid" src="img/overview/1_demo.png" alt="doc_img"/>
+                      </a>
+                    </div>
+
+                  </div>
+
+                </section>
+                <!-- doc-section-->
+
+                <!--  Installation Section -->
+
+                <section id="installation-section" class="doc-section">
+
+                  <div id="requirements" class="section-block">
+                    <h3 class="block-title">Installation Requirements</h3>
+                    <p>
+                      You need at least
+                      <strong>WordPress version 6.0+</strong>
+                      installed for this plugin to work properly. It is strongly recommended that you always use the latest stable version of WordPress to ensure 
+                                                                                                                                all known bugs and security issues are fixed. Other requirements:
+                    </p>
+                    <ul class="square-list">
+                      <li>PHP version 7.3 or greater.</li>
+                      <li>MySQL version 5.0.15 or greater.</li>
+                    </ul>
+
+                  </div>
+                  <!-- section-block-->
+
+                  <div id="installation_steps" class="section-block">
+
+                    <div class="row">
+
+                      <div class="col-md-12 col-12">
+
+                        <h3 class="block-title">Installation Steps</h3>
+                        <p>To install a plugin, you must first upload the plugin files and then activate the plugin. The plugin files can be uploaded in two ways:</p>
+                        <ul>
+                          <li>
+                            <strong>FTP Upload:</strong>
+                            Using your FTP client, upload the non-zipped plugin folder into the
+                            <strong>/wp-content/plugins/</strong>
+                            folder on your server.</li>
+                          <li>
+                            <strong>WordPress Upload:</strong>
+                            Navigate to
+                            <strong>Plugins >> Add New >> Upload</strong>. Go to browse, and select the zipped plugin folder. 
+                                                                                                                                                                            Hit "Install Now" and the plugin will be uploaded and installed.</li>
+                        </ul>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Go to WP admin dashboard and click on
+                          <em>Plugins >> Add New</em>.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/installation/1.jpg" class="venobox">
+                            <img class="img-fluid" src="img/installation/1.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Click on
+                          <em>
+                            Upload Plugin</em>
+                          and upload 'bwl-breaking-news-manager.zip' file. Finally, click
+                          <strong>Install Now</strong>
+                          button.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/installation/2.jpg" class="venobox">
+                            <img class="img-fluid" src="img/installation/2.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Once plugin successfully uploaded in the server, you will get a message to activate it. Click on
+                          <b>Activate Plugin</b>
+                          Link and plugin will be ready to use .
+                                                                                                                                                        After activating the plugin, you will be redirected in plugins page of the WordPress admin panel, and you will get newly installed
+                          <strong>BWL Post To Breaking News Manager Plugin</strong>
+                          in there.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/installation/3.jpg" class="venobox">
+                            <img class="img-fluid" src="img/installation/3.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Now you are ready to use BWL Post To Breaking News Manager Plugin! In left sidebar menu, you will see a new section like the following screenshot.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/installation/4.jpg" class="venobox">
+                            <img class="img-fluid" src="img/installation/4.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <!-- section-block-->
+
+                </section>
+                <!-- doc-section-->
+
+                <!--  Operate The Plugin Section -->
+
+                <section id="operate_the_plugin" class="doc-section">
+
+                  <h2 class="section-title">Operate The Plugin</h2>
+                  <p>Breaking news manager plugin provides easy way to assign a post as breaking news. There are two ways to select posts as breaking news content. Here goes the details.</p>
+
+                  <div id="using_quick_edit" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">
+                          <i>01:</i>
+                          Quick Edit Method</h3>
+                        <p>
+                          <strong>Quick Edit</strong>
+                          method allows you to mark any post easily as a breaking news. Please check the following steps of
+                          <strong>Quick Edit</strong>
+                          method.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress admin panel and Navigate to
+                          <em>Posts</em>
+                          link from the left menu.
+                        </p>
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          You will get all the posts and two new additional columns
+                          <strong>Breaking</strong>
+                          and
+                          <strong>Location</strong>
+                          in there.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          <strong>Breaking</strong>
+                          column contain two different icons to specify the post breaking news status. Please check the following screenshot.
+                                                                                                                                                        Additionally,
+                          <strong>Location</strong>
+                          column provides the information of that particular post filter area.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/quick_edit/1.jpg" class="venobox">
+                            <img class="img-fluid" src="img/operate/quick_edit/1.jpg" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Next, set your mouse cursor on any of the post row, and a
+                          <strong>link panel</strong>
+                          will appear bellow the post title. 
+                                                                                                                                                        Now, click on the
+                          <em>Quick Edit</em>
+                          link. Please check the following screenshot.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/quick_edit/2.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/quick_edit/2.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 05:</strong>
+                          Once you click on the
+                          <em>Quick Edit</em>
+                          link, a new section will appear like the following screenshot.
+                                                                                                                                                        From the
+                          <em>Breaking News</em>
+                          drop down select
+                          <em>Yes</em>, and hit
+                          <em>Update</em>
+                          button.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/quick_edit/3.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/quick_edit/3.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 06:</strong>
+                          <em>Well done !</em>
+                          That post now marked and will display as breaking news, and
+                          <em>Cross</em>
+                          icon will
+                                                                                                                                                        be changed to
+                          <em>Tick</em>
+                          icon. You can check the full process in the following video tutorial.
+                        </p>
+
+
+                        <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=YOZOKzFMai8" data-vbtype="video" data-autoplay="true">
+                          <i class="fas fa-play"></i>
+                          Watch Video Tutorial
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                  <div id="using_custom_meta_box" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">
+                          <i>02:</i>
+                          Custom Meta Box Method</h3>
+                        <p>
+                          <strong>Custom Meta Box</strong>
+                          method allows you to assign a post as breaking news post, while you are adding or editing the post. Check the following step by step process in detail.</p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress admin panel and Navigate to
+                          <em>Posts</em>
+                          link from the left menu.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          You will get all the posts and two new additional columns
+                          <strong>Breaking</strong>
+                          and
+                          <strong>Location</strong>
+                          in there.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Next, set your mouse cursor on any of the post row, and a
+                          <strong>link panel</strong>
+                          will appear bellow the post title. 
+                                                                                                                                                        Now, click on the
+                          <em>Edit</em>
+                          link. Please check the following screenshot.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/custom_meta_box/1.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/custom_meta_box/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Below the post editor, you will get a custom meta box with the title
+                          <strong>BWL Breaking News Settings</strong>". From
+                          <em>Add As Breaking News</em>
+                          drop down select
+                          <em>Yes</em>
+                          and
+                          <strong>Update/Publish</strong>
+                          the post.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/custom_meta_box/2.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/custom_meta_box/2.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 06:</strong>
+                          <em>Great !</em>
+                          That post now marked and will display as breaking news. You can check the full process in the following video tutorial.
+                        </p>
+
+                        <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=YOZOKzFMai8" data-vbtype="video" data-autoplay="true">
+                          <i class="fas fa-play"></i>
+                          Watch Video Tutorial
+                        </a>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- section-block-->
+
+                  <div class="alert alert-info d-none" role="alert">
+                    <h4 class="alert-heading">What is the main difference between category/topic ?</h4>
+                    <hr/>
+                    <p>
+                      Basically, there are no major differences between this two taxonomies (category and topic). 
+                                                                                                                                From the previous experience we found, some users have used topics taxonomy to filter FAQ posts to serve their own purpose. 
+                                                                                                                                That means FAQ topics is an optional term.
+                    </p>
+                  </div>
+
+                  <div id="assign_breaking_news_location" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Assign Breaking News Location:</h3>
+
+                        <p>There are 3 locations (
+                          <em>Header/Footer/Widget Area</em>
+                          ) available to assign and display breaking news ticker. However, using shortcode you can display breaking news ticker inside the content. We will discuss 
+                                                                                                                                                        that in
+                          <em>Plugin Shortcode</em>
+                          section. Now, we will describe step by step process to assign breaking news location.</p>
+
+                        <h4 class="block-title">
+                          <i>01.</i>
+                          Quick Edit Method:</h4>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress admin panel and Navigate to
+                          <em>Posts</em>
+                          link from the left menu.
+                        </p>
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          You will get all the posts listed in there.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Next, set your mouse cursor on any of the post row, and a
+                          <strong>link panel</strong>
+                          will appear bellow the post title. 
+                                                                                                                                                        Now, click on the
+                          <em>Quick Edit</em>
+                          link.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          You will get a drop down for
+                          <em>New Display Location</em>. If you would like to display the post
+                          <em>only in header ticker</em>
+                          then 
+                                                                                                                                                        select
+                          <em>Only Header Ticker</em>
+                          from the drop-down.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/assign_location/1.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/assign_location/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 05:</strong>
+                          Finally, click the
+                          <em>Update</em>
+                          button. Now, your post will only show in the
+                          <em>Header Ticker</em>.
+                        </p>
+
+
+                        <h4 class="block-title">
+                          <i>02:</i>
+                          Bulk Edit Method:</h4>
+                        <p>
+                          Now, Using this feature you can easily set multiple post as a breaking new with just a single click. This feature 
+                                                                                                                                                        introduced in version 1.0.1.  Let's see how to user Bulk Edit option.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Login to WordPress admin panel and Navigate to
+                          <em>Posts</em>
+                          link from the left menu.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          You will get all the posts listed in there.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Next, Click on the check box beside each post, and from the
+                          <em>Bulk Action</em>
+                          drop down select
+                          <strong>Edit</strong>. 
+                                                                                                                                                                Finally, click on the
+                          <strong>Apply</strong>
+                          button.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/assign_location/2.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/assign_location/2.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:</strong>
+                          Now, you will get options like the following screenshot. Choose your option from the
+                          <em>New Display Location</em>
+                          drop down and hit the
+                          <em>Update</em>
+                          button.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <a href="img/operate/assign_location/3.png" class="venobox">
+                            <img class="img-fluid" src="img/operate/assign_location/3.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                </section>
+                <!-- doc-section-->
+
+                <!--  Plugin Shortcode Section -->
+
+                <section
+                  id="plugin_shortcodes_section" class="doc-section">
+
+                  <!--  Plugin Shortcode Intro -->
+
+                  <div class="section-block">
+                    <h2 class="section-title">Plugin Shortcodes</h2>
+
+                    <p>
+                      "BWL Post To Breaking News Manager" provide shortcode feature that integrated with TinyMce Editor.
+                                                                                                                                So, you can easily integrate Breaking New in you page or post. Go to any post/page and then click on
+                      <img src="img/shortcodes/bnm-shortcode-btn.png" alt="doc" style="padding: 0; margin: 0; box-shadow: 0 0 0 #FFFFFF;"/>
+                      icon in TinyMce editor toolbar.                                     
+                                                                                                                                Click on that button will popup a shortcode editor like following image.
+                    </p>
+
+                    <div class="doc-img-box">
+                      <a href="img/shortcodes/bnm-shortcode-editor.jpg" class="venobox">
+                        <img class="img-fluid" src="img/shortcodes/bnm-shortcode-editor.jpg" alt="BWL Post To Breaking News Manager shortcode editor"/>
+                      </a>
+                    </div>
+
+
+                  </div>
+
+                  <!--  All Shortcodes -->
+
+                  <div class="section-block" id="sc_all_shortcodes">
+
+                    <h4 class="block-title">All Shortcodes:</h4>
+
+                    <ul class="square-list">
+
+                      <li>
+                        <p>Display Inline Ticker:
+                        </p>
+                        <pre class="language-markup"><code>[bwl_bnm inline=1]</code></pre>
+                      </li>
+                      <li>
+                        <p>Display Inline Ticker RTL Mode:
+                        </p>
+                        <pre class="language-markup"><code>[bwl_bnm rtl=1 inline=1]</code></pre>
+                      </li>
+                      <li>
+                        <p>Display Tweets in to Post:
+                        </p>
+                        <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='tweets']</code></pre>
+                      </li>
+                      <li>
+                        <p>Display Header Breaking News In To Posts:
+                        </p>
+                        <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='header']</code></pre>
+                      </li>
+                      <li>
+                        <p>Display Footer Breaking News In To Posts:
+                        </p>
+                        <pre class="language-markup"><code>[bwl_bnm inline=1 filter=1 filter_type='footer']</code></pre>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </section>
+                <!-- doc-section-->
+
+                <!--  Plugin Option Panel Section -->
+
+                <section id="setup_page_content_section" class="doc-section">
+
+                  <h2 class="section-title">Plugin Option Panel</h2>
+
+                  <p>
+                    <strong>BWL Post To Breaking News Manager</strong>
+                    comes with custom sticky header and footer breaking news bar. You can 
+                                                                                                                    active/de-active header and footer bar. Available settings described in below -
+                  </p>
+
+                  <ul>
+                    <li>Customize Ticker Height
+                    </li>
+                    <li>Edit ticker bar background color</li>
+                    <li>Edit ticker bar border color</li>
+                    <li>Show/Hide ticker bar border</li>
+                    <li>Add Custom Title (Default: Breaking News)</li>
+                    <li>Edit title color and font size</li>
+                    <li>Edit breaking news color and font size</li>
+                    <li>Show/Hide post date</li>
+                    <li>2 types of animation ( Fade/Slide )</li>
+                    <li>3 types of animation speed( Slow/Medium(Default)/Fast )</li>
+
+                  </ul>
+
+                  <!--  Header Ticker Settings -->
+
+                  <div id="header_ticker_settings" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Header Ticker Settings:</h3>
+                        <p class="d-none">
+                          BWL Post To Breaking News Manager comes with 7 different themes. So, you can change theme according to your choice. Just select your suitable color scheme and click save. Admin Panel view -
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/options/header/1.png" class="venobox">
+                            <img class="img-fluid" src="img/options/header/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                  <!--  Footer Ticker Settings -->
+
+                  <div id="footer_ticker_settings" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Footer Ticker Settings:</h3>
+                        <p class="d-none">
+                          BWL Post To Breaking News Manager comes with 7 different themes. So, you can change theme according to your choice. Just select your suitable color scheme and click save. Admin Panel view -
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/options/footer/1.png" class="venobox">
+                            <img class="img-fluid" src="img/options/footer/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                  <!--  Twitter Ticker Settings -->
+
+                  <div id="twitter_ticker_settings" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Twitter Ticker Settings:</h3>
+                        <p>
+                          You need to create Twitter API key. Go to this link
+                          <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a>
+                          and there you will get detail instructions
+                                                                                                                                                        about how to get API key.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/options/twitter/1.png" class="venobox">
+                            <img class="img-fluid" src="img/options/twitter/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                  <!--  Theme Builder Settings -->
+
+                  <div id="theme_builder_settings" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Theme Builder Settings:</h3>
+                        <p class="d-none">
+                          You need to create Twitter API key. Go to this link
+                          <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a>
+                          and there you will get detail instructions
+                                                                                                                                                        about how to get API key.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/options/theme_builder/1.png" class="venobox">
+                            <img class="img-fluid" src="img/options/theme_builder/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                  <!--  Advanced Option Settings -->
+
+                  <div id="advanced_option_settings" class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+                        <h3 class="block-title">Advanced Option Settings:</h3>
+                        <p class="d-none">
+                          You need to create Twitter API key. Go to this link
+                          <a href="https://dev.twitter.com/oauth/overview">https://dev.twitter.com/oauth/overview</a>
+                          and there you will get detail instructions
+                                                                                                                                                        about how to get API key.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/options/advance/1.png" class="venobox">
+                            <img class="img-fluid" src="img/options/advance/1.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section-block-->
+
+                </section>
+                <!-- doc-section-->
+
+                <!--  Built-in Widgets Section -->
+
+                <section id="built_in_widgets_section" class="doc-section">
+
+                  <h2 class="section-title">Built-in Widgets:</h2>
+
+                  <div class="section-block">
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+
+                        <p>
+                          You can easily show breaking news in sidebar by using Widget option. Please check the following steps.
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 01:</strong>
+                          Navigate to
+                          <strong>Appearance >> Widgets</strong>, and you
+                                                                                                                                                                will get a widget box like the following screenshot.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/widget/1_widget_box.png" class="venobox">
+                            <img class="img-fluid" src="img/widget/1_widget_box.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 02:</strong>
+                          Next,
+                          <em>Drag and Drop</em>
+                          it to the widget container.
+                          <strong>Please note that</strong>, your site currently activated theme must support widget feature. If everything is fine, you will get all the option in widget container.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/widget/1_widget_box_settings.png" class="venobox">
+                            <img class="img-fluid" src="img/widget/1_widget_box_settings.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:</strong>
+                          Set all the options according to your site requirement. Finally, you will get a new
+                          <strong>Breaking News Box</strong>
+                          in the front end of your site like the following screenshot.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <a href="img/widget/1_output.png" class="venobox">
+                            <img class="img-fluid" src="img/widget/1_output.png" alt="doc_img"/>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                </section>
+                <!-- doc-section-->
+
+                <section
+                  id="plugin_translation" class="doc-section">
+
+                  <!-- Plugin Translation Block  -->
+
+                  <div class="section-block">
+                    <h2 class="block-title">Plugin Translation</h2>
+
+                    <p>
+                      <strong>BWL Post To Breaking News Manager</strong>
+                      WordPress Plugin comes comes with a text translation feature and you can easily translate the plugin texts to any language. 
+                                                                                                                                Check the following plugin translation steps.
+                    </p>
+
+                    <div class="row">
+
+                      <div class="col-md-12 col-12">
+
+                        <p>
+                          <strong class="steps">Step 01:
+                          </strong>
+                          Download and install
+                          <a href="https://poedit.net/download" target="_blank">Poedit</a>
+                          software.
+
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 02:
+                          </strong>
+                          Next, navigate to
+                          <strong>/wp-content/plugins/bwl-breaking-news-manager/lang/</strong>.
+                          <br>You will get the
+                          <strong>bwl-breaking-news-manager.pot</strong>
+                          file.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/01_translation_pot_file_and_location.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 03:
+                          </strong>
+                          Next, navigate to
+                          <strong>/wp-content/plugins/bwl-breaking-news-manager/lang/</strong>.
+                          <br>You will get the
+                          <strong>bwl-breaking-news-manager.pot</strong>
+                          file.
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/01_translation_pot_file_and_location.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+
+                        <p>
+                          <strong class="steps">Step 03:
+                          </strong>
+                          Open the
+                          <strong>bwl-breaking-news-manager.pot</strong>
+                          file using
+                          <strong>Poedit</strong>
+                          software. 
+                                                                                                                                                        You will get all the plugin texts in there and you just need to add appropriate translated text in
+                          <strong>Translation</strong>
+                          box.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/02_translation_file_opened_with_poedit.jpg" alt="translation_file_opened_with_poedit"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 04:
+                          </strong>
+                          The Plugin text-domain is
+                          <strong>bwl-breaking-news</strong>. Now, we would like to translate the plugin text to
+                          <strong>German</strong>
+                          language. 
+                                                                                                                                                        So, translation file name must be
+                          <strong>bwl-breaking-news-de_DE.po</strong>
+                        </p>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/03_create_new_translation_file.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+                        <div class="callout-block callout-info">
+                          <div class="icon-holder">
+                            <i class="fas fa-info-circle text-light"></i>
+                          </div>
+                          <!-- icon-holder-->
+                          <div class="content">
+                            <h4 class="callout-title text-light">Note:</h4>
+                            <p class="text-light">
+                              Not sure about country and language code? Get your
+                              <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Country-Codes.html#Country-Codes" target="_blank">Country Code
+                              </a>
+                              and
+                              <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Usual-Language-Codes.html#Usual-Language-Codes" target="_blank">Language code</a>.
+                            </p>
+                          </div>
+                          <!-- content-->
+                        </div>
+                        <!-- callout-block-->
+
+                        <p>
+                          <strong class="steps">Step 05:
+                          </strong>
+                          From the
+                          <strong>File</strong>
+                          menu, click
+                          <strong>Save as</strong>
+                          and provide the file name 'bwl-breaking-news-de_DE.po'. 
+                                                                                                                                                        The translation file will be generated inside the
+                          <strong>lang</strong>
+                          folder.
+                        </p>
+
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/04_save_the_translation_file.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/05_provide_the_correct_translation_file_name.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+                        <p>
+                          <strong class="steps">Step 06:</strong>
+                          Now the file is ready for the translation.
+                        </p>
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/06_translation_file_ready_to_use.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+                        <div class="doc-img-box text-left">
+                          <img class="img-fluid" src="img/translation/07_add_translated_text.jpg" alt="translation_pot_file_and_location"/>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                </section>
+
+
+                <section
+                  class="doc-section" id="plugin_addons">
+
+                  <!--  Plugin Addons Block  -->
+
+                  <div class="section-block">
+                    <h2 class="block-title">Plugin Addon:</h2>
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+
+
+                        <h4>01. Breaking News Addon For WP Bakery Page Builder
+                        </h4>
+                        <p>Easy way to insert breaking news ticker in to a page.
+                        </p>
+                        <p>
+                          <a href="https://xenioushk.github.io/docs-plugins-addon/bnm-addon/index.html" target="_blank">Breaking News Addon For WP Bakery Page Builder</a>
+                        </p>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </section>
+
+                <!--  Support & Miscellaneous Section -->
+
+                <section id="support_miscellaneous_section" class="doc-section">
+
+                  <h2 class="section-title">Support & Miscellaneous</h2>
+                  <p>BWL Post To Breaking News Manager Plugin comes with
+                    <strong>Six (06) months premium support</strong>
+                    directly from the developer. 
+                                                                                                                    We are committed to assisting our buyers and most of the time it takes
+                    <strong>less than 24 hours</strong>
+                    to reply to the support message. 
+                                                                                                                    If you face any particular issue regarding the plugin, then the developer will assist you to fix the issue.
+                  </p>
+
+                  <!-- Video Tutorial Block  -->
+
+                  <div id="video_tutorials" class="section-block">
+                    <h2 class="block-title">Video Tutorials</h2>
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+
+                        <ul>
+                          <li><a href="https://www.youtube.com/watch?v=gg_ijAYw4h8" class="venobox" data-vbtype="video" data-autoplay="true">Plugin Feature Reviews</a></li>
+                        </ul>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!--  FAQ/Troubleshoot Block  -->
+
+                  <div id="faq_trouble_shoot" class="section-block">
+
+                    <h2 class="block-title">Troubleshooting</h2>
+
+                    <!--  Start FAQ Section -->
+
+                    <div
+                      class="accordion" id="faq_accordion">
+
+                      <!--  FAQ#1 -->
+
+                      <div class="card">
+
+                        <div class="card-header" id="headingOne">
+                          <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_1">
+                            <i class="fas fa-question-circle"></i>
+                            Does plugin work with any theme?
+                          </a>
+                        </div>
+
+                        <div id="faq_1" class="collapse" aria-labelledby="headingOne" data-parent="#faq_accordion">
+                          <div class="card-body">
+                            <p>
+                              Yes, plugin is compatible with any WordPress theme.
+                            </p>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <!--  FAQ#2 -->
+
+                      <div class="card">
+
+                        <div class="card-header" id="headingTwo">
+                          <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_2">
+                            <i class="fas fa-question-circle"></i>
+                            Can I use the plugin in RTL site?
+                          </a>
+                        </div>
+
+                        <div id="faq_2" class="collapse" aria-labelledby="headingTwo" data-parent="#faq_accordion">
+                          <div class="card-body">
+                            Yes, You can.
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <!--  FAQ#3 -->
+
+                      <div class="card">
+
+                        <div class="card-header" id="headingThree">
+                          <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_3">
+                            <i class="fas fa-question-circle"></i>
+                            I want to display news ticker inside a post. Is that possible?
+                          </a>
+                        </div>
+
+                        <div id="faq_3" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                          <div class="card-body">
+                            <p>
+                              Yes, you can use the shortcode to display ticker with your post. Here goes the shrotcode.
+                            </p>
+                            <pre class="language-markup"><code>[bwl_bnm inline=1]</code></pre>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <!--  End FAQ section  -->
+
+                  </div>
+                  <!-- doc-section-->
+
+                  <!-- Upgrade Notes Block  -->
+
+                  <div id="upgrade_notes" class="section-block">
+                    <h2 class="block-title">Upgrade Notes</h2>
+
+                    <div class="row">
+
+                      <div class="col-md-12 col-12">
+
+                        <p>
+                          <b>Upgrading to version
+                            <span class="ver">-</span>
+                          </b>
+                        </p>
+                        <ul>
+                          <li>Replace all files and directories in your
+                            <strong>plugins/bwl-breaking-news-manager</strong>
+                            folder.</li>
+                        </ul>
+
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12 col-12">
+
+                        <div class="callout-block callout-warning">
+                          <div class="icon-holder">
+                            <i class="fas fa-info-circle text-light"></i>
+                          </div>
+                          <!-- icon-holder-->
+                          <div class="content">
+                            <h4 class="callout-title text-light">Important Note:</h4>
+                            <p class="text-light">If you modify any plugin files, please take a backup before updating all files and folders. We highly recommend taking a backup of language files.</p>
+                          </div>
+                          <!-- content-->
+                        </div>
+                        <!-- callout-block-->
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- doc-section-->
+
+                  <!-- Change Log Block  -->
+
+                  <div id="change_log" class="section-block">
+                    <h2 class="block-title">Change Log</h2>
+
+                    <div class="row">
+
+                      <div class="col-md-12 col-12">
+
+                        <div id="dynamic_log"></div>
+
+                        <div>
+                          <b>2023, August 01 - v 1.2.0</b>
+                          <ul class="square-list">
+                            <li>
+                              <b>Fixed:</b>
+                              Plugin code issues.</li>
+                            <li>
+                              <b>Updated:</b>
+                              Plugin for WordPress 6.2.2</li>
+                            <li>
+                              <b>Updated:</b>
+                              Plugin language/translation file.</li>
+                          </li>
+                          <li>
+                            <b>Updated:</b>
+                            Plugin documentation.</li>
+                        </li>
+                      </ul>
+                    </div>
+
+
+                    <div>
+                      <b>2023, June 05 - v 1.1.9</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin for WordPress 6.2.2</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <b>2023, June 05 - v 1.1.8</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin for WordPress 6.2.2</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <b>04, October 2020 - v 1.1.6</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin code for latest version of WordPress.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <b>27, March 2020 - v 1.1.5</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Shortcode Editor.</li>
+                        <li>
+                          <b>Updated:</b>
+                          plugin code for latest version of WordPress.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <b>29, September 2019 - v 1.1.4</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Breaking News Addon For WP Bakery Page Builder.</li>
+                        <li>
+                          <b>Updated:</b>
+                          plugin code.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <b>16, April 2019 - v 1.1.3</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          plugin code.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </div>
+
+                    <p>
+                      <b>22, February 2019 - v 1.1.2</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin Code For WP 5.1.0.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>07, March 2018 - v 1.1.1</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin Code.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>12, March 2016 - v 1.1.0</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          shortcode editor.</li>
+                        <li>
+                          <b>Updated:</b>
+                          navigation color issue.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>05, March 2016 - v 1.0.9</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          feature to display category/tag wise breaking news in header/footer/inline location.</li>
+                        <li>
+                          <b>Updated:</b>
+                          shortcode editor.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>02, January 2016 - v 1.0.8</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Tweets Display As Breaking News option.</li>
+                        <li>
+                          <b>Added:</b>
+                          individual page wise ticker Enable/Disable option.</li>
+                        <li>
+                          <b>Updated:</b>
+                          RTL issue for inline Ticker.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Header & Footer Ticker.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>24, October 2015 - v 1.0.7</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Separator option between date and title.</li>
+                        <li>
+                          <b>Added:</b>
+                          Breaking News Post Order/Order By/Limit option. .</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin Shortcode Panel.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin Option Panel.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>03, September 2015 - v 1.0.6</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Animated Next/Previous Button.</li>
+                        <li>
+                          <b>Added:</b>
+                          5 Custom Icons For Next/Previous Ticker Button .</li>
+                        <li>
+                          <b>Added:</b>
+                          Feature to Stop Ticker on Mouse Hover.</li>
+                        <li>
+                          <b>Added:</b>
+                          5 Custom Icons For Show/Hide Ticker Toggle Button .</li>
+                        <li>
+                          <b>Added:</b>
+                          10 Built-in Ticker Themes.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Ticker Widget.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Inline Ticker.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Option Panel.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          JavaScript Code.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>21, November 2014 - v 1.0.5</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Custom CSS Code Editor.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Footer Show/Hide Button Issue.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Custom CSS codes.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Options Panel.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>11, June 2014 - v 1.0.4</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Show/Hide Button with breaking News Ticker.</li>
+                        <li>
+                          <b>Added:</b>
+                          RTL(Right To Left) Support.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Notification Feature added.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Options Panel.
+                        </li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>20, March 2014 - v 1.0.3</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Updated:</b>
+                          Plugin enable/disable issue.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Ticker Stylesheet.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>31, December 2013 - v 1.0.2</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Theme Panel.</li>
+                        <li>
+                          <b>Added:</b>
+                          Live Display while create new theme.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Ticker Stylesheet.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>15, December 2013 - v 1.0.1</b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Added:</b>
+                          Bulk Edit Option.</li>
+                        <li>
+                          <b>Added:</b>
+                          News Filter.</li>
+                        <li>
+                          <b>Added:</b>
+                          14 New animations.</li>
+                        <li>
+                          <b>Added:</b>
+                          Shortcode Editor.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Widget Section.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin language/translation file.</li>
+                        <li>
+                          <b>Updated:</b>
+                          Plugin documentation.</li>
+                      </ul>
+                    </p>
+
+                    <p>
+                      <b>06, December 2013 - v 1.0
+                      </b>
+                      <ul class="square-list">
+                        <li>
+                          <b>Initial release</b>
+                        </li>
+                      </ul>
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- doc-section-->
+
+              <!-- Source & Credit Block  -->
+
+              <div id="source_credit" class="section-block">
+                <h2 class="block-title">Source & Credit Notes</h2>
+
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <ol>
+                      <li>
+                        <a href="http://www.jquery.com/">jQuery Plugin</a><br></li>
+                      <li>
+                        <a href="fontawesome.io/">Font Awesome</a><br></li>
+                    </ol>
+
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <!-- doc-section-->
+
+            <!-- Our Template & Themes Section  -->
+
+            <section id="theme_template_section" class="doc-section">
+              <h2 class="section-title">Our Themes & Templates</h2>
+
+              <div id="wordpress_themes" class="section-block">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <h3 class="block-title">WordPress Themes</h3>
+                    <ol class="our-products list" id="bwl_wp_themes"></ol>
+                  </div>
+                </div>
+              </div>
+
+              <div id="wordpress_plugins" class="section-block">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <h3 class="block-title">WordPress Plugins</h3>
+                    <ol class="our-products list" id="bwl_wp_plugins"></ol>
+                  </div>
+                </div>
+              </div>
+
+              <div id="html5_templates" class="section-block">
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <h3 class="block-title">HTML5 Themes</h3>
+                    <ol class="our-products list" id="bwl_html_templates"></ol>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+          </div>
+          <!-- content-inner-->
+        </div>
+        <!-- doc-content-->
+
+      </div>
+      <!-- doc-body-->
+    </div><!-- container--></body>
+</html></div><!-- doc-wrapper--></div><!-- page-wrapper--><footer id="footer" class="footer text-center"><div
+class="container">
+<!--  This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+<small class="copyright">Designed with
+  <i class="fas fa-heart"></i>
+  by
+  <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a>
+  for developers</small></div><!-- container--></footer><!-- footer--><a id="backTop">Back To Top</a><!-- Main Javascript --><script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/all.min.js"></script><script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/main.js"></script><script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/products.js"></script><script type="text/javascript" src="assets/js/changelog.js"></script></body></html>
