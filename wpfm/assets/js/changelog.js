@@ -63,7 +63,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2023, December 10 - v 1.4.1", ["Fixed: Admin panel notice.", "Updated: Plugin for WooCommerce 8.3.1"]],
+    ["2023, December 10 - v 1.4.1", ["Updated: Plugin for WooCommerce 8.3.1"]],
     ["2023, October 27 - v 1.4.0", ["Fixed: Admin panel notice.", "Updated: Plugin for WooCommerce 8.2.1"]],
     ["2023, October 05 - v 1.3.9", ["Updated: Plugin translation file", "Updated: Plugin styles and javascripts."]],
     ["2023, September 15 - v 1.3.8", ["Fixed: Meta link issue for the options panel.", "Updated: Plugin translation file", "Updated: Plugin styles and javascripts."]],
