@@ -57,12 +57,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.4.8", "01/09/2023"]
+  var metaData = ["1.4.9", "04/01/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2024, January, 04 - v 1.4.9", ["Fixed: KB Accordion Layout.", "Fixed: Shortcode save issue for Gutenberg editor.", "Updated: Plugin for WordPress 6.4.2"]],
     ["2023, September, 01 - v 1.4.8", ["Fixed: Plugin shortcode issues.", "Updated: Plugin Code.", "Updated: Restrict KB Access by User Role to 1.0.8"]],
   ]
   generateDynamicLog(changeLogData)
