@@ -65,7 +65,7 @@
                   </nav>
                   <!--//nav-->
 
-                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_shortcodes_section">Plugin Shortcodes</a>
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_shortcodes_section">Shortcodes</a>
                   <nav class="doc-sub-menu nav flex-column">
                     <a class="nav-link scrollto" href="#sc_category_wise_faq_filtering">Category Wise FAQ Filtering</a>
                     <a class="nav-link child-nav-link scrollto" href="#get_category_slug">Get Category Slug</a>
@@ -83,14 +83,14 @@
                     <a class="nav-link child-nav-link scrollto" href="#faq_label_navigation_shortcodes">FAQ Label Navigation Shortcodes</a>
                   </nav>
 
-                  <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Option Panel</a>
+                  <a class="nav-link scrollto sub-menu-sign" href="#plugin_option_panel">Option Panel</a>
                   <nav class="doc-sub-menu nav flex-column">
                     <a class="nav-link scrollto" href="#general_settings">General Settings</a>
                     <a class="nav-link child-nav-link scrollto" href="#live_search_box_settings">Live Search Box Settings</a>
 
                     <a class="nav-link scrollto" href="#external_faq_submission_settings">External FAQ Form Settings</a>
                     <a class="nav-link scrollto" href="#vote_settings">Vote Settings</a>
-                    <a class="nav-link scrollto" href="#faq_font_settings">Font Settings</a>
+                    <a class="nav-link scrollto" href="#faq_font_settings">FAQ Font & Tag Settings</a>
 
                     <a class="nav-link scrollto" href="#faq_theme_settings">FAQ Theme Settings</a>
                     <a class="nav-link child-nav-link scrollto" href="#build_custom_theme">Build Custom Theme</a>
@@ -543,7 +543,7 @@
                 <!--  Plugin Template Setup Section -->
 
                 <section id="plugin-template-setup-section" class="doc-section">
-                  <h3 class="section-title">Plugin Template Setup:</h3>
+                  <h2 class="section-title">Plugin Template Setup:</h2>
 
                   <div id="faq_category_template" class="section-block">
                     <h3 class="block-title">Custom Category Template</h3>
@@ -659,7 +659,7 @@ add_action('widgets_init', 'baf_custom_widget_init');
                 <!--  Plugin Shortcode Section -->
 
                 <section id="plugin_shortcodes_section" class="doc-section">
-                  <h2 class="section-title">Plugin Shortcodes</h2>
+                  <h2 class="section-title">Shortcodes</h2>
 
                   <!--  Plugin Shortcode Intro -->
 
@@ -1356,8 +1356,8 @@ add_action('widgets_init', 'baf_custom_widget_init');
 
                   <!--  Plugin Option Panel Section -->
 
-                  <section id="setup_page_content_section" class="doc-section">
-                    <h2 class="section-title">Plugin Option Panel</h2>
+                  <section id="plugin_option_panel" class="doc-section">
+                    <h2 class="section-title">Option Panel</h2>
 
                     <!-- General Settings -->
 
@@ -1491,10 +1491,16 @@ add_action('widgets_init', 'baf_custom_widget_init');
                     <div id="faq_font_settings" class="section-block">
                       <div class="row">
                         <div class="col-md-12 col-12">
-                          <h3 class="block-title">Font Settings:</h3>
-                          <p>Font settings introduced in version 1.4.5. It is an optional feature. By default, the plugin uses theme Font sizes and settings. But you can adjust the font size according to your choice. You can also select custom arrow for FAQ label. You can also disable the loading of
-                            <strong>Font-Awesome</strong>
-                            in this section.</p>
+                          <h3 class="block-title">FAQ Font & Tag Settings:</h3>
+                        
+
+                            <p>
+                              Version 1.4.5 introduced the "Font Settings" option. By default, the plugin uses theme font sizes. However, in these settings, you can adjust the font size to your liking. You can also select a custom navigation arrow for the FAQ title container. In this section, you can also disable Font-Awesome loading.
+                            </p>
+
+                            <p>
+                              In version 2.0.5, the plugin added the option to set a custom tag (h2, h3, h4, h5, h6) for the faq title. By default, the plugin uses the "label" tag.
+                            </p>
 
                           <div class="doc-img-box text-left">
                             <a href="img/options/font/1.png" class="venobox">
