@@ -57,12 +57,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.5.0", "12/03/2024"]
+  var metaData = ["1.5.1", "20/06/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2024, June, 20 - v 1.5.1", ["Fixed: Email issue for external question submission.", "Updated: Plugin for WordPress 6.5.4"]],
     ["2024, March, 12 - v 1.5.0", ["Updated: Plugin Code.", "Updated: Plugin for WordPress 6.4.3"]],
     ["2024, January, 04 - v 1.4.9", ["Fixed: KB Accordion Layout.", "Fixed: Shortcode save issue for Gutenberg editor.", "Updated: Plugin for WordPress 6.4.2"]],
     ["2023, September, 01 - v 1.4.8", ["Fixed: Plugin shortcode issues.", "Updated: Plugin Code.", "Updated: Restrict KB Access by User Role to 1.0.8"]],
