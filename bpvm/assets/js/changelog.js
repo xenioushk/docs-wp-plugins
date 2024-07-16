@@ -2,11 +2,12 @@ $(function () {
   // Update the log text
   function updatesLogTag(string) {
     let Obj = {
+      "Added:": "<b>Added:</b>",
       "Updated:": "<b>Updated:</b>",
       "Fixed:": "<b>Fixed:</b>",
     }
 
-    return string.replace(/Updated:|Fixed:/gi, function (matched) {
+    return string.replace(/Added:|Updated:|Fixed:/gi, function (matched) {
       return Obj[matched]
     })
   }
@@ -58,12 +59,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.0", "03/12/2023"]
+  var metaData = ["1.4.1", "16/07/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2024, July, 16 - v 1.4.1", ["Added: Offline purchase verification.", "Updated: Plugin for WordPress 6.5.5"]],
     ["2023, December, 03 - v 1.4.0", ["Update: Plugin options panel.", "Updated: plugin license page."]],
     ["2023, October, 25 - v 1.3.9", ["Update: Plugin voting report page.", "Updated: plugin license page."]],
     ["2023, October, 05 - v 1.3.8", ["Fixed: Plugin text translation issues.", "Updated: Plugin .POT file."]],
