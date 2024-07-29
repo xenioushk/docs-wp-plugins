@@ -61,6 +61,7 @@ $(function () {
   updateMetaInfo(metaData)
 
   // Just add a new row.
+
   var changeLogData = [
     // Add a new row below this comment.
     ["2024, July 29 - v 1.2.8", ["Updated: Plugin for WooCommerce 9.1.4"]],
