@@ -65,7 +65,7 @@ $(function () {
   var changeLogData = [
     // Add a new row below this comment.
     ["2024, September, 22 - v 1.5.4", ["Updated: Plugin for WordPress 6.6.2"]],
-    ["2024, August, 10 - v 1.5.3", ["Updated: Plugin for WordPress 6.6"]],
+    ["2024, August, 10 - v 1.5.3", ["Updated: Plugin for WordPress 6.6.1"]],
     ["2024, July, 16 - v 1.5.2", ["Updated: Plugin for WordPress 6.6"]],
     ["2024, July, 16 - v 1.5.2", ["Added: Offline purchase verification.", "Updated: Plugin for WordPress 6.5.5"]],
     ["2024, June, 20 - v 1.5.1", ["Fixed: Email issue for external question submission.", "Updated: Plugin for WordPress 6.5.4"]],
