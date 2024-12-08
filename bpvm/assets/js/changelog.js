@@ -59,12 +59,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.1", "16/07/2024"]
+  var metaData = ["1.4.2", "08/12/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2024, December, 08 - v 1.4.2", ["Updated: Plugin for WordPress 6.7.1", "Updated: Plugin share buttons.", "Fixed: Plugin styles."]],
     ["2024, July, 16 - v 1.4.1", ["Added: Offline purchase verification.", "Updated: Plugin for WordPress 6.5.5"]],
     ["2023, December, 03 - v 1.4.0", ["Update: Plugin options panel.", "Updated: plugin license page."]],
     ["2023, October, 25 - v 1.3.9", ["Update: Plugin voting report page.", "Updated: plugin license page."]],
