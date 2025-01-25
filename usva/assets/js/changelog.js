@@ -64,7 +64,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, January, 26 - v 1.3.4", ["Updated: Plugin For WP Bakery Page Builder 8.1", "Updated: Plugin Translation .POT file"]],
+    ["2025, January, 26 - v 1.3.4", ["Updated: Plugin For WP Bakery Page Builder 8.1", "Fixed: PHP warning notice for 404 page.", "Updated: Plugin Translation .POT file"]],
     ["2024, December, 10 - v 1.3.0", ["Updated: Plugin for WordPress 6.7.1", "Added: Plugin options panel.", "Added: Font-awesome disable option.", "Fixed: The plugin YouTube channel notice closing issue."]],
     ["2024, September, 22 - v 1.2.9", ["Updated: Plugin For WP Bakery Page Builder 7.9"]],
     ["2024, July, 29 - v 1.2.8", ["Updated: Plugin For WP Bakery Page Builder 7.8"]],
