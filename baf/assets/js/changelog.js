@@ -2,9 +2,9 @@ $(function () {
   // Update the log text
   function updatesLogTag(string) {
     let Obj = {
-      "Added:": "<b>Added:</b>",
-      "Updated:": "<b>Updated:</b>",
-      "Fixed:": "<b>Fixed:</b>",
+      "Added:": "<b>🚀 Added:</b>",
+      "Updated:": "<b>🔥 Updated:</b>",
+      "Fixed:": "<b>✅ Fixed:</b>",
     }
 
     return string.replace(/Added:|Updated:|Fixed:/gi, function (matched) {
@@ -15,7 +15,7 @@ $(function () {
   // Generate Dynamic Log File.
   function generateDynamicLog(data) {
     const $dynamic_log = $("#dynamic_log")
-    const commonLogText = "<b>Updated:</b> Plugin translation file & documentation."
+    const commonLogText = "<b>🔥 Updated:</b> Plugin translation file & documentation."
     if ($dynamic_log.length) {
       data.forEach((element) => {
         var outputHtml = "<div>"
@@ -65,7 +65,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, March, 12 - v 2.1.4", ["Fixed: ✅ The purchase code remove issue.", "Fixed: ✅ the notice API security bug.", "Updated: ✅ Plugin filter and actions API.", "Updated: Plugin meta information.👌"]],
+    ["2025, March, 12 - v 2.1.4", ["Fixed: The purchase code remove issue.", "Fixed: The notice API security bug.", "Updated: Plugin filter and actions API.", "Updated: Plugin meta information.👌"]],
     ["2025, February, 16 - v 2.1.3", ["Updated: Plugin license verification code.", "Updated: Plugin for WooCommerce 9.6.2"]],
     ["2025, January, 26 - v 2.1.2", ["Updated: Plugin code minor issues.", "Updated: Plugin for WooCommerce 9.6.0"]],
     ["2024, December, 09 - v 2.1.1", ["Updated: Plugin for WordPress 6.7.1", "Updated: Plugin for WooCommerce 9.4.3"]],

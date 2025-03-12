@@ -2,9 +2,9 @@ $(function () {
   // Update the log text
   function updatesLogTag(string) {
     let Obj = {
-      "Added:": "<b>Added:</b>",
-      "Updated:": "<b>Updated:</b>",
-      "Fixed:": "<b>Fixed:</b>",
+      "Added:": "<b>🚀 Added:</b>",
+      "Updated:": "<b>🔥 Updated:</b>",
+      "Fixed:": "<b>✅ Fixed:</b>",
     }
 
     return string.replace(/Added:|Updated:|Fixed:/gi, function (matched) {
@@ -15,7 +15,7 @@ $(function () {
   // Generate Dynamic Log File.
   function generateDynamicLog(data) {
     const $dynamic_log = $("#dynamic_log")
-    const commonLogText = "<b>Updated:</b> Plugin translation file & documentation."
+    const commonLogText = "<b>🔥 Updated:</b> Plugin translation file & documentation."
     if ($dynamic_log.length) {
       data.forEach((element) => {
         var outputHtml = "<div>"
