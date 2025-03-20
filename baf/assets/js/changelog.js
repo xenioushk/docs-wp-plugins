@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["2.1.4", "12/03/2025"]
+  var metaData = ["2.1.5", "20/03/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, March, 20 - v 2.1.5", ["Added: bwl-plugin-api composer package.", "Updated: Plugin namespace and constants.", "Updated: Plugin notice apis.", "Fixed: chart.js script loading issue."]],
     ["2025, March, 12 - v 2.1.4", ["Fixed: The purchase code remove issue.", "Fixed: The notice API security bug.", "Updated: Plugin filter and actions API.", "Updated: Plugin meta information.👌"]],
     ["2025, February, 16 - v 2.1.3", ["Updated: Plugin license verification code.", "Updated: Plugin for WooCommerce 9.6.2"]],
     ["2025, January, 26 - v 2.1.2", ["Updated: Plugin code minor issues.", "Updated: Plugin for WooCommerce 9.6.0"]],
