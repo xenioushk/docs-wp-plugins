@@ -59,14 +59,15 @@ $(function () {
     }
   }
 
-  var metaData = ["1.3.2", "23/03/2025"] // Change only the version and date
+  var metaData = ["1.3.3", "27/03/2025"] // Change only the version and date
   updateMetaInfo(metaData)
 
   // Just add a new row.
 
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, March, 29 - v 1.3.2", ["Fixed: Attachment count issue.", "Fixed: Quick edit issue.", "Fixed: media file global attachment checkbox issue.", "Fixed: Attachment count and display issue.", "Updated: Plugin for WooCommerce 9.7.1"]],
+    ["2025, March, 27 - v 1.3.3", ["Fixed: Font-awesome icon loading issue."]],
+    ["2025, March, 23 - v 1.3.2", ["Fixed: Attachment count issue.", "Fixed: Quick edit issue.", "Fixed: media file global attachment checkbox issue.", "Fixed: Attachment count and display issue.", "Updated: Plugin for WooCommerce 9.7.1"]],
     ["2025, January, 29 - v 1.3.1", ["Fixed: Attachment size display issue.", "Fixed: Options panel colorpicker display issue.", "Updated: Plugin for WooCommerce 9.6.0"]],
     ["2024, December, 08 - v 1.3.0", ["Updated: Plugin for WordPress 6.7.1", "Updated: Plugin for WooCommerce 9.4.3"]],
     ["2024, August 21 - v 1.2.9", ["Updated: Plugin for WooCommerce 9.3.2"]],
