@@ -709,8 +709,8 @@
               <section id="plugin_shortcodes_section" class="doc-section">
 
                 <h2 class="section-title">Plugin Shortcodes</h2>
-                <p>Using shortcode editor, you can easily integrate voting panel anywhere of your website. There are two
-                  sections of shortcode editor.</p>
+                <p>The shortcode editor allows you to seamlessly integrate the voting panel anywhere on your website. It
+                  consists of two main sections for easy customization and implementation.</p>
 
                 <div class="row">
 
@@ -737,8 +737,8 @@
                 <div class="section-block">
 
                   <h3 class="block-title" id="sc_display_voting_box">01. Display Voting Box</h3>
-                  <p>Using following shortcode, you can display a voting box anywhere of the site. Shortcode
-                    automatically picks the post id and count votes for that post or page.</p>
+                  <p>Using the following shortcode, you can display a voting box anywhere on the site. Shortcode
+                    automatically picks the post ID and counts votes for that post or page.</p>
                   <pre class="language-php"><code class="language-php">[bwl_pvm /]</code></pre>
                   <p>
                     <strong>Output</strong>
@@ -750,19 +750,19 @@
                   </div>
 
                   <h3 class="block-title" id="sc_voting_box_with_animated_bar">02. Voting Box With Animated Bar</h3>
-                  <p>By default, the plugin uses
-                    <strong>two flat colored voting bars</strong>
-                    to preview like and dislike votes progress status. However, following shortcode allows you to
-                    display an animated voting bar.
+                  <p>
+                    By default, the plugin uses <strong>two flat-colored voting bars</strong> to preview like and
+                    dislike vote progress status. However, the following shortcode allows you to display an animated
+                    voting bar.
                   </p>
-                  <pre class="language-php"><code class="language-php">[bwl_pvm animation=1 /]</code></pre>
+                  <pre class="language-php"><code class="language-php">[bwl_pvm animation="1"/]</code></pre>
 
                   <h3 class="block-title" id="sc_display_results">03. Display Results (Both Likes/Dislikes)</h3>
-                  <p>Would you like to display vote results for each post in
-                    <strong>blog</strong>
-                    page? Then add the following shortcode inside the post loop.
+                  <p>
+                    Would you like to display vote results for each post on the <strong>blog</strong> page? Then add the
+                    following shortcode inside the post loop.
                   </p>
-                  <pre class="language-php"><code class="language-php">[bpvm_results /]</code></pre>
+                  <pre class="language-php"><code>[bpvm_results /]</code></pre>
                   <p>
                     <strong>Example PHP Code</strong>
                   </p>
@@ -773,13 +773,13 @@
                   <p>If you would like to show only the
                     <strong>like vote counts</strong>, use the following shortcode.
                   </p>
-                  <pre class="language-php"><code class="language-php">[bpvm_results show_dislike=0 /]</code></pre>
+                  <pre class="language-php"><code class="language-php">[bpvm_results show_dislike="0"/]</code></pre>
 
                   <h4 id="hide_like_votes">03.2 Hide Like Votes Information</h4>
                   <p>If you would like to show only the
                     <strong>dislike vote counts</strong>, use the following shortcode.
                   </p>
-                  <pre class="language-php"><code class="language-php">[bpvm_results show_like=0 /]</code></pre>
+                  <pre class="language-php"><code class="language-php">[bpvm_results show_like="0"/]</code></pre>
 
                   <!--  Display Specific Post Results -->
 
@@ -812,14 +812,14 @@
                   </dl>
 
 
-                  <p>
-                    <strong>Shortcode Output</strong>
+                  <h4 class="block-title">
+                    Shortcode Output
                     <a class="btn btn-primary btn-xs"
                       href="https://projects.bluewindlab.net/wpplugin/bpvm/list-of-posts-voting/" target="_blank">
                       <i class="fas fa-link"></i>
                       Check Demo
                     </a>
-                  </p>
+                  </h4>
                   <div class="doc-img-box">
                     <a href="img/shortcode/vote_results/1_list_style.jpg" class="venobox">
                       <img class="img-fluid" src="img/shortcode/vote_results/1_list_style.jpg" alt="doc_img" />
@@ -843,7 +843,7 @@
                     </a>
                   </div>
 
-                  <h5 class="block-title">Shortcode Parameters</h5>
+                  <h4 class="block-title">Shortcode Parameters</h4>
 
                   <dl>
                     <dt>
@@ -878,14 +878,14 @@
                     <dd>You can show/hide the number bullets. Set 0, if you like to hide the number.</dd>
                   </dl>
 
-                  <p>
-                    <strong>Shortcode Output</strong>
+                  <h4 class="block-title">
+                    Shortcode Output
                     <a class="btn btn-primary btn-xs"
                       href="https://projects.bluewindlab.net/wpplugin/bpvm/category-wise-post-filter/" target="_blank">
                       <i class="fas fa-link"></i>
                       Check Demo
                     </a>
-                  </p>
+                  </h4>
 
                   <p>
                     Following shortcode produces the top liked voted posts from “General Topics” category.
@@ -899,7 +899,8 @@
                   </div>
 
                   <h3 class="block-title" id="sc_custom_vote_results">06. Custom Vote Results</h3>
-                  <p>The plugin allows you to filter and display custom voting result lists by date, interval, and vote
+                  <p>The plugin allows you to filter and display custom voting result lists by date, interval, and
+                    vote
                     type.</p>
 
                   <div class="sub-block">
@@ -927,16 +928,16 @@
                       of last 30 days</h4>
                     <pre
                       class="language-php"><code class="language-php">[bpvm_filter order_type='liked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
-                    <p>
-                      <strong>Output</strong>
+
+                    <h4 class="block-title">
+                      Shortcode Output
                       <a class="btn btn-primary btn-xs"
                         href="https://projects.bluewindlab.net/wpplugin/bpvm/filter-example-liked-posts-with-thumb/"
                         target="_blank">
                         <i class="fas fa-link"></i>
                         Check Demo
                       </a>
-                    </p>
-
+                    </h4>
 
                     <div class="doc-img-box">
                       <a href="img/shortcode/vote_results/3_filter_like_post_with_thumb.jpg" class="venobox">
@@ -988,7 +989,8 @@
                     <pre
                       class="language-php"><code class="language-php">[bpvm_filter post_type="post" thumb="1" interval="custom" vis="2015-10-01" vie="2015-10-21" order_type="liked" order="DESC" limit="5" /]</code></pre>
 
-                    <h4 class="block-title text-capitalize" id="disliked_5_last_day">Display top 5 disliked post of last
+                    <h4 class="block-title text-capitalize" id="disliked_5_last_day">Display top 5 disliked post of
+                      last
                       30 days</h4>
                     <pre
                       class="language-php"><code class="language-php">[bpvm_filter order_type='disliked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
