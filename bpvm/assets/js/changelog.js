@@ -66,7 +66,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, April, 03 - v 1.4.2", ["Updated: Plugin for WordPress 6.7.2", "Updated: Plugin activation and deactivation hook, plugin custom tables.", "Updated: Plugin automatic updater & licnese page."]],
+    ["2025, April, 03 - v 1.4.3", ["Updated: Plugin activation and deactivation hook, plugin custom tables.", "Updated: Plugin for WordPress 6.7.2", "Updated: Plugin automatic updater & licnese page."]],
     ["2024, December, 08 - v 1.4.2", ["Updated: Plugin for WordPress 6.7.1", "Updated: Plugin share buttons.", "Fixed: Plugin styles."]],
     ["2024, July, 16 - v 1.4.1", ["Added: Offline purchase verification.", "Updated: Plugin for WordPress 6.5.5"]],
     ["2023, December, 03 - v 1.4.0", ["Update: Plugin options panel.", "Updated: plugin license page."]],
