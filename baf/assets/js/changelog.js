@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["2.1.8", "26/04/2025"]
+  var metaData = ["2.1.9", "03/05/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, May, 03 - v 2.1.9", ["Updated: Plugin options panel data saving issue.", "Fixed: Search only title bug."]],
     ["2025, April, 26 - v 2.1.8", ["Updated: Plugin pagination shortcode.", "Fixed: Gutenberg FAQ page saving issue."]],
     ["2025, April, 24 - v 2.1.7", ["Updated: Plugin options panel.", "Updated: Plugin for WordPress 6.8", "Updated: plugin analytic page.", "Updated: Plugin notices and meta info."]],
     ["2025, April, 20 - v 2.1.6", ["Fixed: Database namespace issue."]],
