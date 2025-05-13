@@ -59,12 +59,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.5.8", "18/04/2025"]
+  var metaData = ["1.5.9", "13/05/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, May, 13 - v 1.5.9", ["Fixed: Plugin options panel translation issue."]],
     ["2025, April, 18 - v 1.5.8", ["Updated: Plugin custom post type constants.", "Updated: Plugin counter list style.", "Fixed: Single post permalink issue."]],
     ["2025, April, 12 - v 1.5.7", ["Updated: Plugin constants file.", "Updated: Plugin language file.", "Fixed: Search box shortcode animation bug.", "Fixed: List style css.", "Updated: Plugin for WooCommerce 9.8.1", "Updated: Plugin for WP Bakery Page Builder 8.3.1"]],
     ["2025, March, 29 - v 1.5.6", ["Updated: Plugin options panel tabs and content.", "Fixed: Plugin automatic update feature.", "Updated: KB post view counter.", "Updated: Plugin for WordPress 6.7.2", "Updated: Plugin for WooCommerce 9.7.2"]],
