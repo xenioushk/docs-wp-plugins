@@ -66,7 +66,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, May, 22 - v 1.4.6", ["Updated: Plugin security nonce for submit votes and feedback form.", "Updated: Plugin options panel.", "Updated: Plugin for WordPress 6.8.1"]],
+    ["2025, May, 22 - v 1.4.6", ["Fixed: Extra message display issue below the share button.", "Updated: Plugin security nonce for submit votes and feedback form.", "Updated: Plugin options panel.", "Updated: Plugin for WordPress 6.8.1"]],
     ["2025, April, 25 - v 1.4.5", ["Updated: Support for the plugin addons.", "Updated: Plugin for WordPress 6.8"]],
     ["2025, April, 15 - v 1.4.4", ["Fixed: Namespace bug for the database table class.", "Fixed: Plugin current version fetching issue.", "Fixed: Voting box display issue for the new post."]],
     ["2025, April, 03 - v 1.4.3", ["Updated: Plugin activation and deactivation hook, plugin custom tables.", "Updated: Plugin for WordPress 6.7.2", "Updated: Plugin automatic updater & licnese page."]],
