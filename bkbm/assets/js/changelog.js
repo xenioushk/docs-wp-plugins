@@ -59,12 +59,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.6.1", "25/05/2025"]
+  var metaData = ["1.6.2", "30/05/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, May, 30 - v 1.6.2", ["Fixed: Admin panel Custom post type taxonomy filter issue."]],
     ["2025, May, 25 - v 1.6.1", ["Fixed: License notice for Knowledgedesk WordPress theme.", "Updated: Plugin shortcode editor sub-category display issue.", "Updated: Plugin dashboard widget icon."]],
     ["2025, May, 24 - v 1.6.0", ["Updated: Plugin shortcode editor icon and overlay issue for Gutenberg editor.", "Updated: Plugin Scheduler functions bug.", "Updated: Plugin Custom and sortable columns.", "Updated: Plugin dashboard widget and notices."]],
     ["2025, May, 13 - v 1.5.9", ["Fixed: Plugin options panel translation issue."]],
