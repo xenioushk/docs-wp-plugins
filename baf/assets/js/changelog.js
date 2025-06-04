@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["2.2.2", "13/05/2025"]
+  var metaData = ["2.2.3", "04/06/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, June, 04 - v 2.2.3", ["Updated: FAQ Pagination.", "Updated: SCSS file.", "Fixed: Search button hide issue.", "Updated: Dashboard widget class.", "Fixed: RTL issue.", "Fixed: ActionScheduler bug."]],
     ["2025, May, 13 - v 2.2.2", ["Added: Sortable column."]],
     ["2025, May, 10 - v 2.2.1", ["Fixed: Dashboard widget notice bug."]],
     ["2025, May, 09 - v 2.2.0", ["Updated: Plugin custom category sort options.", "Updated: Tab shortcode."]],
