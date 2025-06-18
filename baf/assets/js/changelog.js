@@ -66,7 +66,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, July, 18 - v 3.0.0", ["Updated: Plugin codes for minor fixes.", "Updated: Plugin for WordPress 6.8.1"]],
+    ["2025, June, 18 - v 3.0.0", ["Updated: Plugin codes for minor fixes.", "Updated: Plugin for WordPress 6.8.1"]],
     ["2025, June, 04 - v 2.2.3", ["Updated: FAQ Pagination.", "Updated: SCSS file.", "Fixed: Search button hide issue.", "Updated: Dashboard widget class.", "Fixed: RTL issue.", "Fixed: ActionScheduler bug."]],
     ["2025, May, 13 - v 2.2.2", ["Added: Sortable column."]],
     ["2025, May, 10 - v 2.2.1", ["Fixed: Dashboard widget notice bug."]],
