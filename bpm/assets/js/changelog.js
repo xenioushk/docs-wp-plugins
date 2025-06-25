@@ -59,12 +59,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["1.1.3", "25/08/2023"]
+  var metaData = ["2.0.0", "25/06/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, June, 25 - v 2.0.0", ["Updated: Plugin for WordPress 6.8.2", "Updated: Plugin translation .POT file"]],
     ["2023, August, 25 - v 1.1.3", ["Updated: Plugin translation .POT file"]],
   ]
   generateDynamicLog(changeLogData)
