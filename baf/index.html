@@ -1277,6 +1277,57 @@ add_action('widgets_init', 'baf_custom_widget_init');
                           <p>Display Suggestion Box:</p>
                           <pre
                             class="language-markup"><code>[bwla_faq sbox="1" baf_suggestion_status="1" baf_suggestion_prefix="Popular searches:" baf_suggestion="FAQ, Purchase" list="0"/]</code></pre>
+
+                          <table class="table table-striped table-bordered">
+                            <thead>
+                              <tr>
+                                <th width="30%">Attribute</th>
+                                <th width="15%">Type</th>
+                                <th width="15%">Default</th>
+                                <th width="40%">Description</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><em>sbox</em></td>
+                                <td>0 or 1</td>
+                                <td>0</td>
+                                <td>Enable (1) or disable (0) the search box above the FAQ
+                                  list.</td>
+                              </tr>
+                              <tr>
+                                <td><em>baf_suggestion_status</em></td>
+                                <td>0 or 1</td>
+                                <td>0</td>
+                                <td>Enable (1) or disable (0) the display of suggestion
+                                  keywords below the search box.</td>
+                              </tr>
+                              <tr>
+                                <td><em>baf_suggestion_prefix</em></td>
+                                <td><em>string</em></td>
+                                <td>""</td>
+                                <td>Text displayed before the suggestion keywords. Example:
+                                  <em>"Popular searches:"</em>.
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><em>baf_suggestion</em></td>
+                                <td><em>string</em></td>
+                                <td>""</td>
+                                <td>Comma-separated list of suggested keywords for users to click for quick filtering.
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><em>list</em></td>
+                                <td>0 or 1</td>
+                                <td>1</td>
+                                <td>Display as list view (1) or grid view (0) depending on
+                                  your plugin's display settings.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
                         </li>
                         <li>
                           <p>Show Search Form in FAQ:</p>
