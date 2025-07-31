@@ -774,6 +774,39 @@
                     following shortcode inside the post loop.
                   </p>
                   <pre class="language-php"><code>[bpvm_results /]</code></pre>
+
+                  <table class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th width="30%">Attribute</th>
+                        <th width="15%">Type</th>
+                        <th width="15%">Default</th>
+                        <th width="40%">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><em>show_like</em></td>
+                        <td>0 or 1</td>
+                        <td>1</td>
+                        <td>Show (1) or Hide (0) for display total likes.</td>
+                      </tr>
+                      <tr>
+                        <td><em>show_dislike</em></td>
+                        <td>0 or 1</td>
+                        <td>1</td>
+                        <td>Show (1) or Hide (0) for display total dislikes.</td>
+                      </tr>
+                      <tr>
+                        <td><em>show_icon</em></td>
+                        <td>0 or 1</td>
+                        <td>1</td>
+                        <td>Show (1) or Hide (0) for display icon.</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+
                   <p>
                     <strong>Example PHP Code</strong>
                   </p>
@@ -801,27 +834,37 @@
                     class="language-php"><code class="language-php">[pvm_lists ids="820,13,9,8,6,99" show_number="1" title_tag="h4" /]</code></pre>
 
                   <h4 class="block-title">Shortcode Parameters</h4>
-                  <dl>
-                    <dt>
-                      <em>ids</em>
-                    </dt>
-                    <dd>You can add multiple posts,page or any custom post type ids. Please make sure you have separated
-                      all the ids by
-                      <strong>a comma</strong>.
-                    </dd>
-                    <dt>
-                      <em>show_number</em>
-                    </dt>
-                    <dd>You can show/hide the number bullets. Set 0, if you like to hide the number.</dd>
-                    <dt>
-                      <em>title_tag</em>
-                    </dt>
-                    <dd>By default, post links are wrapped with
-                      <strong>h4</strong>
-                      tag. But, you can set the needed tag in here.
-                    </dd>
-                  </dl>
+                  <table class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th width="30%">Attribute</th>
+                        <th width="15%">Type</th>
+                        <th width="15%">Default</th>
+                        <th width="40%">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><em>ids</em></td>
+                        <td>string</td>
+                        <td>""</td>
+                        <td>Comma separated post IDs. e.g "820,13,9,8,6,99"</td>
+                      </tr>
+                      <tr>
+                        <td><em>show_number</em></td>
+                        <td>0 or 1</td>
+                        <td>0</td>
+                        <td>Show (1) or Hide (0) for display the order count.</td>
+                      </tr>
+                      <tr>
+                        <td><em>title_tag</em></td>
+                        <td>string</td>
+                        <td>h4</td>
+                        <td>You can use any HTML tag.</td>
+                      </tr>
 
+                    </tbody>
+                  </table>
 
                   <h4 class="block-title">
                     Shortcode Output
@@ -847,7 +890,7 @@
                   <h5>Custom Post Type Example</h5>
                   <pre
                     class="language-php"><code class="language-php"> [pvm_taxonomy_filter post_type="bwl_advanced_faq" taxonomy="advanced_faq_category" taxonomy_cats="category-1"] </code></pre>
-
+                  <h4 class="block-title">Shortcode Parameters</h4>
                   <table class="table table-striped table-bordered">
                     <thead>
                       <tr>
@@ -910,46 +953,12 @@
                     </tbody>
                   </table>
 
+                  <h4>Where I can find the taxonomy,post type and slug value?</h4>
                   <div class="doc-img-box">
                     <a href="img/shortcode/category_wise_filter/parameters.jpg" class="venobox">
                       <img class="img-fluid" src="img/shortcode/category_wise_filter/parameters.jpg" alt="doc_img" />
                     </a>
                   </div>
-
-                  <h4 class="block-title">Shortcode Parameters</h4>
-
-                  <dl>
-                    <dt>
-                      <em>post_type</em>
-                    </dt>
-                    <dd>Default: post. You can set any page or custom post type slug as parameter value.</dd>
-                    <dt>
-                      <em>taxonomy</em>
-                    </dt>
-                    <dd>Add the
-                      <strong>category title</strong>
-                      in here.
-                    </dd>
-                    <dt>
-                      <em>taxonomy_cats</em>
-                    </dt>
-                    <dd>Add the
-                      <strong>category slug</strong>
-                      in here. Also, you can insert
-                      <strong>multiple categories slug</strong>
-                      as parameter, and make sure you have separated all the ids by
-                      <strong>a comma</strong>.
-                    </dd>
-                    <dt>
-                      <em>meta_key</em>
-                    </dt>
-                    <dd>Default: like. Set 'like' or 'dislike' as parameter value.
-                    </dd>
-                    <dt>
-                      <em>show_number</em>
-                    </dt>
-                    <dd>You can show/hide the number bullets. Set 0, if you like to hide the number.</dd>
-                  </dl>
 
                   <h4 class="block-title">
                     Shortcode Output
@@ -1001,6 +1010,177 @@
                       of last 30 days</h4>
                     <pre
                       class="language-php"><code class="language-php">[bpvm_filter order_type='liked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
+
+                    <h4 class="block-title">Shortcode Parameters</h4>
+                    <table class="table table-striped table-bordered">
+                      <thead>
+                        <tr>
+                          <th width="20%">Attribute</th>
+                          <th width="10%">Type</th>
+                          <th width="20%">Default</th>
+                          <th width="40%">Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><em>class</em></td>
+                          <td>string</td>
+                          <td>bpvm-posts</td>
+                          <td>You can use your own custom class name or add custom styles for default class.</td>
+                        </tr>
+                        <tr>
+                          <td><em>order_type</em></td>
+                          <td>string</td>
+                          <td>liked</td>
+                          <td>Two options: <em>liked</em> or <em>disliked</em></td>
+                        </tr>
+                        <tr>
+                          <td><em>order</em></td>
+                          <td>string</td>
+                          <td>ASC</td>
+                          <td>Two options: <em>ASC</em> or <em>DESC</em></td>
+                        </tr>
+                        <tr>
+                          <td><em>post_type</em></td>
+                          <td>string</td>
+                          <td>post</td>
+                          <td>You can use custom post type filtering.</td>
+                        </tr>
+                        <tr>
+                          <td><em>taxonomy</em></td>
+                          <td>string</td>
+                          <td>category</td>
+                          <td>Add taxonomy type.</td>
+                        </tr>
+                        <tr>
+                          <td><em>taxonomy_cats</em></td>
+                          <td>string</td>
+                          <td>''</td>
+                          <td>Add taxonomy slug with comma separated value. e.g.,
+                            <em>taxonomy_cats="cat-1,cat-2"</em>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>date_filter</em></td>
+                          <td>0 or 1</td>
+                          <td>0</td>
+                          <td>Filter voting results based on the date.
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td><em>interval</em></td>
+                          <td>string</td>
+                          <td>'1 week'</td>
+                          <td>You must need to set the data_filter=1 and then set the following values:
+
+                            <ul>
+                              <li>
+                                <strong>1 day</strong> - Display results of the last 24 hours.
+                              </li>
+                              <li>
+                                <strong>1 week</strong> - Display results of the last 7 days.
+                              </li>
+                              <li>
+                                <strong>1 month</strong> - Display results of the last 30 days.
+                              </li>
+                              <li>
+                                <strong>1 year</strong> - Display results of the last 365 days.
+                              </li>
+                              <li>
+                                <strong>custom</strong> - Display results of the custom date range. You must need to
+                                set the following two parameters: <em>vis</em> and <em>vie</em>.
+                              </li>
+                            </ul>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>vis</em></td>
+                          <td>string</td>
+                          <td>Current Date</td>
+                          <td>Format: YYYY-MM-DD. This is the voting start date.</td>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td><em>vie</em></td>
+                          <td>string</td>
+                          <td>Current Date</td>
+                          <td>Format: YYYY-MM-DD. This is the voting end date.</td>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>limit</em></td>
+                          <td>number</td>
+                          <td>999999999</td>
+                          <td>Set the number of posts you want to display from the filtered results. e.g., 5</td>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>custom_header</em></td>
+                          <td>0 or 1</td>
+                          <td>1</td>
+                          <td>0=Hide or 1=Show the table header.</td>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>thumb</em></td>
+                          <td>0 or 1</td>
+                          <td>1</td>
+                          <td>0=Hide or 1=Show post featured image.</td>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td><em>thumb_size</em></td>
+                          <td>string</td>
+                          <td>pvm-post-thumb</td>
+                          <td>You can use the theme default thumbnail size or custom size.</td>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><em>vote_box</em></td>
+                          <td>0 or 1</td>
+                          <td>0</td>
+                          <td>0=Hide or 1=Show the voting box.</td>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div>
+                      <h4>📅 Explanation of Interval-Based Filtering</h4>
+
+                      <p>
+                        When using interval="1 week", interval="1 month", or interval="12 months", the plugin
+                        dynamically
+                        sets the start date based on today’s date and looks back for the given interval.
+                      </p>
+                      <p>
+                        Example:
+
+                        If today is July 31, 2025 and the shortcode is set to interval="6 months", it will fetch vote
+                        data
+                        from:
+                        <strong>January 31, 2025</strong> → <strong>July 31, 2025</strong>.
+                      </p>
+
+                      <h4>⏳ Custom Date Range (Optional)</h4>
+                      <p>
+                        Yes, you can define a specific date range using the interval="custom" parameter. To display
+                        results for a specific week (e.g., July 28 – August 03, 2025).
+                      </p>
+
+                      <pre class="language-php">
+<code class="language-php">[bpvm_filter post_type="post" thumb="0" interval="custom" vis="2025-07-28" vie="2025-08-03"
+order_type="liked" order="DESC" limit="5" /]
+</code></pre>
+
+                      <p>
+                        This gives you full control over the exact time range you want to display. 💪
+                      </p>
+                    </div>
 
                     <h4 class="block-title">
                       Shortcode Output
