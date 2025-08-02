@@ -100,6 +100,7 @@
                     interval</a>
                   <a class="nav-link child-nav-link scrollto" href="#disliked_5_last_day">Top disliked posts</a>
                   <a class="nav-link child-nav-link scrollto" href="#display_active_posts">Display Active Posts</a>
+                  <a class="nav-link child-nav-link scrollto" href="#filter_shortcode_params">Shortcode Parameters</a>
                 </nav>
 
                 <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Plugin Options Panel</a>
@@ -1011,7 +1012,78 @@
                     <pre
                       class="language-php"><code class="language-php">[bpvm_filter order_type='liked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
 
-                    <h4 class="block-title">Shortcode Parameters</h4>
+                    <h4 class="block-title">
+                      Shortcode Output
+                      <a class="btn btn-primary btn-xs"
+                        href="https://projects.bluewindlab.net/wpplugin/bpvm/filter-example-liked-posts-with-thumb/"
+                        target="_blank">
+                        <i class="fas fa-link"></i>
+                        Check Demo
+                      </a>
+                    </h4>
+
+                    <div class="doc-img-box">
+                      <a href="img/shortcode/vote_results/3_filter_like_post_with_thumb.jpg" class="venobox">
+                        <img class="img-fluid" src="img/shortcode/vote_results/3_filter_like_post_with_thumb.jpg"
+                          alt="doc_img" />
+                      </a>
+                    </div>
+
+                    <div class="jumbotron">
+
+                      <h3 class="question">
+                        <i class="fas fa-question-circle"></i>
+                        How can I change the thumbnail size?
+                      </h3>
+                      <div class="answer pt-3">
+
+                        <p>
+                          <strong class="steps">Step 01</strong>
+                          Update the plugin to 1.2.7
+                        </p>
+
+                        <p>
+                          <strong class="steps">Step 02</strong>
+                          Please note the, default thumbnail size is 32x32 px. Next, open currently active theme
+                          'functions.php' file. Add the following lines of code bottom of that file and save the file.
+                        </p>
+
+                        <pre
+                          class="language-php"><code class="language-php">add_image_size('bpvm-custom-thumb', 64, 64);</code></pre>
+
+                        <p>
+                          <strong class="steps">Step 03</strong>
+                          Next, add a new parameter
+                          <strong>thumb_size</strong>
+                          to the following shortcode.
+                        </p>
+
+                        <pre
+                          class="language-php"><code class="language-php">[bpvm_filter post_type="post" thumb="1" thumb_size="bpvm-custom-thumb" interval="30" order_type="liked" limit="5" order="DESC" /]</code></pre>
+                      </div>
+
+
+                      <a class="scrollto btn btn-blue btn-cta d-none" href="#theme-start">Explore Now</a>
+                    </div>
+                    <!-- jumbotron-->
+
+                    <h4 class="block-title text-capitalize" id="top_5_custom_interval">Display top 5 liked post of
+                      custom date interval</h4>
+                    <pre
+                      class="language-php"><code class="language-php">[bpvm_filter post_type="post" thumb="1" interval="custom" vis="2015-10-01" vie="2015-10-21" order_type="liked" order="DESC" limit="5" /]</code></pre>
+
+                    <h4 class="block-title text-capitalize" id="disliked_5_last_day">Display top 5 disliked post of
+                      last
+                      30 days</h4>
+                    <pre
+                      class="language-php"><code class="language-php">[bpvm_filter order_type='disliked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
+
+                    <h4 class="block-title text-capitalize" id="display_active_posts">Display only active posts for
+                      voting</h4>
+                    <pre
+                      class="language-php"><code class="language-php">[bpvm_filter order_type='liked' only_active="1" limit="5" date_filter=1 interval='1 week' /]</code></pre>
+
+                    <h4 class="block-title" id="filter_shortcode_params">Shortcode Parameters</h4>
                     <table class="table table-striped table-bordered">
                       <thead>
                         <tr>
@@ -1202,77 +1274,6 @@ order_type="liked" order="DESC" limit="5" /]
                         This gives you full control over the exact time range you want to display. 💪
                       </p>
                     </div>
-
-                    <h4 class="block-title">
-                      Shortcode Output
-                      <a class="btn btn-primary btn-xs"
-                        href="https://projects.bluewindlab.net/wpplugin/bpvm/filter-example-liked-posts-with-thumb/"
-                        target="_blank">
-                        <i class="fas fa-link"></i>
-                        Check Demo
-                      </a>
-                    </h4>
-
-                    <div class="doc-img-box">
-                      <a href="img/shortcode/vote_results/3_filter_like_post_with_thumb.jpg" class="venobox">
-                        <img class="img-fluid" src="img/shortcode/vote_results/3_filter_like_post_with_thumb.jpg"
-                          alt="doc_img" />
-                      </a>
-                    </div>
-
-                    <div class="jumbotron">
-
-                      <h3 class="question">
-                        <i class="fas fa-question-circle"></i>
-                        How can I change the thumbnail size?
-                      </h3>
-                      <div class="answer pt-3">
-
-                        <p>
-                          <strong class="steps">Step 01</strong>
-                          Update the plugin to 1.2.7
-                        </p>
-
-                        <p>
-                          <strong class="steps">Step 02</strong>
-                          Please note the, default thumbnail size is 32x32 px. Next, open currently active theme
-                          'functions.php' file. Add the following lines of code bottom of that file and save the file.
-                        </p>
-
-                        <pre
-                          class="language-php"><code class="language-php">add_image_size('bpvm-custom-thumb', 64, 64);</code></pre>
-
-                        <p>
-                          <strong class="steps">Step 03</strong>
-                          Next, add a new parameter
-                          <strong>thumb_size</strong>
-                          to the following shortcode.
-                        </p>
-
-                        <pre
-                          class="language-php"><code class="language-php">[bpvm_filter post_type="post" thumb="1" thumb_size="bpvm-custom-thumb" interval="30" order_type="liked" limit="5" order="DESC" /]</code></pre>
-                      </div>
-
-
-                      <a class="scrollto btn btn-blue btn-cta d-none" href="#theme-start">Explore Now</a>
-                    </div>
-                    <!-- jumbotron-->
-
-                    <h4 class="block-title text-capitalize" id="top_5_custom_interval">Display top 5 liked post of
-                      custom date interval</h4>
-                    <pre
-                      class="language-php"><code class="language-php">[bpvm_filter post_type="post" thumb="1" interval="custom" vis="2015-10-01" vie="2015-10-21" order_type="liked" order="DESC" limit="5" /]</code></pre>
-
-                    <h4 class="block-title text-capitalize" id="disliked_5_last_day">Display top 5 disliked post of
-                      last
-                      30 days</h4>
-                    <pre
-                      class="language-php"><code class="language-php">[bpvm_filter order_type='disliked' limit=5 date_filter=1 interval='1 month' /]</code></pre>
-
-                    <h4 class="block-title text-capitalize" id="display_active_posts">Display only active posts for
-                      voting</h4>
-                    <pre
-                      class="language-php"><code class="language-php">[bpvm_filter order_type='liked' only_active="1" limit="5" date_filter=1 interval='1 week' /]</code></pre>
                   </div>
 
                 </div>
