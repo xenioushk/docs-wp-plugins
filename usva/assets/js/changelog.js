@@ -59,12 +59,13 @@ $(function () {
     }
   }
   // Change only the version and date
-  var metaData = ["2.0.1", "08/07/2025"]
+  var metaData = ["2.0.2", "02/03/2026"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2026, March, 02 - v 2.0.2", ["Updated: Plugin For WP Bakery Page Builder 8.7.2", "Updated: Plugin Translation .POT file"]],
     ["2025, July, 08 - v 2.0.1", ["Fixed: Serverside schema rendering bug.", "Updated: Plugin Translation .POT file"]],
     ["2025, June, 20 - v 1.3.6", ["Updated: Plugin For WP Bakery Page Builder 8.5", "Updated: Plugin Translation .POT file"]],
     ["2025, February, 25 - v 1.3.5", ["Fixed: Plugin minor bugs.", "Updated: Plugin Translation .POT file"]],
