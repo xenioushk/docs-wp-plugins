@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["3.0.5", "10/08/2025"]
+  var metaData = ["3.0.6", "10/10/2026"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2026, October, 10 - v 3.0.6", ["Added: New FAQ Layout options for Accordion, Card & Grid.", "Added: Elementor support for the new FAQ layouts and settings.", "Updated: Gutenberg FAQ List block with improved layout, search & filtering options.", "Updated: Elementor editor preview for FAQ layouts.", "Fixed: Font Awesome compatibility issue with Elementor.", "Updated: Plugin frontend styles and responsive layouts."]],
     ["2025, August, 10 - v 3.0.5", ["Updated: Plugin for WordPress 6.8.2", "Updated: Plugin for WooCommerce 10.0.4"]],
     ["2025, July, 23 - v 3.0.4", ["Fixed: 404 issue for the font-awesome stylesheet."]],
     ["2025, July, 16 - v 3.0.3", ["Fixed: no-follow attribute display issue for the links.", "Updated: Plugin for WordPress 6.8.2"]],
